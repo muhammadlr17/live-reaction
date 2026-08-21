@@ -1,0 +1,125 @@
+<!doctype html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"
+    />
+    <title>Kirim Reaksi</title>
+    <script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-database.js"></script>
+    <style>
+      body {
+        font-family: sans-serif;
+        text-align: center;
+        background: #111;
+        color: white;
+        margin: 0;
+        padding: 20px;
+      }
+      #area-interaktif {
+        display: none;
+        margin-top: 50px;
+      }
+      #pesan-penuh {
+        display: none;
+        color: #ff4444;
+        margin-top: 50px;
+        padding: 20px;
+        border: 1px solid #ff4444;
+        border-radius: 8px;
+      }
+      .btn-emoji {
+        font-size: 40px;
+        background: #222;
+        border: none;
+        border-radius: 50%;
+        padding: 20px;
+        margin: 10px;
+        cursor: pointer;
+        transition: transform 0.1s;
+      }
+      .btn-emoji:active {
+        transform: scale(0.9);
+        background: #333;
+      }
+      h2 {
+        color: #f1c40f;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="status">Mengecek ketersediaan kursi...</div>
+
+    <div id="pesan-penuh">
+      <h3>Maaf, Kuota Penuh 😔</h3>
+      <p>
+        Saat ini 50 audiens sedang aktif. Silakan tunggu beberapa saat dan
+        refresh halaman ini.
+      </p>
+    </div>
+
+    <div id="area-interaktif">
+      <p>Saat ini di panggung:</p>
+      <h2 id="teks-nama">Menunggu...</h2>
+      <p>Berikan reaksi Anda!</p>
+      <button class="btn-emoji" onclick="kirimReaksi('👏')">👏</button>
+      <button class="btn-emoji" onclick="kirimReaksi('❤️')">❤️</button>
+      <button class="btn-emoji" onclick="kirimReaksi('🎉')">🎉</button>
+    </div>
+
+    <script>
+      // --- PASTE FIREBASE CONFIG ANDA DI SINI ---
+      const firebaseConfig = {
+        apiKey: "AIzaSyDJ__M-cf3mmNBfgMUz1gap4MiYDkDzieQ",
+        authDomain: "live-reaction-1aa2b.firebaseapp.com",
+        databaseURL:
+          "https://live-reaction-1aa2b-default-rtdb.asia-southeast1.firebasedatabase.app",
+        projectId: "live-reaction-1aa2b",
+        storageBucket: "live-reaction-1aa2b.firebasestorage.app",
+        messagingSenderId: "816278406549",
+        appId: "1:816278406549:web:404fdab279c6512be8229c",
+        measurementId: "G-146S1736X5",
+      };
+      firebase.initializeApp(firebaseConfig);
+      const db = firebase.database();
+
+      // Logika Pembatasan Kuota (Maksimal 50)
+      const MAX_USERS = 50;
+      const userId = Math.random().toString(36).substring(7);
+      const myRef = db.ref("penonton_aktif/" + userId);
+      const penontonAktifRef = db.ref("penonton_aktif");
+
+      penontonAktifRef.on("value", (snapshot) => {
+        const totalAktif = snapshot.numChildren();
+        document.getElementById("status").style.display = "none";
+
+        if (snapshot.hasChild(userId) || totalAktif < MAX_USERS) {
+          document.getElementById("area-interaktif").style.display = "block";
+          document.getElementById("pesan-penuh").style.display = "none";
+          myRef.set(true);
+          myRef.onDisconnect().remove();
+        } else {
+          document.getElementById("area-interaktif").style.display = "none";
+          document.getElementById("pesan-penuh").style.display = "block";
+        }
+      });
+
+      // Update nama wisudawan dari Operator
+      db.ref("status_layar").on("value", (snapshot) => {
+        const data = snapshot.val();
+        if (data)
+          document.getElementById("teks-nama").innerText = data.nama_wisudawan;
+      });
+
+      // Fungsi Kirim Reaksi
+      function kirimReaksi(emoji) {
+        db.ref("reaksi_live").push({
+          emoji: emoji,
+          timestamp: Date.now(),
+        });
+      }
+    </script>
+  </body>
+</html>

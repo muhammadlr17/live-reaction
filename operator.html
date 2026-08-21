@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Operator Wisuda</title>
+    <script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-database.js"></script>
+    <style>
+      body {
+        font-family: sans-serif;
+        padding: 20px;
+        background: #f4f4f4;
+      }
+      .container {
+        background: white;
+        padding: 20px;
+        border-radius: 8px;
+        max-width: 400px;
+        margin: auto;
+      }
+      input {
+        width: 100%;
+        padding: 10px;
+        margin-bottom: 10px;
+        box-sizing: border-box;
+      }
+      button {
+        width: 100%;
+        padding: 10px;
+        background: #007bff;
+        color: white;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <h2>Kendali Operator</h2>
+      <label>Nama Wisudawan di Panggung:</label>
+      <input type="text" id="namaWisudawan" placeholder="Masukkan nama..." />
+      <button onclick="updateLayar()">Tampilkan ke Videotron</button>
+    </div>
+
+    <script>
+      // --- GANTI KODE DI DALAM KURUNG KURAWAL INI DENGAN MILIK ANDA NANTI ---
+      const firebaseConfig = {
+        apiKey: "AIzaSyDJ__M-cf3mmNBfgMUz1gap4MiYDkDzieQ",
+        authDomain: "live-reaction-1aa2b.firebaseapp.com",
+        databaseURL:
+          "https://live-reaction-1aa2b-default-rtdb.asia-southeast1.firebasedatabase.app",
+        projectId: "live-reaction-1aa2b",
+        storageBucket: "live-reaction-1aa2b.firebasestorage.app",
+        messagingSenderId: "816278406549",
+        appId: "1:816278406549:web:404fdab279c6512be8229c",
+        measurementId: "G-146S1736X5",
+      };
+      firebase.initializeApp(firebaseConfig);
+      const db = firebase.database();
+
+      function updateLayar() {
+        const nama = document.getElementById("namaWisudawan").value;
+        if (nama) {
+          db.ref("status_layar").set({ nama_wisudawan: nama });
+          alert("Layar berhasil diupdate!");
+        }
+      }
+    </script>
+  </body>
+</html>

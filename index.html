@@ -1,0 +1,318 @@
+<!doctype html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Videotron & Operator Wisuda</title>
+    <!-- Firebase SDK (Hanya untuk menerima reaksi emoji) -->
+    <script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-database.js"></script>
+    <style>
+      body {
+        margin: 0;
+        overflow: hidden;
+        font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+        background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+        color: white;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 100vh;
+      }
+
+      .card-wisudawan {
+        background: rgba(255, 255, 255, 0.1);
+        backdrop-filter: blur(10px);
+        -webkit-backdrop-filter: blur(10px);
+        border: 1px solid rgba(255, 255, 255, 0.2);
+        border-radius: 20px;
+        padding: 40px;
+        width: 70%;
+        max-width: 900px;
+        display: flex;
+        align-items: center;
+        gap: 40px;
+        box-shadow: 0 15px 35px rgba(0, 0, 0, 0.3);
+        z-index: 10;
+      }
+
+      .foto-container {
+        flex-shrink: 0;
+        width: 250px;
+        height: 300px;
+        border-radius: 15px;
+        overflow: hidden;
+        border: 4px solid #f1c40f;
+        box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5);
+        background-color: #ddd;
+      }
+
+      .foto-container img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        display: block;
+      }
+
+      .info-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+      }
+      .label-wisudawan {
+        font-size: 1.2rem;
+        color: #f1c40f;
+        text-transform: uppercase;
+        letter-spacing: 3px;
+        margin-bottom: 10px;
+      }
+      .nama {
+        font-size: 3.5rem;
+        font-weight: bold;
+        margin: 0 0 10px 0;
+        line-height: 1.1;
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+      }
+      .gelar {
+        font-size: 1.8rem;
+        color: #e0e0e0;
+        margin: 0 0 20px 0;
+        font-style: italic;
+      }
+
+      .detail-item {
+        font-size: 1.3rem;
+        background: rgba(0, 0, 0, 0.3);
+        padding: 10px 20px;
+        border-radius: 8px;
+        display: inline-block;
+        margin-bottom: 10px;
+        border-left: 4px solid #f1c40f;
+      }
+
+      canvas {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100vw;
+        height: 100vh;
+        z-index: 20;
+        pointer-events: none;
+      }
+
+      /* PANEL OPERATOR (Panduan Kecil di Pojok) */
+      .kontrol-operator {
+        position: absolute;
+        bottom: 20px;
+        right: 20px;
+        z-index: 30;
+        background: rgba(0, 0, 0, 0.5);
+        padding: 10px 15px;
+        border-radius: 8px;
+        font-size: 0.9rem;
+        color: #ccc;
+        border: 1px solid #555;
+        /* Tambahkan opacity kecil agar tidak mencolok di layar besar, tapi masih terlihat operator */
+        opacity: 0.4;
+        transition: opacity 0.3s;
+      }
+      .kontrol-operator:hover {
+        opacity: 1;
+      }
+      .indikator-urut {
+        font-weight: bold;
+        color: #f1c40f;
+        margin-bottom: 5px;
+        display: block;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="card-wisudawan">
+      <div class="foto-container">
+        <img id="tampil-foto" src="" alt="Foto" />
+      </div>
+      <div class="info-container">
+        <div class="label-wisudawan" id="tampil-label">
+          Wisudawan Program Sarjana
+        </div>
+        <h1 class="nama" id="tampil-nama">Memuat Data...</h1>
+        <p class="gelar" id="tampil-gelar"></p>
+        <div>
+          <div class="detail-item" id="tampil-nim"></div>
+          <div class="detail-item" id="tampil-jurusan"></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- PANDUAN KEYBOARD UNTUK OPERATOR -->
+    <div class="kontrol-operator">
+      <span class="indikator-urut" id="teks-urutan">Menyiapkan...</span>
+      Gunakan tombol <b>Panah Kanan (→)</b> untuk Lanjut.<br />
+      Gunakan tombol <b>Panah Kiri (←)</b> untuk Kembali.
+    </div>
+
+    <canvas id="canvasReaksi"></canvas>
+
+    <script>
+      // ==========================================
+      // 1. DATABASE LOKAL (DATA WISUDAWAN)
+      // ==========================================
+      // Anda tinggal menambahkan data 100+ wisudawan di dalam array ini.
+      // Jika tidak ada foto khusus, biarkan url_foto kosong ("")
+      const dataWisudawan = [
+        {
+          nama: "Budi Susanto",
+          gelar: "S.Kom.",
+          nim: "19001001",
+          jurusan: "Sistem Informasi",
+          kategori: "Wisudawan Terbaik",
+          url_foto:
+            "https://via.placeholder.com/300x400/3498db/ffffff?text=FOTO+BUDI",
+        },
+        {
+          nama: "Siti Aminah",
+          gelar: "S.T.",
+          nim: "19002015",
+          jurusan: "Teknik Informatika",
+          kategori: "Program Sarjana",
+          url_foto:
+            "https://via.placeholder.com/300x400/e74c3c/ffffff?text=FOTO+SITI",
+        },
+        {
+          nama: "Ahmad Rizky",
+          gelar: "S.Kom.",
+          nim: "19001045",
+          jurusan: "Sistem Informasi",
+          kategori: "Program Sarjana",
+          url_foto: "", // Jika kosong, akan pakai foto default
+        },
+      ];
+
+      let indexSaatIni = 0; // Menandakan urutan ke berapa (Mulai dari 0)
+
+      // ==========================================
+      // 2. FUNGSI UNTUK MERENDER DATA KE LAYAR
+      // ==========================================
+      function renderWisudawan(index) {
+        // Cegah error jika index melebihi batas data
+        if (index < 0) indexSaatIni = 0;
+        if (index >= dataWisudawan.length)
+          indexSaatIni = dataWisudawan.length - 1;
+
+        const profil = dataWisudawan[indexSaatIni];
+
+        document.getElementById("tampil-nama").innerText = profil.nama;
+        document.getElementById("tampil-gelar").innerText = profil.gelar;
+        document.getElementById("tampil-nim").innerText = "NIM: " + profil.nim;
+        document.getElementById("tampil-jurusan").innerText =
+          "Prodi: " + profil.jurusan;
+        document.getElementById("tampil-label").innerText = profil.kategori;
+
+        // Update Foto
+        const imgElemen = document.getElementById("tampil-foto");
+        if (profil.url_foto && profil.url_foto !== "") {
+          imgElemen.src = profil.url_foto;
+        } else {
+          // Foto default jika URL kosong
+          imgElemen.src =
+            "https://via.placeholder.com/300x400/2c3e50/ffffff?text=NO+IMAGE";
+        }
+
+        // Update indikator urutan untuk operator (Misal: 1 / 100)
+        document.getElementById("teks-urutan").innerText =
+          `Urutan: ${indexSaatIni + 1} dari ${dataWisudawan.length}`;
+
+        // OPSIONAL: Jika Anda ingin audiens di HP juga tahu nama yang tampil
+        // Anda bisa mengirim nama ini ke Firebase (Uncomment baris di bawah jika perlu)
+        // db.ref('status_layar').set({ nama_wisudawan: profil.nama });
+      }
+
+      // Tampilkan data pertama saat web dibuka
+      renderWisudawan(indexSaatIni);
+
+      // ==========================================
+      // 3. KONTROL KEYBOARD (Slide PPT Style)
+      // ==========================================
+      window.addEventListener("keydown", function (event) {
+        if (event.key === "ArrowRight") {
+          // Panah Kanan -> Lanjut
+          indexSaatIni++;
+          renderWisudawan(indexSaatIni);
+        } else if (event.key === "ArrowLeft") {
+          // Panah Kiri -> Mundur
+          indexSaatIni--;
+          renderWisudawan(indexSaatIni);
+        }
+      });
+
+      // ==========================================
+      // 4. FIREBASE & ANIMASI CANVAS
+      // ==========================================
+      // --- PASTE FIREBASE CONFIG ANDA DI SINI ---
+      const firebaseConfig = {
+        apiKey: "AIzaSyDJ__M-cf3mmNBfgMUz1gap4MiYDkDzieQ",
+        authDomain: "live-reaction-1aa2b.firebaseapp.com",
+        databaseURL:
+          "https://live-reaction-1aa2b-default-rtdb.asia-southeast1.firebasedatabase.app",
+        projectId: "live-reaction-1aa2b",
+        storageBucket: "live-reaction-1aa2b.firebasestorage.app",
+        messagingSenderId: "816278406549",
+        appId: "1:816278406549:web:404fdab279c6512be8229c",
+        measurementId: "G-146S1736X5",
+      };
+      firebase.initializeApp(firebaseConfig);
+      const db = firebase.database();
+
+      const canvas = document.getElementById("canvasReaksi");
+      const ctx = canvas.getContext("2d");
+      let particles = [];
+
+      function resizeCanvas() {
+        canvas.width = window.innerWidth;
+        canvas.height = window.innerHeight;
+      }
+      window.addEventListener("resize", resizeCanvas);
+      resizeCanvas();
+
+      const reaksiRef = db.ref("reaksi_live");
+      reaksiRef.on("child_added", (snapshot) => {
+        const data = snapshot.val();
+        particles.push({
+          emoji: data.emoji,
+          x: Math.random() * canvas.width,
+          y: canvas.height + 50,
+          speed: Math.random() * 3 + 2,
+          size: Math.random() * 30 + 40,
+          wobble: Math.random() * Math.PI,
+          opacity: 1,
+        });
+        reaksiRef.child(snapshot.key).remove();
+      });
+
+      function animate() {
+        ctx.clearRect(0, 0, canvas.width, canvas.height);
+        for (let i = 0; i < particles.length; i++) {
+          let p = particles[i];
+          p.y -= p.speed;
+          p.x += Math.sin(p.wobble) * 2;
+          p.wobble += 0.1;
+          if (p.y < canvas.height / 3) {
+            p.opacity -= 0.02;
+          }
+          ctx.globalAlpha = Math.max(p.opacity, 0);
+          ctx.font = p.size + "px Arial";
+          ctx.textAlign = "center";
+          ctx.textBaseline = "middle";
+          ctx.fillText(p.emoji, p.x, p.y);
+          if (p.opacity <= 0 || p.y < -50) {
+            particles.splice(i, 1);
+            i--;
+          }
+        }
+        requestAnimationFrame(animate);
+      }
+      animate();
+    </script>
+  </body>
+</html>
