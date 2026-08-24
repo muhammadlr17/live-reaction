@@ -14,32 +14,39 @@
       overflow: hidden;
       font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
       /* Background full cover */
-      background: url('assets/images/Background.png') no-repeat center center fixed;
+      background-image: url('assets/images/Background.png');
       background-size: cover;
-      color: #000; /* Neo-brutalism banyak pakai warna hitam pekat */
+      background-position: center;
+      background-repeat: no-repeat;
+      color: #000;
+      /* Neo-brutalism banyak pakai warna hitam pekat */
       display: flex;
       flex-direction: column;
       align-items: center;
       justify-content: center;
-      height: 100vh;
-      width: 100vw;
+      min-height: 100vh;
     }
 
     .title-image {
       position: absolute;
       top: 40px;
-      max-width: 50%; /* Dikecilkan sedikit */
+      max-width: 50%;
+      /* Dikecilkan sedikit */
       z-index: 10;
     }
 
     /* --- NEO BRUTALISM STYLE --- */
     .card-wisudawan {
-      background: #ffffff; /* Solid white background */
-      border: 6px solid #000000; /* Border tegas tebal */
+      background: #ffffff;
+      /* Solid white background */
+      border: 6px solid #000000;
+      /* Border tegas tebal */
       border-radius: 16px;
       padding: 40px;
-      width: 65%; /* Ukuran diperkecil */
+      width: 65%;
+      /* Ukuran diperkecil */
       max-width: 850px;
+      height: 360px;
       display: flex;
       align-items: center;
       gap: 40px;
@@ -51,7 +58,8 @@
 
     .foto-container {
       flex-shrink: 0;
-      width: 240px; /* Diperkecil */
+      width: 240px;
+      /* Diperkecil */
       height: 320px;
       border-radius: 8px;
       overflow: hidden;
@@ -72,31 +80,56 @@
       flex-direction: column;
       justify-content: center;
       flex: 1;
-    }
-
-    .label-wisudawan {
-      font-size: 1.2rem;
-      color: #000;
-      text-transform: uppercase;
-      letter-spacing: 2px;
-      margin-bottom: 20px;
-      font-weight: 800;
-      /* Dijadikan layaknya badge keras */
-      background: #f1c40f; /* Kuning tegas */
-      padding: 8px 16px;
-      border: 4px solid #000;
-      box-shadow: 6px 6px 0px #000;
-      display: inline-block;
-      width: fit-content;
-      border-radius: 6px;
+      width: 100%;
+      overflow: hidden;
     }
 
     .nama {
-      font-size: 3rem; /* Disesuaikan dengan card yang lebih kecil */
+      font-size: 3rem;
       font-weight: 900;
-      margin: 0 0 25px 0;
-      line-height: 1.1;
+      margin: 0 0 15px 0;
+      line-height: 1.2;
       color: #000;
+      /* text-wrap & word-wrap agar nama panjang turun ke bawah dengan rapi */
+      text-wrap: balance;
+      word-wrap: break-word;
+      hyphens: auto;
+      max-width: 100%;
+      transition: font-size 0.3s ease;
+    }
+
+    .badges-container {
+      display: flex;
+      gap: 15px;
+      margin-bottom: 25px;
+      flex-wrap: wrap;
+    }
+
+    .badge {
+      font-size: 1.2rem;
+      font-weight: 900;
+      text-transform: uppercase;
+      letter-spacing: 2px;
+      padding: 8px 16px;
+      border: 4px solid #000;
+      box-shadow: 5px 5px 0px #000;
+      border-radius: 6px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: #000;
+    }
+
+    .badge-predikat {
+      background: #f1c40f;
+      /* Kuning tegas */
+    }
+
+    .badge-ipk {
+      background: #e74c3c;
+      /* Merah tegas */
+      color: #fff;
+      /* Teks putih untuk kontras dengan merah */
     }
 
     .details-grid {
@@ -104,7 +137,8 @@
       grid-template-columns: auto 1fr;
       gap: 15px 20px;
       font-size: 1.3rem;
-      background: #e2e8f0; /* Abu-abu solid */
+      background: #e2e8f0;
+      /* Abu-abu solid */
       padding: 20px 25px;
       border-radius: 8px;
       border: 4px solid #000;
@@ -137,53 +171,37 @@
       pointer-events: none;
     }
 
-    /* PANEL OPERATOR (Neo-brutalism look) */
+    /* INDIKATOR OPERATOR (Sangat Samar) */
     .kontrol-operator {
       position: absolute;
       bottom: 20px;
       right: 20px;
       z-index: 30;
-      background: #fff;
-      padding: 12px 20px;
-      border-radius: 8px;
       font-size: 1rem;
-      color: #000;
-      border: 4px solid #000;
-      box-shadow: 8px 8px 0px #000;
-      opacity: 0.9;
-      transition: transform 0.1s, box-shadow 0.1s;
-    }
-
-    .kontrol-operator:hover {
-      transform: translate(-3px, -3px);
-      box-shadow: 11px 11px 0px #000;
-      opacity: 1;
-    }
-
-    .indikator-urut {
-      font-weight: 900;
-      color: #e74c3c;
-      margin-bottom: 5px;
-      display: block;
-      font-size: 1.1rem;
+      font-weight: 700;
+      color: rgba(255, 255, 255, 0.3);
+      /* Putih sangat transparan */
+      text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+      /* Efek timbul tipis agar tetap terbaca operator */
+      pointer-events: none;
     }
   </style>
 </head>
 
 <body>
-  <!-- Menggunakan Title.png sebagai header di atas layar -->
-  <img src="assets/images/Title.png" class="title-image" alt="Title Wisuda" />
-
   <div class="card-wisudawan">
     <div class="foto-container">
       <img id="tampil-foto" src="" alt="Foto" />
     </div>
     <div class="info-container">
-      <!-- Predikat ditaruh di atas sebagai badge emas -->
-      <div class="label-wisudawan" id="tampil-predikat">Memuat...</div>
-
-      <!-- Nama Lengkap termasuk gelar -->
+      <!-- Nama Lengkap termasuk gelar dipindah ke atas -->
       <h1 class="nama" id="tampil-nama">Memuat Data...</h1>
+
+      <!-- Predikat & IPK digabung menjadi badge khas brutalism -->
+      <div class="badges-container">
+        <div class="badge badge-predikat" id="tampil-predikat">Memuat...</div>
+        <div class="badge badge-ipk">IPK: <span id="tampil-ipk" style="margin-left: 6px;">-</span></div>
+      </div>
 
       <!-- Grid Detail -->
       <div class="details-grid">
@@ -199,12 +217,8 @@
     </div>
   </div>
 
-  <!-- PANDUAN KEYBOARD UNTUK OPERATOR -->
-  <div class="kontrol-operator">
-    <span class="indikator-urut" id="teks-urutan">Menyiapkan...</span>
-    Gunakan tombol <b>Panah Kanan (→)</b> untuk Lanjut.<br />
-    Gunakan tombol <b>Panah Kiri (←)</b> untuk Kembali.
-  </div>
+  <!-- INDIKATOR URUTAN OPERATOR -->
+  <div class="kontrol-operator" id="teks-urutan">Menyiapkan...</div>
 
   <canvas id="canvasReaksi"></canvas>
 
@@ -243,11 +257,23 @@
 
       const profil = dataWisudawan[indexSaatIni];
 
-      document.getElementById("tampil-nama").innerText = profil.namaLengkap;
+      const namaElemen = document.getElementById("tampil-nama");
+      namaElemen.innerText = profil.namaLengkap;
+
+      // Pengecilan otomatis font untuk nama yang sangat panjang agar tetap rapi di card
+      if (profil.namaLengkap.length > 45) {
+        namaElemen.style.fontSize = "1.8rem";
+      } else if (profil.namaLengkap.length > 25) {
+        namaElemen.style.fontSize = "2.4rem";
+      } else {
+        namaElemen.style.fontSize = "3rem";
+      }
+
       document.getElementById("tampil-nrp").innerText = profil.nrp;
       document.getElementById("tampil-prodi").innerText = profil.prodi;
       document.getElementById("tampil-jurusan").innerText = profil.jurusan;
       document.getElementById("tampil-predikat").innerText = profil.predikat;
+      document.getElementById("tampil-ipk").innerText = profil.ipk;
 
       // Update Foto
       const imgElemen = document.getElementById("tampil-foto");

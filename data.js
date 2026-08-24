@@ -2,6 +2,7 @@ const dataWisudawan = [
   {
     "namaLengkap": "Muhammad Lutfi Ramadhan, A.Md.Kom.",
     "nrp": "12345678",
+    "ipk": "3.90",
     "prodi": "D3 Teknik Informatika",
     "jurusan": "Jurusan Teknologi Elektro",
     "predikat": "Dengan Pujian",
@@ -10,6 +11,7 @@ const dataWisudawan = [
   {
     "namaLengkap": "Budi Susanto, A.Md.T.",
     "nrp": "12345679",
+    "ipk": "3.65",
     "prodi": "D3 Teknik Listrik",
     "jurusan": "Jurusan Teknologi Elektro",
     "predikat": "Sangat Memuaskan",
