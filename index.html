@@ -279,6 +279,15 @@
       const imgElemen = document.getElementById("tampil-foto");
       if (profil.url_foto && profil.url_foto !== "") {
         imgElemen.src = profil.url_foto;
+
+        // PRELOAD FOTO SELANJUTNYA SECARA DIAM-DIAM (Penting untuk jaringan lambat!)
+        // Mengunduh 3 foto ke depan ke dalam memori (cache) browser
+        for (let i = 1; i <= 3; i++) {
+          if (indexSaatIni + i < dataWisudawan.length) {
+            const imgPreload = new Image();
+            imgPreload.src = dataWisudawan[indexSaatIni + i].url_foto;
+          }
+        }
       } else {
         imgElemen.src = "https://placehold.co/300x400/2c3e50/ffffff?text=NO+IMAGE";
       }

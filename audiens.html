@@ -113,11 +113,19 @@
           document.getElementById("teks-nama").innerText = data.nama_wisudawan;
       });
 
-      // Fungsi Kirim Reaksi
+      // Fungsi Kirim Reaksi (Dengan Throttling Anti-Spam)
+      let terakhirKirim = 0;
       function kirimReaksi(emoji) {
+        const sekarang = Date.now();
+        // Batasi maksimal 2-3 klik per detik (300ms antar klik)
+        if (sekarang - terakhirKirim < 300) {
+          return; // Abaikan diam-diam jika audiens terlalu brutal memencet
+        }
+        terakhirKirim = sekarang;
+
         db.ref("reaksi_live").push({
           emoji: emoji,
-          timestamp: Date.now(),
+          timestamp: sekarang,
         });
       }
     </script>
