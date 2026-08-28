@@ -8,7 +8,7 @@ const dataWisudawan = [
     "prodi": "D3 Teknik Listrik Industri",
     "jurusan": "Jurusan Teknik Elektro",
     "predikat": "Sangat Memuaskan",
-    "url_foto": "assets/images/foto-wisudawan/TLI/ESTI AISYAH DINASAPUTRI_D3 TEKNIK LISTRIK INDUSTRI.JPG"
+    "url_foto": "assets/images/foto-wisudawan/TLI/ESTI AISYAH DINASAPUTRI_D3 TEKNIK LISTRIK INDUSTRI.webp"
   },
   {
     "no": 2,
@@ -18,7 +18,7 @@ const dataWisudawan = [
     "prodi": "D3 Teknik Listrik Industri",
     "jurusan": "Jurusan Teknik Elektro",
     "predikat": "Sangat Memuaskan",
-    "url_foto": "assets/images/foto-wisudawan/TLI/RAFLIE NURURIVANSYAH_D3 TEKNIK LISTRIK INDUSTRI.jpeg"
+    "url_foto": "assets/images/foto-wisudawan/TLI/RAFLIE NURURIVANSYAH_D3 TEKNIK LISTRIK INDUSTRI.webp"
   },
   {
     "no": 3,
@@ -28,7 +28,7 @@ const dataWisudawan = [
     "prodi": "D3 Teknik Listrik Industri",
     "jurusan": "Jurusan Teknik Elektro",
     "predikat": "Sangat Memuaskan",
-    "url_foto": "assets/images/foto-wisudawan/TLI/MOH RIFQI ASSYIROJI_D3 TEKNIK LISTRIK INDUSTRI.jpeg"
+    "url_foto": "assets/images/foto-wisudawan/TLI/MOH RIFQI ASSYIROJI_D3 TEKNIK LISTRIK INDUSTRI.webp"
   },
   {
     "no": 4,
@@ -38,7 +38,7 @@ const dataWisudawan = [
     "prodi": "D3 Teknik Listrik Industri",
     "jurusan": "Jurusan Teknik Elektro",
     "predikat": "Sangat Memuaskan",
-    "url_foto": "assets/images/foto-wisudawan/TLI/ACH ZAINAL ABIDIN_D3 TEKNIK LISTRIK INDUSTRI.JPG"
+    "url_foto": "assets/images/foto-wisudawan/TLI/ACH ZAINAL ABIDIN_D3 TEKNIK LISTRIK INDUSTRI.webp"
   },
   {
     "no": 5,
@@ -48,7 +48,7 @@ const dataWisudawan = [
     "prodi": "D3 Teknik Listrik Industri",
     "jurusan": "Jurusan Teknik Elektro",
     "predikat": "Dengan Pujian",
-    "url_foto": "assets/images/foto-wisudawan/TLI/ACHMAD MUGHOFIR_D3 TEKNIK LISTRIK INDUSTRI.jpg"
+    "url_foto": "assets/images/foto-wisudawan/TLI/ACHMAD MUGHOFIR_D3 TEKNIK LISTRIK INDUSTRI.webp"
   },
   {
     "no": 6,
@@ -58,7 +58,7 @@ const dataWisudawan = [
     "prodi": "D3 Teknik Listrik Industri",
     "jurusan": "Jurusan Teknik Elektro",
     "predikat": "Sangat Memuaskan",
-    "url_foto": "assets/images/foto-wisudawan/TLI/HALIMATUS SA`DIYAH_D3 TEKNIK LISTRIK INDUSTRI.JPG"
+    "url_foto": "assets/images/foto-wisudawan/TLI/HALIMATUS SA`DIYAH_D3 TEKNIK LISTRIK INDUSTRI.webp"
   },
   {
     "no": 7,
@@ -68,7 +68,7 @@ const dataWisudawan = [
     "prodi": "D3 Teknik Listrik Industri",
     "jurusan": "Jurusan Teknik Elektro",
     "predikat": "Sangat Memuaskan",
-    "url_foto": "assets/images/foto-wisudawan/TLI/MOHAMAD IHWAN MAULANA_D3 TEKNIK LISTRIK INDUSTRI.JPG"
+    "url_foto": "assets/images/foto-wisudawan/TLI/MOHAMAD IHWAN MAULANA_D3 TEKNIK LISTRIK INDUSTRI.webp"
   },
   {
     "no": 8,
@@ -78,7 +78,7 @@ const dataWisudawan = [
     "prodi": "D3 Teknik Listrik Industri",
     "jurusan": "Jurusan Teknik Elektro",
     "predikat": "Sangat Memuaskan",
-    "url_foto": "assets/images/foto-wisudawan/TLI/MUCHAMMAD SYAHRUL RAMADHANI_D3 TEKNIK LISTRIK INDUSTRI.JPG"
+    "url_foto": "assets/images/foto-wisudawan/TLI/MUCHAMMAD SYAHRUL RAMADHANI_D3 TEKNIK LISTRIK INDUSTRI.webp"
   },
   {
     "no": 9,
@@ -88,7 +88,7 @@ const dataWisudawan = [
     "prodi": "D3 Teknik Listrik Industri",
     "jurusan": "Jurusan Teknik Elektro",
     "predikat": "Dengan Pujian",
-    "url_foto": "assets/images/foto-wisudawan/TLI/MUHAMMAD ADITYA RAHMAN_D3 TEKNIK LISTRIK INDUSTRI.jpg"
+    "url_foto": "assets/images/foto-wisudawan/TLI/MUHAMMAD ADITYA RAHMAN_D3 TEKNIK LISTRIK INDUSTRI.webp"
   },
   {
     "no": 10,
@@ -98,7 +98,7 @@ const dataWisudawan = [
     "prodi": "D3 Teknik Listrik Industri",
     "jurusan": "Jurusan Teknik Elektro",
     "predikat": "Sangat Memuaskan",
-    "url_foto": "assets/images/foto-wisudawan/TLI/RANIA RAMBU RABBANI_D3 TEKNIK LISTRIK INDUSTRI.JPG"
+    "url_foto": "assets/images/foto-wisudawan/TLI/RANIA RAMBU RABBANI_D3 TEKNIK LISTRIK INDUSTRI.webp"
   },
   {
     "no": 11,
@@ -108,7 +108,7 @@ const dataWisudawan = [
     "prodi": "D3 Teknik Listrik Industri",
     "jurusan": "Jurusan Teknik Elektro",
     "predikat": "Sangat Memuaskan",
-    "url_foto": "assets/images/foto-wisudawan/TLI/RISKY ILHAMI _D3 TEKNIK LISTRIK INDUSTRI.png"
+    "url_foto": "assets/images/foto-wisudawan/TLI/RISKY ILHAMI _D3 TEKNIK LISTRIK INDUSTRI.webp"
   },
   {
     "no": 12,
@@ -118,7 +118,7 @@ const dataWisudawan = [
     "prodi": "D3 Teknik Listrik Industri",
     "jurusan": "Jurusan Teknik Elektro",
     "predikat": "Sangat Memuaskan",
-    "url_foto": "assets/images/foto-wisudawan/TLI/FIRMAN WAHLUL AMRI_D3 TEKNIK LISTRIK INDUSTRI.jpeg"
+    "url_foto": "assets/images/foto-wisudawan/TLI/FIRMAN WAHLUL AMRI_D3 TEKNIK LISTRIK INDUSTRI.webp"
   },
   {
     "no": 13,
@@ -128,7 +128,7 @@ const dataWisudawan = [
     "prodi": "D3 Teknik Listrik Industri",
     "jurusan": "Jurusan Teknik Elektro",
     "predikat": "Sangat Memuaskan",
-    "url_foto": "assets/images/foto-wisudawan/TLI/MAHRITA IMAMI_D3 TEKNIIK LISTRIK INDUSTRI.jpg"
+    "url_foto": "assets/images/foto-wisudawan/TLI/MAHRITA IMAMI_D3 TEKNIIK LISTRIK INDUSTRI.webp"
   },
   {
     "no": 14,
@@ -138,7 +138,7 @@ const dataWisudawan = [
     "prodi": "D3 Teknik Listrik Industri",
     "jurusan": "Jurusan Teknik Elektro",
     "predikat": "Sangat Memuaskan",
-    "url_foto": "assets/images/foto-wisudawan/TLI/MOH. FAJAR SYAHBANA_D3 TEKNIK LISTRIK INDUSTRI.jpg"
+    "url_foto": "assets/images/foto-wisudawan/TLI/MOH. FAJAR SYAHBANA_D3 TEKNIK LISTRIK INDUSTRI.webp"
   },
   {
     "no": 15,
@@ -148,7 +148,7 @@ const dataWisudawan = [
     "prodi": "D3 Teknik Listrik Industri",
     "jurusan": "Jurusan Teknik Elektro",
     "predikat": "Sangat Memuaskan",
-    "url_foto": "assets/images/foto-wisudawan/TLI/NAJILATUL MAUFIROH_D3 TEKNIK LISTRIK INDUSTRI.JPG"
+    "url_foto": "assets/images/foto-wisudawan/TLI/NAJILATUL MAUFIROH_D3 TEKNIK LISTRIK INDUSTRI.webp"
   },
   {
     "no": 16,
@@ -158,7 +158,7 @@ const dataWisudawan = [
     "prodi": "D3 Teknik Listrik Industri",
     "jurusan": "Jurusan Teknik Elektro",
     "predikat": "Sangat Memuaskan",
-    "url_foto": "assets/images/foto-wisudawan/TLI/NURUL HIKMAH SANIMA_D3 TEKNIK LISTRIK INDUSTRI.JPG"
+    "url_foto": "assets/images/foto-wisudawan/TLI/NURUL HIKMAH SANIMA_D3 TEKNIK LISTRIK INDUSTRI.webp"
   },
   {
     "no": 17,
@@ -168,7 +168,7 @@ const dataWisudawan = [
     "prodi": "D3 Teknik Listrik Industri",
     "jurusan": "Jurusan Teknik Elektro",
     "predikat": "Sangat Memuaskan",
-    "url_foto": "assets/images/foto-wisudawan/TLI/ALFIN WAHYU PRATAMA_D3 TEKNIK LISTRIK INDUSTRI.JPG"
+    "url_foto": "assets/images/foto-wisudawan/TLI/ALFIN WAHYU PRATAMA_D3 TEKNIK LISTRIK INDUSTRI.webp"
   },
   {
     "no": 18,
@@ -178,7 +178,7 @@ const dataWisudawan = [
     "prodi": "D3 Teknik Listrik Industri",
     "jurusan": "Jurusan Teknik Elektro",
     "predikat": "Sangat Memuaskan",
-    "url_foto": "assets/images/foto-wisudawan/TLI/FARHAN_D3 TEKNIK LISTRIK INDUSTRI.JPG"
+    "url_foto": "assets/images/foto-wisudawan/TLI/FARHAN_D3 TEKNIK LISTRIK INDUSTRI.webp"
   },
   {
     "no": 19,
@@ -188,7 +188,7 @@ const dataWisudawan = [
     "prodi": "D3 Teknik Listrik Industri",
     "jurusan": "Jurusan Teknik Elektro",
     "predikat": "Sangat Memuaskan",
-    "url_foto": "assets/images/foto-wisudawan/TLI/ZAYYADI_D3 TEKNIK LISTRIK INDUSTRI.JPG"
+    "url_foto": "assets/images/foto-wisudawan/TLI/ZAYYADI_D3 TEKNIK LISTRIK INDUSTRI.webp"
   },
   {
     "no": 20,
@@ -198,7 +198,7 @@ const dataWisudawan = [
     "prodi": "D3 Teknik Listrik Industri",
     "jurusan": "Jurusan Teknik Elektro",
     "predikat": "Dengan Pujian",
-    "url_foto": "assets/images/foto-wisudawan/TLI/IBEN FAUZANTARO_D3 TEKNIK LISTRIK INDUSTRI.JPG"
+    "url_foto": "assets/images/foto-wisudawan/TLI/IBEN FAUZANTARO_D3 TEKNIK LISTRIK INDUSTRI.webp"
   },
   {
     "no": 21,
@@ -208,7 +208,7 @@ const dataWisudawan = [
     "prodi": "D3 Teknik Listrik Industri",
     "jurusan": "Jurusan Teknik Elektro",
     "predikat": "Sangat Memuaskan",
-    "url_foto": "assets/images/foto-wisudawan/TLI/ELVIRA MULYANI_D3 TEKNIK LISTRIK INDUSTRI.JPG"
+    "url_foto": "assets/images/foto-wisudawan/TLI/ELVIRA MULYANI_D3 TEKNIK LISTRIK INDUSTRI.webp"
   },
   {
     "no": 22,
@@ -218,7 +218,7 @@ const dataWisudawan = [
     "prodi": "D3 Teknik Listrik Industri",
     "jurusan": "Jurusan Teknik Elektro",
     "predikat": "Dengan Pujian",
-    "url_foto": "assets/images/foto-wisudawan/TLI/TRIANA AGUSTIN_D3 TEKNIK LISTRIK INDUSTRI.jpg"
+    "url_foto": "assets/images/foto-wisudawan/TLI/TRIANA AGUSTIN_D3 TEKNIK LISTRIK INDUSTRI.webp"
   },
   {
     "no": 23,
@@ -228,7 +228,7 @@ const dataWisudawan = [
     "prodi": "D3 Teknik Listrik Industri",
     "jurusan": "Jurusan Teknik Elektro",
     "predikat": "Dengan Pujian",
-    "url_foto": "assets/images/foto-wisudawan/TLI/PUTRI AYU DAMAYANTI_D3 TEKNIK LISTRIK INDUSTRI.jpeg"
+    "url_foto": "assets/images/foto-wisudawan/TLI/PUTRI AYU DAMAYANTI_D3 TEKNIK LISTRIK INDUSTRI.webp"
   },
   {
     "no": 24,
@@ -238,7 +238,7 @@ const dataWisudawan = [
     "prodi": "D3 Teknik Listrik Industri",
     "jurusan": "Jurusan Teknik Elektro",
     "predikat": "Sangat Memuaskan",
-    "url_foto": "assets/images/foto-wisudawan/TLI/FATHUL ROSI_D3 TEKNIK LISTRIK INDUSTRI.JPG"
+    "url_foto": "assets/images/foto-wisudawan/TLI/FATHUL ROSI_D3 TEKNIK LISTRIK INDUSTRI.webp"
   },
   {
     "no": 25,
@@ -248,7 +248,7 @@ const dataWisudawan = [
     "prodi": "D3 Teknik Listrik Industri",
     "jurusan": "Jurusan Teknik Elektro",
     "predikat": "Sangat Memuaskan",
-    "url_foto": "assets/images/foto-wisudawan/TLI/ACHMAD MAULIDIL HIKAM_D3 TEKNIK LISTRIK INDUSTRI.JPG"
+    "url_foto": "assets/images/foto-wisudawan/TLI/ACHMAD MAULIDIL HIKAM_D3 TEKNIK LISTRIK INDUSTRI.webp"
   },
   {
     "no": 26,
@@ -258,7 +258,7 @@ const dataWisudawan = [
     "prodi": "D3 Teknik Listrik Industri",
     "jurusan": "Jurusan Teknik Elektro",
     "predikat": "Dengan Pujian",
-    "url_foto": "assets/images/foto-wisudawan/TLI/ACH. SUYUTI AL FARISY_D3 TEKNIK LISTRIK INDUSTRI.jpg"
+    "url_foto": "assets/images/foto-wisudawan/TLI/ACH. SUYUTI AL FARISY_D3 TEKNIK LISTRIK INDUSTRI.webp"
   },
   {
     "no": 27,
@@ -268,7 +268,7 @@ const dataWisudawan = [
     "prodi": "D3 Teknik Listrik Industri",
     "jurusan": "Jurusan Teknik Elektro",
     "predikat": "Dengan Pujian",
-    "url_foto": "assets/images/foto-wisudawan/TLI/CARMENITA HARI PRIMUKTI_D3 TEKNIK LISTRIK INDUSTRI.JPG"
+    "url_foto": "assets/images/foto-wisudawan/TLI/CARMENITA HARI PRIMUKTI_D3 TEKNIK LISTRIK INDUSTRI.webp"
   },
   {
     "no": 28,
@@ -278,7 +278,7 @@ const dataWisudawan = [
     "prodi": "D3 Teknik Listrik Industri",
     "jurusan": "Jurusan Teknik Elektro",
     "predikat": "Sangat Memuaskan",
-    "url_foto": "assets/images/foto-wisudawan/TLI/ACHMAD IBNU MALIK_D3 TEKNIK LISTRIK INDUSTRI.JPG"
+    "url_foto": "assets/images/foto-wisudawan/TLI/ACHMAD IBNU MALIK_D3 TEKNIK LISTRIK INDUSTRI.webp"
   },
   {
     "no": 29,
@@ -288,7 +288,7 @@ const dataWisudawan = [
     "prodi": "D3 Teknik Listrik Industri",
     "jurusan": "Jurusan Teknik Elektro",
     "predikat": "Sangat Memuaskan",
-    "url_foto": "assets/images/foto-wisudawan/TLI/FADGHAM AMMAR JALIL_D3 TEKNIK LISTRIK INDUSTRI.JPG"
+    "url_foto": "assets/images/foto-wisudawan/TLI/FADGHAM AMMAR JALIL_D3 TEKNIK LISTRIK INDUSTRI.webp"
   },
 
   // D3 Teknik Mesin Alat Berat
@@ -300,7 +300,7 @@ const dataWisudawan = [
     "prodi": "D3 Teknik Mesin Alat Berat",
     "jurusan": "Jurusan Teknik Mesin",
     "predikat": "Sangat Memuaskan",
-    "url_foto": "assets/images/foto-wisudawan/TMAB/RAAFI ADHITYA SAPUTRA_D3 TEKNIK MESIN ALAT BERAT.JPG"
+    "url_foto": "assets/images/foto-wisudawan/TMAB/RAAFI ADHITYA SAPUTRA_D3 TEKNIK MESIN ALAT BERAT.webp"
   },
   {
     "no": 31,
@@ -310,7 +310,7 @@ const dataWisudawan = [
     "prodi": "D3 Teknik Mesin Alat Berat",
     "jurusan": "Jurusan Teknik Mesin",
     "predikat": "Memuaskan",
-    "url_foto": "assets/images/foto-wisudawan/TMAB/AGUNG SETIABUDI H_D3 TEKNIK MESIN ALAT BERAT.JPG"
+    "url_foto": "assets/images/foto-wisudawan/TMAB/AGUNG SETIABUDI H_D3 TEKNIK MESIN ALAT BERAT.webp"
   },
   {
     "no": 32,
@@ -320,7 +320,7 @@ const dataWisudawan = [
     "prodi": "D3 Teknik Mesin Alat Berat",
     "jurusan": "Jurusan Teknik Mesin",
     "predikat": "Sangat Memuaskan",
-    "url_foto": "assets/images/foto-wisudawan/TMAB/AHMAD KHOIRUL ROFIQ_D3 TEKNIK MESIN ALAT BERAT.JPG"
+    "url_foto": "assets/images/foto-wisudawan/TMAB/AHMAD KHOIRUL ROFIQ_D3 TEKNIK MESIN ALAT BERAT.webp"
   },
   {
     "no": 33,
@@ -330,7 +330,7 @@ const dataWisudawan = [
     "prodi": "D3 Teknik Mesin Alat Berat",
     "jurusan": "Jurusan Teknik Mesin",
     "predikat": "Sangat Memuaskan",
-    "url_foto": "assets/images/foto-wisudawan/TMAB/AINUN NAIM_D3 TEKNIK MESIN ALAT BERAT.JPG"
+    "url_foto": "assets/images/foto-wisudawan/TMAB/AINUN NAIM_D3 TEKNIK MESIN ALAT BERAT.webp"
   },
   {
     "no": 34,
@@ -340,7 +340,7 @@ const dataWisudawan = [
     "prodi": "D3 Teknik Mesin Alat Berat",
     "jurusan": "Jurusan Teknik Mesin",
     "predikat": "Sangat Memuaskan",
-    "url_foto": "assets/images/foto-wisudawan/TMAB/FAHMI ACHMAT NAARIF_D3 TEKNIK MESIN ALAT BERAT.JPG"
+    "url_foto": "assets/images/foto-wisudawan/TMAB/FAHMI ACHMAT NAARIF_D3 TEKNIK MESIN ALAT BERAT.webp"
   },
   {
     "no": 35,
@@ -350,7 +350,7 @@ const dataWisudawan = [
     "prodi": "D3 Teknik Mesin Alat Berat",
     "jurusan": "Jurusan Teknik Mesin",
     "predikat": "Sangat Memuaskan",
-    "url_foto": "assets/images/foto-wisudawan/TMAB/HIMMATUL AULIA_D3 TEKNIK MESIN ALAT BERAT.JPG"
+    "url_foto": "assets/images/foto-wisudawan/TMAB/HIMMATUL AULIA_D3 TEKNIK MESIN ALAT BERAT.webp"
   },
   {
     "no": 36,
@@ -360,7 +360,7 @@ const dataWisudawan = [
     "prodi": "D3 Teknik Mesin Alat Berat",
     "jurusan": "Jurusan Teknik Mesin",
     "predikat": "Sangat Memuaskan",
-    "url_foto": "assets/images/foto-wisudawan/TMAB/LAILATUS SAHRI S_D3 TEKNIK MESIN ALAT BERAT.JPG"
+    "url_foto": "assets/images/foto-wisudawan/TMAB/LAILATUS SAHRI S_D3 TEKNIK MESIN ALAT BERAT.webp"
   },
   {
     "no": 37,
@@ -370,7 +370,7 @@ const dataWisudawan = [
     "prodi": "D3 Teknik Mesin Alat Berat",
     "jurusan": "Jurusan Teknik Mesin",
     "predikat": "Sangat Memuaskan",
-    "url_foto": "assets/images/foto-wisudawan/TMAB/LUQMAN ARIF_D3 TEKNIK MESIN ALAT BERAT.JPG"
+    "url_foto": "assets/images/foto-wisudawan/TMAB/LUQMAN ARIF_D3 TEKNIK MESIN ALAT BERAT.webp"
   },
   {
     "no": 38,
@@ -380,7 +380,7 @@ const dataWisudawan = [
     "prodi": "D3 Teknik Mesin Alat Berat",
     "jurusan": "Jurusan Teknik Mesin",
     "predikat": "Sangat Memuaskan",
-    "url_foto": "assets/images/foto-wisudawan/TMAB/MOH MASHDUQI F_D3 TEKNIK MESIN ALAT BERAT.JPG"
+    "url_foto": "assets/images/foto-wisudawan/TMAB/MOH MASHDUQI F_D3 TEKNIK MESIN ALAT BERAT.webp"
   },
   {
     "no": 39,
@@ -390,7 +390,7 @@ const dataWisudawan = [
     "prodi": "D3 Teknik Mesin Alat Berat",
     "jurusan": "Jurusan Teknik Mesin",
     "predikat": "Sangat Memuaskan",
-    "url_foto": "assets/images/foto-wisudawan/TMAB/MOH. NOER DANDY M_D3 TEKNIK MESIN ALAT BERAT.JPG"
+    "url_foto": "assets/images/foto-wisudawan/TMAB/MOH. NOER DANDY M_D3 TEKNIK MESIN ALAT BERAT.webp"
   },
   {
     "no": 40,
@@ -400,7 +400,7 @@ const dataWisudawan = [
     "prodi": "D3 Teknik Mesin Alat Berat",
     "jurusan": "Jurusan Teknik Mesin",
     "predikat": "Sangat Memuaskan",
-    "url_foto": "assets/images/foto-wisudawan/TMAB/MUHAIMIN_D3 TEKNIK MESIN ALAT BERAT.JPG"
+    "url_foto": "assets/images/foto-wisudawan/TMAB/MUHAIMIN_D3 TEKNIK MESIN ALAT BERAT.webp"
   },
   {
     "no": 41,
@@ -410,7 +410,7 @@ const dataWisudawan = [
     "prodi": "D3 Teknik Mesin Alat Berat",
     "jurusan": "Jurusan Teknik Mesin",
     "predikat": "Sangat Memuaskan",
-    "url_foto": "assets/images/foto-wisudawan/TMAB/MUHAMMAT FIRDAUS_D3 TEKNIK MESIN ALAT BERAT.JPG"
+    "url_foto": "assets/images/foto-wisudawan/TMAB/MUHAMMAT FIRDAUS_D3 TEKNIK MESIN ALAT BERAT.webp"
   },
   {
     "no": 42,
@@ -420,7 +420,7 @@ const dataWisudawan = [
     "prodi": "D3 Teknik Mesin Alat Berat",
     "jurusan": "Jurusan Teknik Mesin",
     "predikat": "Dengan Pujian",
-    "url_foto": "assets/images/foto-wisudawan/TMAB/RAHMAT FAJAR_D3 TEKNIK MESIN ALAT BERAT.JPG"
+    "url_foto": "assets/images/foto-wisudawan/TMAB/RAHMAT FAJAR_D3 TEKNIK MESIN ALAT BERAT.webp"
   },
   {
     "no": 43,
@@ -430,7 +430,7 @@ const dataWisudawan = [
     "prodi": "D3 Teknik Mesin Alat Berat",
     "jurusan": "Jurusan Teknik Mesin",
     "predikat": "Sangat Memuaskan",
-    "url_foto": "assets/images/foto-wisudawan/TMAB/RIZKY AGENG RAHMADANI_D3 TEKNIK MESIN ALAT BERAT.jpg"
+    "url_foto": "assets/images/foto-wisudawan/TMAB/RIZKY AGENG RAHMADANI_D3 TEKNIK MESIN ALAT BERAT.webp"
   },
   {
     "no": 44,
@@ -440,7 +440,7 @@ const dataWisudawan = [
     "prodi": "D3 Teknik Mesin Alat Berat",
     "jurusan": "Jurusan Teknik Mesin",
     "predikat": "Sangat Memuaskan",
-    "url_foto": "assets/images/foto-wisudawan/TMAB/SANDY DWI W_D3 TEKNIK MESIN ALAT BERAT.JPG"
+    "url_foto": "assets/images/foto-wisudawan/TMAB/SANDY DWI W_D3 TEKNIK MESIN ALAT BERAT.webp"
   },
   {
     "no": 45,
@@ -450,7 +450,7 @@ const dataWisudawan = [
     "prodi": "D3 Teknik Mesin Alat Berat",
     "jurusan": "Jurusan Teknik Mesin",
     "predikat": "Sangat Memuaskan",
-    "url_foto": "assets/images/foto-wisudawan/TMAB/SELVI AGUSTIN_D3 TEKNIK MESIN ALAT BERAT.JPG"
+    "url_foto": "assets/images/foto-wisudawan/TMAB/SELVI AGUSTIN_D3 TEKNIK MESIN ALAT BERAT.webp"
   },
   {
     "no": 46,
@@ -460,7 +460,7 @@ const dataWisudawan = [
     "prodi": "D3 Teknik Mesin Alat Berat",
     "jurusan": "Jurusan Teknik Mesin",
     "predikat": "Memuaskan",
-    "url_foto": "assets/images/foto-wisudawan/TMAB/SURAHMAT TEGAR P_D3 TEKNIK MESIN ALAT BERAT.JPG"
+    "url_foto": "assets/images/foto-wisudawan/TMAB/SURAHMAT TEGAR P_D3 TEKNIK MESIN ALAT BERAT.webp"
   },
   {
     "no": 47,
@@ -470,7 +470,7 @@ const dataWisudawan = [
     "prodi": "D3 Teknik Mesin Alat Berat",
     "jurusan": "Jurusan Teknik Mesin",
     "predikat": "Sangat Memuaskan",
-    "url_foto": "assets/images/foto-wisudawan/TMAB/SYARIF HIDAYATULLAH_D3 TEKNIK MESIN ALAT BERAT.JPG"
+    "url_foto": "assets/images/foto-wisudawan/TMAB/SYARIF HIDAYATULLAH_D3 TEKNIK MESIN ALAT BERAT.webp"
   },
   {
     "no": 48,
@@ -480,7 +480,7 @@ const dataWisudawan = [
     "prodi": "D3 Teknik Mesin Alat Berat",
     "jurusan": "Jurusan Teknik Mesin",
     "predikat": "Sangat Memuaskan",
-    "url_foto": "assets/images/foto-wisudawan/TMAB/ACHMAD BELQI YUDA_D3 TEKNIK MESIN ALAT BERAT.JPG"
+    "url_foto": "assets/images/foto-wisudawan/TMAB/ACHMAD BELQI YUDA_D3 TEKNIK MESIN ALAT BERAT.webp"
   },
   {
     "no": 49,
@@ -490,7 +490,7 @@ const dataWisudawan = [
     "prodi": "D3 Teknik Mesin Alat Berat",
     "jurusan": "Jurusan Teknik Mesin",
     "predikat": "Sangat Memuaskan",
-    "url_foto": "assets/images/foto-wisudawan/TMAB/AHMAD EFENDI_D3 TEKNIK MESIN ALAT BERAT.JPG"
+    "url_foto": "assets/images/foto-wisudawan/TMAB/AHMAD EFENDI_D3 TEKNIK MESIN ALAT BERAT.webp"
   },
   {
     "no": 50,
@@ -500,7 +500,7 @@ const dataWisudawan = [
     "prodi": "D3 Teknik Mesin Alat Berat",
     "jurusan": "Jurusan Teknik Mesin",
     "predikat": "Sangat Memuaskan",
-    "url_foto": "assets/images/foto-wisudawan/TMAB/ARIL ADIT PRATAMA_D3 TEKNIK MESIN ALAT BERAT.JPG"
+    "url_foto": "assets/images/foto-wisudawan/TMAB/ARIL ADIT PRATAMA_D3 TEKNIK MESIN ALAT BERAT.webp"
   },
   {
     "no": 51,
@@ -510,7 +510,7 @@ const dataWisudawan = [
     "prodi": "D3 Teknik Mesin Alat Berat",
     "jurusan": "Jurusan Teknik Mesin",
     "predikat": "Dengan Pujian",
-    "url_foto": "assets/images/foto-wisudawan/TMAB/BAHIJ NAUFAL ALMAS_D3 TEKNIK MESIN ALAT BERAT.JPG"
+    "url_foto": "assets/images/foto-wisudawan/TMAB/BAHIJ NAUFAL ALMAS_D3 TEKNIK MESIN ALAT BERAT.webp"
   },
   {
     "no": 52,
@@ -520,7 +520,7 @@ const dataWisudawan = [
     "prodi": "D3 Teknik Mesin Alat Berat",
     "jurusan": "Jurusan Teknik Mesin",
     "predikat": "Memuaskan",
-    "url_foto": "assets/images/foto-wisudawan/TMAB/IFAN TRIO MAULANA_D3 TEKNIK MESIN ALAT BERAT.JPG"
+    "url_foto": "assets/images/foto-wisudawan/TMAB/IFAN TRIO MAULANA_D3 TEKNIK MESIN ALAT BERAT.webp"
   },
   {
     "no": 53,
@@ -530,7 +530,7 @@ const dataWisudawan = [
     "prodi": "D3 Teknik Mesin Alat Berat",
     "jurusan": "Jurusan Teknik Mesin",
     "predikat": "Memuaskan",
-    "url_foto": "assets/images/foto-wisudawan/TMAB/ILHAM RAMADANI_D3 TEKNIK MESIN ALAT BERAT.JPG"
+    "url_foto": "assets/images/foto-wisudawan/TMAB/ILHAM RAMADANI_D3 TEKNIK MESIN ALAT BERAT.webp"
   },
   {
     "no": 54,
@@ -540,7 +540,7 @@ const dataWisudawan = [
     "prodi": "D3 Teknik Mesin Alat Berat",
     "jurusan": "Jurusan Teknik Mesin",
     "predikat": "Sangat Memuaskan",
-    "url_foto": "assets/images/foto-wisudawan/TMAB/MOH FEBRIAN DIYANTO_D3 TEKNIK MESIN ALAT BERAT.JPG"
+    "url_foto": "assets/images/foto-wisudawan/TMAB/MOH FEBRIAN DIYANTO_D3 TEKNIK MESIN ALAT BERAT.webp"
   },
   {
     "no": 55,
@@ -550,7 +550,7 @@ const dataWisudawan = [
     "prodi": "D3 Teknik Mesin Alat Berat",
     "jurusan": "Jurusan Teknik Mesin",
     "predikat": "Memuaskan",
-    "url_foto": "assets/images/foto-wisudawan/TLI/MUCHAMMAD SYAHRUL RAMADHANI_D3 TEKNIK LISTRIK INDUSTRI.JPG"
+    "url_foto": "assets/images/foto-wisudawan/TLI/MUCHAMMAD SYAHRUL RAMADHANI_D3 TEKNIK LISTRIK INDUSTRI.webp"
   },
   {
     "no": 56,
@@ -560,7 +560,7 @@ const dataWisudawan = [
     "prodi": "D3 Teknik Mesin Alat Berat",
     "jurusan": "Jurusan Teknik Mesin",
     "predikat": "Dengan Pujian",
-    "url_foto": "assets/images/foto-wisudawan/TMAB/MUHAMMAD MAKBUL_D3 TEKNIK MESIN ALAT BERAT.JPG"
+    "url_foto": "assets/images/foto-wisudawan/TMAB/MUHAMMAD MAKBUL_D3 TEKNIK MESIN ALAT BERAT.webp"
   },
   {
     "no": 57,
@@ -570,7 +570,7 @@ const dataWisudawan = [
     "prodi": "D3 Teknik Mesin Alat Berat",
     "jurusan": "Jurusan Teknik Mesin",
     "predikat": "Dengan Pujian",
-    "url_foto": "assets/images/foto-wisudawan/TMAB/DHIO FAJAR ALIF_D3 TEKNIK MESIN ALAT BERAT.JPG"
+    "url_foto": "assets/images/foto-wisudawan/TMAB/DHIO FAJAR ALIF_D3 TEKNIK MESIN ALAT BERAT.webp"
   },
   {
     "no": 58,
@@ -580,7 +580,7 @@ const dataWisudawan = [
     "prodi": "D3 Teknik Mesin Alat Berat",
     "jurusan": "Jurusan Teknik Mesin",
     "predikat": "Sangat Memuaskan",
-    "url_foto": "assets/images/foto-wisudawan/TMAB/AZIZI ROHMAN_D3 TEKNIK MESIN ALAT BERAT.JPG"
+    "url_foto": "assets/images/foto-wisudawan/TMAB/AZIZI ROHMAN_D3 TEKNIK MESIN ALAT BERAT.webp"
   },
   {
     "no": 59,
@@ -590,7 +590,7 @@ const dataWisudawan = [
     "prodi": "D3 Teknik Mesin Alat Berat",
     "jurusan": "Jurusan Teknik Mesin",
     "predikat": "Sangat Memuaskan",
-    "url_foto": "assets/images/foto-wisudawan/TMAB/FAISAL BASUMI_D3 TEKNIK MESIN ALAT BERAT.JPG"
+    "url_foto": "assets/images/foto-wisudawan/TMAB/FAISAL BASUMI_D3 TEKNIK MESIN ALAT BERAT.webp"
   },
   {
     "no": 60,
@@ -600,7 +600,7 @@ const dataWisudawan = [
     "prodi": "D3 Teknik Mesin Alat Berat",
     "jurusan": "Jurusan Teknik Mesin",
     "predikat": "Memuaskan",
-    "url_foto": "assets/images/foto-wisudawan/TMAB/IMAM MAKHRUJ AFRAHAL A.K_D3 TEKNIK MESIN ALAT BERAT.jpeg"
+    "url_foto": "assets/images/foto-wisudawan/TMAB/IMAM MAKHRUJ AFRAHAL A.K_D3 TEKNIK MESIN ALAT BERAT.webp"
   },
   {
     "no": 61,
@@ -610,7 +610,7 @@ const dataWisudawan = [
     "prodi": "D3 Teknik Mesin Alat Berat",
     "jurusan": "Jurusan Teknik Mesin",
     "predikat": "Dengan Pujian",
-    "url_foto": "assets/images/foto-wisudawan/TMAB/RAMA WIJAYA B.S_D3 TEKNIK MESIN ALAT BERAT.JPG"
+    "url_foto": "assets/images/foto-wisudawan/TMAB/RAMA WIJAYA B.S_D3 TEKNIK MESIN ALAT BERAT.webp"
   },
   {
     "no": 62,
@@ -620,7 +620,7 @@ const dataWisudawan = [
     "prodi": "D3 Teknik Mesin Alat Berat",
     "jurusan": "Jurusan Teknik Mesin",
     "predikat": "Sangat Memuaskan",
-    "url_foto": "assets/images/foto-wisudawan/TMAB/DWI JUNIARTA_D3 TEKNIK MESIN ALAT BERAT.JPG"
+    "url_foto": "assets/images/foto-wisudawan/TMAB/DWI JUNIARTA_D3 TEKNIK MESIN ALAT BERAT.webp"
   },
   {
     "no": 63,
@@ -630,7 +630,7 @@ const dataWisudawan = [
     "prodi": "D3 Teknik Mesin Alat Berat",
     "jurusan": "Jurusan Teknik Mesin",
     "predikat": "Sangat Memuaskan",
-    "url_foto": "assets/images/foto-wisudawan/TMAB/FIRMAN MAULANA Z_D3 TEKNIK MESIN ALAT BERAT.JPG"
+    "url_foto": "assets/images/foto-wisudawan/TMAB/FIRMAN MAULANA Z_D3 TEKNIK MESIN ALAT BERAT.webp"
   },
 
   // D3 Teknik Bangunan Kapal
@@ -642,7 +642,7 @@ const dataWisudawan = [
     "prodi": "D3 Teknik Bangunan Kapal",
     "jurusan": "Jurusan Teknik Perkapalan",
     "predikat": "Sangat Memuaskan",
-    "url_foto": "assets/images/foto-wisudawan/TBK/AFIF WAHYUDI_D3 TEKNIK BANGUNAN KAPAL.JPG"
+    "url_foto": "assets/images/foto-wisudawan/TBK/AFIF WAHYUDI_D3 TEKNIK BANGUNAN KAPAL.webp"
   },
   {
     "no": 65,
@@ -652,7 +652,7 @@ const dataWisudawan = [
     "prodi": "D3 Teknik Bangunan Kapal",
     "jurusan": "Jurusan Teknik Perkapalan",
     "predikat": "Sangat Memuaskan",
-    "url_foto": "assets/images/foto-wisudawan/TBK/ARIS SAYIDIL ILMI_D3 TEKNIK BANGUNAN KAPAL.JPG"
+    "url_foto": "assets/images/foto-wisudawan/TBK/ARIS SAYIDIL ILMI_D3 TEKNIK BANGUNAN KAPAL.webp"
   },
   {
     "no": 66,
@@ -662,7 +662,7 @@ const dataWisudawan = [
     "prodi": "D3 Teknik Bangunan Kapal",
     "jurusan": "Jurusan Teknik Perkapalan",
     "predikat": "Sangat Memuaskan",
-    "url_foto": "assets/images/foto-wisudawan/TBK/DAIMATUL HOIROH_D3 TEKNIK BANGUNAN KAPAL.JPG"
+    "url_foto": "assets/images/foto-wisudawan/TBK/DAIMATUL HOIROH_D3 TEKNIK BANGUNAN KAPAL.webp"
   },
   {
     "no": 67,
@@ -672,7 +672,7 @@ const dataWisudawan = [
     "prodi": "D3 Teknik Bangunan Kapal",
     "jurusan": "Jurusan Teknik Perkapalan",
     "predikat": "Sangat Memuaskan",
-    "url_foto": "assets/images/foto-wisudawan/TBK/IKBALUL HOIRILANA_D3 TEKNIK BANGUNAN KAPAL.jpeg"
+    "url_foto": "assets/images/foto-wisudawan/TBK/IKBALUL HOIRILANA_D3 TEKNIK BANGUNAN KAPAL.webp"
   },
   {
     "no": 68,
@@ -682,7 +682,7 @@ const dataWisudawan = [
     "prodi": "D3 Teknik Bangunan Kapal",
     "jurusan": "Jurusan Teknik Perkapalan",
     "predikat": "Sangat Memuaskan",
-    "url_foto": "assets/images/foto-wisudawan/TBK/MUHAMMAD AKBAR NUGROHO P_D3 TEKNIK BANGUNAN KAPAL.jpg"
+    "url_foto": "assets/images/foto-wisudawan/TBK/MUHAMMAD AKBAR NUGROHO P_D3 TEKNIK BANGUNAN KAPAL.webp"
   },
   {
     "no": 69,
@@ -692,7 +692,7 @@ const dataWisudawan = [
     "prodi": "D3 Teknik Bangunan Kapal",
     "jurusan": "Jurusan Teknik Perkapalan",
     "predikat": "Sangat Memuaskan",
-    "url_foto": "assets/images/foto-wisudawan/TBK/RAYNALD ATILA CHANDRA_D3 TEKNIK BANGUNAN KAPAL.png"
+    "url_foto": "assets/images/foto-wisudawan/TBK/RAYNALD ATILA CHANDRA_D3 TEKNIK BANGUNAN KAPAL.webp"
   },
   {
     "no": 70,
@@ -702,7 +702,7 @@ const dataWisudawan = [
     "prodi": "D3 Teknik Bangunan Kapal",
     "jurusan": "Jurusan Teknik Perkapalan",
     "predikat": "Dengan Pujian",
-    "url_foto": "assets/images/foto-wisudawan/TBK/WISNU ADI BARA PAMUNGKAS_D3 TEKNIK BANGUNAN KAPAL.JPG"
+    "url_foto": "assets/images/foto-wisudawan/TBK/WISNU ADI BARA PAMUNGKAS_D3 TEKNIK BANGUNAN KAPAL.webp"
   },
   {
     "no": 71,
@@ -712,7 +712,7 @@ const dataWisudawan = [
     "prodi": "D3 Teknik Bangunan Kapal",
     "jurusan": "Jurusan Teknik Perkapalan",
     "predikat": "Dengan Pujian",
-    "url_foto": "assets/images/foto-wisudawan/TBK/MOH. ROHMAN ALFINT0_D3 TEKNIK BANGUNAN KAPAL.jpg"
+    "url_foto": "assets/images/foto-wisudawan/TBK/MOH. ROHMAN ALFINT0_D3 TEKNIK BANGUNAN KAPAL.webp"
   },
   {
     "no": 72,
@@ -722,7 +722,7 @@ const dataWisudawan = [
     "prodi": "D3 Teknik Bangunan Kapal",
     "jurusan": "Jurusan Teknik Perkapalan",
     "predikat": "Dengan Pujian",
-    "url_foto": "assets/images/foto-wisudawan/TBK/ADILLA NAILI IZZATI_D3 TEKNIK BANGUNAN KAPAL.jpeg"
+    "url_foto": "assets/images/foto-wisudawan/TBK/ADILLA NAILI IZZATI_D3 TEKNIK BANGUNAN KAPAL.webp"
   },
   {
     "no": 73,
@@ -732,7 +732,7 @@ const dataWisudawan = [
     "prodi": "D3 Teknik Bangunan Kapal",
     "jurusan": "Jurusan Teknik Perkapalan",
     "predikat": "Memuaskan",
-    "url_foto": "assets/images/foto-wisudawan/TBK/SULAIMAN_D3 TEKNIK BANGUNAN KAPAL.JPG"
+    "url_foto": "assets/images/foto-wisudawan/TBK/SULAIMAN_D3 TEKNIK BANGUNAN KAPAL.webp"
   },
   {
     "no": 74,
@@ -742,7 +742,7 @@ const dataWisudawan = [
     "prodi": "D3 Teknik Bangunan Kapal",
     "jurusan": "Jurusan Teknik Perkapalan",
     "predikat": "Sangat Memuaskan",
-    "url_foto": "assets/images/foto-wisudawan/TBK/M. YUSUF BAHTIAR_D3 TEKNIK BANGUNAN KAPAL.jpeg"
+    "url_foto": "assets/images/foto-wisudawan/TBK/M. YUSUF BAHTIAR_D3 TEKNIK BANGUNAN KAPAL.webp"
   },
   {
     "no": 75,
@@ -752,7 +752,7 @@ const dataWisudawan = [
     "prodi": "D3 Teknik Bangunan Kapal",
     "jurusan": "Jurusan Teknik Perkapalan",
     "predikat": "Dengan Pujian",
-    "url_foto": "assets/images/foto-wisudawan/TBK/IHSAN NURDIANSYAH_D3 TEKNIK BANGUNAN KAPAL.JPG"
+    "url_foto": "assets/images/foto-wisudawan/TBK/IHSAN NURDIANSYAH_D3 TEKNIK BANGUNAN KAPAL.webp"
   },
 
   // D4 Teknologi Rekayasa Keselamatan
@@ -764,7 +764,7 @@ const dataWisudawan = [
     "prodi": "D4 Teknologi Rekayasa Keselamatan",
     "jurusan": "Jurusan Keselamatan dan Kesehatan Kerja",
     "predikat": "Dengan Pujian",
-    "url_foto": "assets/images/foto-wisudawan/TRK/ACHMAD NABIL AL FIYAN _D3 TEKNOLOGI REKAYASA KESELAMATAN.jpg"
+    "url_foto": "assets/images/foto-wisudawan/TRK/ACHMAD NABIL AL FIYAN _D3 TEKNOLOGI REKAYASA KESELAMATAN.webp"
   },
   {
     "no": 77,
@@ -784,7 +784,7 @@ const dataWisudawan = [
     "prodi": "D4 Teknologi Rekayasa Keselamatan",
     "jurusan": "Jurusan Keselamatan dan Kesehatan Kerja",
     "predikat": "Sangat Memuaskan",
-    "url_foto": "assets/images/foto-wisudawan/TRK/IKMAL AKBAR_D3 TEKNIK REKAYASA KESELAMATAN.jpeg"
+    "url_foto": "assets/images/foto-wisudawan/TRK/IKMAL AKBAR_D3 TEKNIK REKAYASA KESELAMATAN.webp"
   },
   {
     "no": 79,
@@ -794,7 +794,7 @@ const dataWisudawan = [
     "prodi": "D4 Teknologi Rekayasa Keselamatan",
     "jurusan": "Jurusan Keselamatan dan Kesehatan Kerja",
     "predikat": "Sangat Memuaskan",
-    "url_foto": "assets/images/foto-wisudawan/TRK/ARIS DIANSYAH_D3 TEKNOLOGI REKAYASA KESELAMATAN.JPG"
+    "url_foto": "assets/images/foto-wisudawan/TRK/ARIS DIANSYAH_D3 TEKNOLOGI REKAYASA KESELAMATAN.webp"
   },
 
   // D3 Keperawatan
@@ -806,7 +806,7 @@ const dataWisudawan = [
     "prodi": "D3 Keperawatan",
     "jurusan": "Jurusan Keperawatan",
     "predikat": "Sangat Memuaskan",
-    "url_foto": "assets/images/foto-wisudawan/KEP/MOH. RIDWAN_D3 KEPERAWATAN.png"
+    "url_foto": "assets/images/foto-wisudawan/KEP/MOH. RIDWAN_D3 KEPERAWATAN.webp"
   },
   {
     "no": 81,
@@ -816,7 +816,7 @@ const dataWisudawan = [
     "prodi": "D3 Keperawatan",
     "jurusan": "Jurusan Keperawatan",
     "predikat": "Sangat Memuaskan",
-    "url_foto": "assets/images/foto-wisudawan/KEP/IQBAL_D3 KEPERAWATAN.png"
+    "url_foto": "assets/images/foto-wisudawan/KEP/IQBAL_D3 KEPERAWATAN.webp"
   },
   {
     "no": 82,
@@ -826,7 +826,7 @@ const dataWisudawan = [
     "prodi": "D3 Keperawatan",
     "jurusan": "Jurusan Keperawatan",
     "predikat": "Sangat Memuaskan",
-    "url_foto": "assets/images/foto-wisudawan/KEP/NADIA FAJRIN PUTRI ARIFIN_D3 KEPERAWATAN.jpeg"
+    "url_foto": "assets/images/foto-wisudawan/KEP/NADIA FAJRIN PUTRI ARIFIN_D3 KEPERAWATAN.webp"
   },
   {
     "no": 83,
@@ -846,7 +846,7 @@ const dataWisudawan = [
     "prodi": "D3 Keperawatan",
     "jurusan": "Jurusan Keperawatan",
     "predikat": "Sangat Memuaskan",
-    "url_foto": "assets/images/foto-wisudawan/KEP/NIKEN ARDIA PRAMUDITA_D3 KEPERAWATAN.jpeg"
+    "url_foto": "assets/images/foto-wisudawan/KEP/NIKEN ARDIA PRAMUDITA_D3 KEPERAWATAN.webp"
   },
   {
     "no": 85,
@@ -856,7 +856,7 @@ const dataWisudawan = [
     "prodi": "D3 Keperawatan",
     "jurusan": "Jurusan Keperawatan",
     "predikat": "Sangat Memuaskan",
-    "url_foto": "assets/images/foto-wisudawan/KEP/MOHAMMAD ZEINUR RIZKY_D3 KEPERAWATAN.jpeg"
+    "url_foto": "assets/images/foto-wisudawan/KEP/MOHAMMAD ZEINUR RIZKY_D3 KEPERAWATAN.webp"
   },
   {
     "no": 86,
@@ -866,7 +866,7 @@ const dataWisudawan = [
     "prodi": "D3 Keperawatan",
     "jurusan": "Jurusan Keperawatan",
     "predikat": "Sangat Memuaskan",
-    "url_foto": "assets/images/foto-wisudawan/KEP/MOH ADIYANTO_D3 KEPERAWATAN.jpeg"
+    "url_foto": "assets/images/foto-wisudawan/KEP/MOH ADIYANTO_D3 KEPERAWATAN.webp"
   },
   {
     "no": 87,
@@ -876,7 +876,7 @@ const dataWisudawan = [
     "prodi": "D3 Keperawatan",
     "jurusan": "Jurusan Keperawatan",
     "predikat": "Sangat Memuaskan",
-    "url_foto": "assets/images/foto-wisudawan/KEP/IQBAL MAULANA MALIK IBROHIM_D3 KEPERAWATAN.jpeg"
+    "url_foto": "assets/images/foto-wisudawan/KEP/IQBAL MAULANA MALIK IBROHIM_D3 KEPERAWATAN.webp"
   },
   {
     "no": 88,
@@ -886,7 +886,7 @@ const dataWisudawan = [
     "prodi": "D3 Keperawatan",
     "jurusan": "Jurusan Keperawatan",
     "predikat": "Sangat Memuaskan",
-    "url_foto": "assets/images/foto-wisudawan/KEP/ABDUL CHOLIK NUR ALI_D3 KEPERAWATAN.jpeg"
+    "url_foto": "assets/images/foto-wisudawan/KEP/ABDUL CHOLIK NUR ALI_D3 KEPERAWATAN.webp"
   },
   {
     "no": 89,
@@ -896,7 +896,7 @@ const dataWisudawan = [
     "prodi": "D3 Keperawatan",
     "jurusan": "Jurusan Keperawatan",
     "predikat": "Sangat Memuaskan",
-    "url_foto": "assets/images/foto-wisudawan/KEP/BADRUS SHOLEH AL FARIZI_D3 KEPERAWATAN.jpeg"
+    "url_foto": "assets/images/foto-wisudawan/KEP/BADRUS SHOLEH AL FARIZI_D3 KEPERAWATAN.webp"
   },
   {
     "no": 90,
@@ -906,7 +906,7 @@ const dataWisudawan = [
     "prodi": "D3 Keperawatan",
     "jurusan": "Jurusan Keperawatan",
     "predikat": "Sangat Memuaskan",
-    "url_foto": "assets/images/foto-wisudawan/KEP/ZAIPUR RAHMAN_D3 KEPERAWATAN.jpeg"
+    "url_foto": "assets/images/foto-wisudawan/KEP/ZAIPUR RAHMAN_D3 KEPERAWATAN.webp"
   },
   {
     "no": 91,
@@ -916,7 +916,7 @@ const dataWisudawan = [
     "prodi": "D3 Keperawatan",
     "jurusan": "Jurusan Keperawatan",
     "predikat": "Sangat Memuaskan",
-    "url_foto": "assets/images/foto-wisudawan/KEP/ABDYAS SHOLAH_D3 KEPERAWATAN.JPG"
+    "url_foto": "assets/images/foto-wisudawan/KEP/ABDYAS SHOLAH_D3 KEPERAWATAN.webp"
   },
   {
     "no": 92,
@@ -926,7 +926,7 @@ const dataWisudawan = [
     "prodi": "D3 Keperawatan",
     "jurusan": "Jurusan Keperawatan",
     "predikat": "Sangat Memuaskan",
-    "url_foto": "assets/images/foto-wisudawan/KEP/BAHILATUL HANANIYAH_D3 KEPERAWATAN.JPG"
+    "url_foto": "assets/images/foto-wisudawan/KEP/BAHILATUL HANANIYAH_D3 KEPERAWATAN.webp"
   },
   {
     "no": 93,
@@ -936,7 +936,7 @@ const dataWisudawan = [
     "prodi": "D3 Keperawatan",
     "jurusan": "Jurusan Keperawatan",
     "predikat": "Sangat Memuaskan",
-    "url_foto": "assets/images/foto-wisudawan/KEP/DALIYA NUR LAILY A_D3 KEPERAWATAN.JPG"
+    "url_foto": "assets/images/foto-wisudawan/KEP/DALIYA NUR LAILY A_D3 KEPERAWATAN.webp"
   },
   {
     "no": 94,
@@ -946,7 +946,7 @@ const dataWisudawan = [
     "prodi": "D3 Keperawatan",
     "jurusan": "Jurusan Keperawatan",
     "predikat": "Sangat Memuaskan",
-    "url_foto": "assets/images/foto-wisudawan/KEP/DHEA SUTRA DEWI_D3 KEPERAWATAN.JPG"
+    "url_foto": "assets/images/foto-wisudawan/KEP/DHEA SUTRA DEWI_D3 KEPERAWATAN.webp"
   },
   {
     "no": 95,
@@ -956,7 +956,7 @@ const dataWisudawan = [
     "prodi": "D3 Keperawatan",
     "jurusan": "Jurusan Keperawatan",
     "predikat": "Sangat Memuaskan",
-    "url_foto": "assets/images/foto-wisudawan/KEP/DINDA SHAFIRA V_D3 KEPERAWATAN.JPG"
+    "url_foto": "assets/images/foto-wisudawan/KEP/DINDA SHAFIRA V_D3 KEPERAWATAN.webp"
   },
   {
     "no": 96,
@@ -966,7 +966,7 @@ const dataWisudawan = [
     "prodi": "D3 Keperawatan",
     "jurusan": "Jurusan Keperawatan",
     "predikat": "Sangat Memuaskan",
-    "url_foto": "assets/images/foto-wisudawan/KEP/FADHILAH NURUL AISYAH_D3 KEPERAWATAN.JPG"
+    "url_foto": "assets/images/foto-wisudawan/KEP/FADHILAH NURUL AISYAH_D3 KEPERAWATAN.webp"
   },
   {
     "no": 97,
@@ -976,7 +976,7 @@ const dataWisudawan = [
     "prodi": "D3 Keperawatan",
     "jurusan": "Jurusan Keperawatan",
     "predikat": "Sangat Memuaskan",
-    "url_foto": "assets/images/foto-wisudawan/KEP/FADILATUL QUR`AINI_D3 KEPERAWATAN.JPG"
+    "url_foto": "assets/images/foto-wisudawan/KEP/FADILATUL QUR`AINI_D3 KEPERAWATAN.webp"
   },
   {
     "no": 98,
@@ -986,7 +986,7 @@ const dataWisudawan = [
     "prodi": "D3 Keperawatan",
     "jurusan": "Jurusan Keperawatan",
     "predikat": "Sangat Memuaskan",
-    "url_foto": "assets/images/foto-wisudawan/KEP/FAUZAN ALDIMAS U_D3 KEPERAWATAN.JPG"
+    "url_foto": "assets/images/foto-wisudawan/KEP/FAUZAN ALDIMAS U_D3 KEPERAWATAN.webp"
   },
   {
     "no": 99,
@@ -996,7 +996,7 @@ const dataWisudawan = [
     "prodi": "D3 Keperawatan",
     "jurusan": "Jurusan Keperawatan",
     "predikat": "Sangat Memuaskan",
-    "url_foto": "assets/images/foto-wisudawan/KEP/FITRI NUR AISYAH _D3 KEPERAWATAN.JPG"
+    "url_foto": "assets/images/foto-wisudawan/KEP/FITRI NUR AISYAH _D3 KEPERAWATAN.webp"
   },
   {
     "no": 100,
@@ -1006,7 +1006,7 @@ const dataWisudawan = [
     "prodi": "D3 Keperawatan",
     "jurusan": "Jurusan Keperawatan",
     "predikat": "Sangat Memuaskan",
-    "url_foto": "assets/images/foto-wisudawan/KEP/INDAH SURAHCAHYANI_D3 KEPERAWATAN.JPG"
+    "url_foto": "assets/images/foto-wisudawan/KEP/INDAH SURAHCAHYANI_D3 KEPERAWATAN.webp"
   },
   {
     "no": 101,
@@ -1016,7 +1016,7 @@ const dataWisudawan = [
     "prodi": "D3 Keperawatan",
     "jurusan": "Jurusan Keperawatan",
     "predikat": "Sangat Memuaskan",
-    "url_foto": "assets/images/foto-wisudawan/KEP/IRA WULANDARI_D3 KEPERAWATAN.JPG"
+    "url_foto": "assets/images/foto-wisudawan/KEP/IRA WULANDARI_D3 KEPERAWATAN.webp"
   },
   {
     "no": 102,
@@ -1026,7 +1026,7 @@ const dataWisudawan = [
     "prodi": "D3 Keperawatan",
     "jurusan": "Jurusan Keperawatan",
     "predikat": "Sangat Memuaskan",
-    "url_foto": "assets/images/foto-wisudawan/KEP/JEZZY WULANDARI_D3 KEPERAWATAN.JPG"
+    "url_foto": "assets/images/foto-wisudawan/KEP/JEZZY WULANDARI_D3 KEPERAWATAN.webp"
   },
   {
     "no": 103,
@@ -1036,7 +1036,7 @@ const dataWisudawan = [
     "prodi": "D3 Keperawatan",
     "jurusan": "Jurusan Keperawatan",
     "predikat": "Sangat Memuaskan",
-    "url_foto": "assets/images/foto-wisudawan/KEP/JULIANINGSIH_D3 KEPERAWATAN.JPG"
+    "url_foto": "assets/images/foto-wisudawan/KEP/JULIANINGSIH_D3 KEPERAWATAN.webp"
   },
   {
     "no": 104,
@@ -1046,7 +1046,7 @@ const dataWisudawan = [
     "prodi": "D3 Keperawatan",
     "jurusan": "Jurusan Keperawatan",
     "predikat": "Sangat Memuaskan",
-    "url_foto": "assets/images/foto-wisudawan/KEP/LEGYA NUR INDRAWATI_D3 KEPERAWATAN.JPG"
+    "url_foto": "assets/images/foto-wisudawan/KEP/LEGYA NUR INDRAWATI_D3 KEPERAWATAN.webp"
   },
   {
     "no": 105,
@@ -1056,7 +1056,7 @@ const dataWisudawan = [
     "prodi": "D3 Keperawatan",
     "jurusan": "Jurusan Keperawatan",
     "predikat": "Sangat Memuaskan",
-    "url_foto": "assets/images/foto-wisudawan/KEP/MEILINDA CORNELLYA PUTRI_D3 KEPERAWATAN.JPG"
+    "url_foto": "assets/images/foto-wisudawan/KEP/MEILINDA CORNELLYA PUTRI_D3 KEPERAWATAN.webp"
   },
   {
     "no": 106,
@@ -1066,7 +1066,7 @@ const dataWisudawan = [
     "prodi": "D3 Keperawatan",
     "jurusan": "Jurusan Keperawatan",
     "predikat": "Sangat Memuaskan",
-    "url_foto": "assets/images/foto-wisudawan/KEP/MOCH. TRIO ADI SUTARTO_D3 KEPERAWATAN.JPG"
+    "url_foto": "assets/images/foto-wisudawan/KEP/MOCH. TRIO ADI SUTARTO_D3 KEPERAWATAN.webp"
   },
   {
     "no": 107,
@@ -1076,7 +1076,7 @@ const dataWisudawan = [
     "prodi": "D3 Keperawatan",
     "jurusan": "Jurusan Keperawatan",
     "predikat": "Sangat Memuaskan",
-    "url_foto": "assets/images/foto-wisudawan/KEP/MUSLIMATUN NURUL KHAIR_D3 KEPERAWATAN.JPG"
+    "url_foto": "assets/images/foto-wisudawan/KEP/MUSLIMATUN NURUL KHAIR_D3 KEPERAWATAN.webp"
   },
   {
     "no": 108,
@@ -1086,7 +1086,7 @@ const dataWisudawan = [
     "prodi": "D3 Keperawatan",
     "jurusan": "Jurusan Keperawatan",
     "predikat": "Sangat Memuaskan",
-    "url_foto": "assets/images/foto-wisudawan/KEP/MUSYARROFAH_D3 KEPERAWATAN.JPG"
+    "url_foto": "assets/images/foto-wisudawan/KEP/MUSYARROFAH_D3 KEPERAWATAN.webp"
   },
   {
     "no": 109,
@@ -1096,7 +1096,7 @@ const dataWisudawan = [
     "prodi": "D3 Keperawatan",
     "jurusan": "Jurusan Keperawatan",
     "predikat": "Sangat Memuaskan",
-    "url_foto": "assets/images/foto-wisudawan/KEP/NADILA FIRDA AULIA_D3 KEPERAWATAN.JPG"
+    "url_foto": "assets/images/foto-wisudawan/KEP/NADILA FIRDA AULIA_D3 KEPERAWATAN.webp"
   },
   {
     "no": 110,
@@ -1106,7 +1106,7 @@ const dataWisudawan = [
     "prodi": "D3 Keperawatan",
     "jurusan": "Jurusan Keperawatan",
     "predikat": "Sangat Memuaskan",
-    "url_foto": "assets/images/foto-wisudawan/KEP/NAHLA KAMALIA_D3 KEPERAWATAN.JPG"
+    "url_foto": "assets/images/foto-wisudawan/KEP/NAHLA KAMALIA_D3 KEPERAWATAN.webp"
   },
   {
     "no": 111,
@@ -1116,7 +1116,7 @@ const dataWisudawan = [
     "prodi": "D3 Keperawatan",
     "jurusan": "Jurusan Keperawatan",
     "predikat": "Sangat Memuaskan",
-    "url_foto": "assets/images/foto-wisudawan/KEP/NOVITA AYU TRISNAWATI_D3 KEPERAWATAN.JPG"
+    "url_foto": "assets/images/foto-wisudawan/KEP/NOVITA AYU TRISNAWATI_D3 KEPERAWATAN.webp"
   },
   {
     "no": 112,
@@ -1126,7 +1126,7 @@ const dataWisudawan = [
     "prodi": "D3 Keperawatan",
     "jurusan": "Jurusan Keperawatan",
     "predikat": "Dengan Pujian",
-    "url_foto": "assets/images/foto-wisudawan/KEP/NUR INTAN HAMIDA U_D3 KEPERAWATAN.JPG"
+    "url_foto": "assets/images/foto-wisudawan/KEP/NUR INTAN HAMIDA U_D3 KEPERAWATAN.webp"
   },
   {
     "no": 113,
@@ -1136,7 +1136,7 @@ const dataWisudawan = [
     "prodi": "D3 Keperawatan",
     "jurusan": "Jurusan Keperawatan",
     "predikat": "Sangat Memuaskan",
-    "url_foto": "assets/images/foto-wisudawan/KEP/NURUL FATIROH HIDAYATI_D3 KEPERAWATAN.JPG"
+    "url_foto": "assets/images/foto-wisudawan/KEP/NURUL FATIROH HIDAYATI_D3 KEPERAWATAN.webp"
   },
   {
     "no": 114,
@@ -1146,7 +1146,7 @@ const dataWisudawan = [
     "prodi": "D3 Keperawatan",
     "jurusan": "Jurusan Keperawatan",
     "predikat": "Dengan Pujian",
-    "url_foto": "assets/images/foto-wisudawan/KEP/ROBBIYATIN NUR AZIZAH_D3 KEPERAWATAN.JPG"
+    "url_foto": "assets/images/foto-wisudawan/KEP/ROBBIYATIN NUR AZIZAH_D3 KEPERAWATAN.webp"
   },
   {
     "no": 115,
@@ -1156,7 +1156,7 @@ const dataWisudawan = [
     "prodi": "D3 Keperawatan",
     "jurusan": "Jurusan Keperawatan",
     "predikat": "Sangat Memuaskan",
-    "url_foto": "assets/images/foto-wisudawan/KEP/SARA AULIA_D3 KEPERAWATAN.JPG"
+    "url_foto": "assets/images/foto-wisudawan/KEP/SARA AULIA_D3 KEPERAWATAN.webp"
   },
   {
     "no": 116,
@@ -1166,7 +1166,7 @@ const dataWisudawan = [
     "prodi": "D3 Keperawatan",
     "jurusan": "Jurusan Keperawatan",
     "predikat": "Sangat Memuaskan",
-    "url_foto": "assets/images/foto-wisudawan/KEP/SAVIRA FARENDITA F_D3 KEPERAWATAN.JPG"
+    "url_foto": "assets/images/foto-wisudawan/KEP/SAVIRA FARENDITA F_D3 KEPERAWATAN.webp"
   },
   {
     "no": 117,
@@ -1176,7 +1176,7 @@ const dataWisudawan = [
     "prodi": "D3 Keperawatan",
     "jurusan": "Jurusan Keperawatan",
     "predikat": "Sangat Memuaskan",
-    "url_foto": "assets/images/foto-wisudawan/KEP/SURIHANA FITRI_D3 KEPERAWATAN.JPG"
+    "url_foto": "assets/images/foto-wisudawan/KEP/SURIHANA FITRI_D3 KEPERAWATAN.webp"
   },
   {
     "no": 118,
@@ -1186,7 +1186,7 @@ const dataWisudawan = [
     "prodi": "D3 Keperawatan",
     "jurusan": "Jurusan Keperawatan",
     "predikat": "Sangat Memuaskan",
-    "url_foto": "assets/images/foto-wisudawan/KEP/SYALSADILA DWI W_D3 KEPERAWATAN.JPG"
+    "url_foto": "assets/images/foto-wisudawan/KEP/SYALSADILA DWI W_D3 KEPERAWATAN.webp"
   },
   {
     "no": 119,
@@ -1196,7 +1196,7 @@ const dataWisudawan = [
     "prodi": "D3 Keperawatan",
     "jurusan": "Jurusan Keperawatan",
     "predikat": "Dengan Pujian",
-    "url_foto": "assets/images/foto-wisudawan/KEP/WARDATUL IZZATI_D3 KEPERAWATAN.jpg"
+    "url_foto": "assets/images/foto-wisudawan/KEP/WARDATUL IZZATI_D3 KEPERAWATAN.webp"
   },
   {
     "no": 120,
@@ -1206,7 +1206,7 @@ const dataWisudawan = [
     "prodi": "D3 Keperawatan",
     "jurusan": "Jurusan Keperawatan",
     "predikat": "Sangat Memuaskan",
-    "url_foto": "assets/images/foto-wisudawan/KEP/ADINDA LAILATUL FITRIYA_D3 KEPERAWATAN.JPG"
+    "url_foto": "assets/images/foto-wisudawan/KEP/ADINDA LAILATUL FITRIYA_D3 KEPERAWATAN.webp"
   },
   {
     "no": 121,
@@ -1216,7 +1216,7 @@ const dataWisudawan = [
     "prodi": "D3 Keperawatan",
     "jurusan": "Jurusan Keperawatan",
     "predikat": "Dengan Pujian",
-    "url_foto": "assets/images/foto-wisudawan/KEP/AINUS SULALAH_D3 KEPERAWATAN.jpeg"
+    "url_foto": "assets/images/foto-wisudawan/KEP/AINUS SULALAH_D3 KEPERAWATAN.webp"
   },
   {
     "no": 122,
@@ -1226,7 +1226,7 @@ const dataWisudawan = [
     "prodi": "D3 Keperawatan",
     "jurusan": "Jurusan Keperawatan",
     "predikat": "Sangat Memuaskan",
-    "url_foto": "assets/images/foto-wisudawan/KEP/ALFIATUS SOLEHA_D3 KEPERAWATAN.JPG"
+    "url_foto": "assets/images/foto-wisudawan/KEP/ALFIATUS SOLEHA_D3 KEPERAWATAN.webp"
   },
   {
     "no": 123,
@@ -1236,7 +1236,7 @@ const dataWisudawan = [
     "prodi": "D3 Keperawatan",
     "jurusan": "Jurusan Keperawatan",
     "predikat": "Sangat Memuaskan",
-    "url_foto": "assets/images/foto-wisudawan/KEP/AMALIA RIZKY GAFUR_D3 KEPERAWATAN.JPG"
+    "url_foto": "assets/images/foto-wisudawan/KEP/AMALIA RIZKY GAFUR_D3 KEPERAWATAN.webp"
   },
   {
     "no": 124,
@@ -1246,7 +1246,7 @@ const dataWisudawan = [
     "prodi": "D3 Keperawatan",
     "jurusan": "Jurusan Keperawatan",
     "predikat": "Sangat Memuaskan",
-    "url_foto": "assets/images/foto-wisudawan/KEP/ANANDA NAURA N_D3 KEPERAWATAN.JPG"
+    "url_foto": "assets/images/foto-wisudawan/KEP/ANANDA NAURA N_D3 KEPERAWATAN.webp"
   },
   {
     "no": 125,
@@ -1256,7 +1256,7 @@ const dataWisudawan = [
     "prodi": "D3 Keperawatan",
     "jurusan": "Jurusan Keperawatan",
     "predikat": "Sangat Memuaskan",
-    "url_foto": "assets/images/foto-wisudawan/KEP/ANUGRAH NABILA RIZKY_D3 KEPERAWATAN.JPG"
+    "url_foto": "assets/images/foto-wisudawan/KEP/ANUGRAH NABILA RIZKY_D3 KEPERAWATAN.webp"
   },
   {
     "no": 126,
@@ -1266,7 +1266,7 @@ const dataWisudawan = [
     "prodi": "D3 Keperawatan",
     "jurusan": "Jurusan Keperawatan",
     "predikat": "Sangat Memuaskan",
-    "url_foto": "assets/images/foto-wisudawan/KEP/ASYLATUL MAULIDIYAH_D3 KEPERAWATAN.JPG"
+    "url_foto": "assets/images/foto-wisudawan/KEP/ASYLATUL MAULIDIYAH_D3 KEPERAWATAN.webp"
   },
   {
     "no": 127,
@@ -1276,7 +1276,7 @@ const dataWisudawan = [
     "prodi": "D3 Keperawatan",
     "jurusan": "Jurusan Keperawatan",
     "predikat": "Sangat Memuaskan",
-    "url_foto": "assets/images/foto-wisudawan/KEP/BAGAS DWIWANTO AKBAR_D3 KEPERAWATAN.JPG"
+    "url_foto": "assets/images/foto-wisudawan/KEP/BAGAS DWIWANTO AKBAR_D3 KEPERAWATAN.webp"
   },
   {
     "no": 128,
@@ -1286,7 +1286,7 @@ const dataWisudawan = [
     "prodi": "D3 Keperawatan",
     "jurusan": "Jurusan Keperawatan",
     "predikat": "Sangat Memuaskan",
-    "url_foto": "assets/images/foto-wisudawan/KEP/BELA SAFARINA_D3 KEPERAWATAN.JPG"
+    "url_foto": "assets/images/foto-wisudawan/KEP/BELA SAFARINA_D3 KEPERAWATAN.webp"
   },
   {
     "no": 129,
@@ -1296,7 +1296,7 @@ const dataWisudawan = [
     "prodi": "D3 Keperawatan",
     "jurusan": "Jurusan Keperawatan",
     "predikat": "Sangat Memuaskan",
-    "url_foto": "assets/images/foto-wisudawan/KEP/DESI FIRDA LESTARI_D3 KEPERAWATAN.JPG"
+    "url_foto": "assets/images/foto-wisudawan/KEP/DESI FIRDA LESTARI_D3 KEPERAWATAN.webp"
   },
   {
     "no": 130,
@@ -1306,7 +1306,7 @@ const dataWisudawan = [
     "prodi": "D3 Keperawatan",
     "jurusan": "Jurusan Keperawatan",
     "predikat": "Sangat Memuaskan",
-    "url_foto": "assets/images/foto-wisudawan/KEP/DWI SATYA ADHI WICAKSANA_D3 KEPERAWATAN.JPG"
+    "url_foto": "assets/images/foto-wisudawan/KEP/DWI SATYA ADHI WICAKSANA_D3 KEPERAWATAN.webp"
   },
   {
     "no": 131,
@@ -1316,7 +1316,7 @@ const dataWisudawan = [
     "prodi": "D3 Keperawatan",
     "jurusan": "Jurusan Keperawatan",
     "predikat": "Sangat Memuaskan",
-    "url_foto": "assets/images/foto-wisudawan/KEP/ELVIN DIRA CITRA_D3 KEPERAWATAN.JPG"
+    "url_foto": "assets/images/foto-wisudawan/KEP/ELVIN DIRA CITRA_D3 KEPERAWATAN.webp"
   },
   {
     "no": 132,
@@ -1326,7 +1326,7 @@ const dataWisudawan = [
     "prodi": "D3 Keperawatan",
     "jurusan": "Jurusan Keperawatan",
     "predikat": "Dengan Pujian",
-    "url_foto": "assets/images/foto-wisudawan/KEP/EMILIA DWI ROSALINDA_D3 KEPERAWATAN.JPG"
+    "url_foto": "assets/images/foto-wisudawan/KEP/EMILIA DWI ROSALINDA_D3 KEPERAWATAN.webp"
   },
   {
     "no": 133,
@@ -1336,7 +1336,7 @@ const dataWisudawan = [
     "prodi": "D3 Keperawatan",
     "jurusan": "Jurusan Keperawatan",
     "predikat": "Sangat Memuaskan",
-    "url_foto": "assets/images/foto-wisudawan/KEP/FAIRUS FAHMI_D3 KEPERAWATAN.JPG"
+    "url_foto": "assets/images/foto-wisudawan/KEP/FAIRUS FAHMI_D3 KEPERAWATAN.webp"
   },
   {
     "no": 134,
@@ -1346,7 +1346,7 @@ const dataWisudawan = [
     "prodi": "D3 Keperawatan",
     "jurusan": "Jurusan Keperawatan",
     "predikat": "Dengan Pujian",
-    "url_foto": "assets/images/foto-wisudawan/KEP/INAS ATIKA_D3 KEPERAWATAN.JPG"
+    "url_foto": "assets/images/foto-wisudawan/KEP/INAS ATIKA_D3 KEPERAWATAN.webp"
   },
   {
     "no": 135,
@@ -1356,7 +1356,7 @@ const dataWisudawan = [
     "prodi": "D3 Keperawatan",
     "jurusan": "Jurusan Keperawatan",
     "predikat": "Dengan Pujian",
-    "url_foto": "assets/images/foto-wisudawan/KEP/IRAWATI_D3 KEPERAWATAN.JPG"
+    "url_foto": "assets/images/foto-wisudawan/KEP/IRAWATI_D3 KEPERAWATAN.webp"
   },
   {
     "no": 136,
@@ -1366,7 +1366,7 @@ const dataWisudawan = [
     "prodi": "D3 Keperawatan",
     "jurusan": "Jurusan Keperawatan",
     "predikat": "Dengan Pujian",
-    "url_foto": "assets/images/foto-wisudawan/KEP/IRMA YUNITA_D3 KEPERAWATAN.JPG"
+    "url_foto": "assets/images/foto-wisudawan/KEP/IRMA YUNITA_D3 KEPERAWATAN.webp"
   },
   {
     "no": 137,
@@ -1376,7 +1376,7 @@ const dataWisudawan = [
     "prodi": "D3 Keperawatan",
     "jurusan": "Jurusan Keperawatan",
     "predikat": "Dengan Pujian",
-    "url_foto": "assets/images/foto-wisudawan/KEP/ISHROKHIYAH OFI MAULIDINA_D3 KEPERAWATAN.JPG"
+    "url_foto": "assets/images/foto-wisudawan/KEP/ISHROKHIYAH OFI MAULIDINA_D3 KEPERAWATAN.webp"
   },
   {
     "no": 138,
@@ -1386,7 +1386,7 @@ const dataWisudawan = [
     "prodi": "D3 Keperawatan",
     "jurusan": "Jurusan Keperawatan",
     "predikat": "Sangat Memuaskan",
-    "url_foto": "assets/images/foto-wisudawan/KEP/KHOLISHOTUL ILMIYAH_D3 KEPERAWATAN.JPG"
+    "url_foto": "assets/images/foto-wisudawan/KEP/KHOLISHOTUL ILMIYAH_D3 KEPERAWATAN.webp"
   },
   {
     "no": 139,
@@ -1396,7 +1396,7 @@ const dataWisudawan = [
     "prodi": "D3 Keperawatan",
     "jurusan": "Jurusan Keperawatan",
     "predikat": "Dengan Pujian",
-    "url_foto": "assets/images/foto-wisudawan/KEP/LULUK ATIN FAIKOH_D3 KEPERAWATAN.JPG"
+    "url_foto": "assets/images/foto-wisudawan/KEP/LULUK ATIN FAIKOH_D3 KEPERAWATAN.webp"
   },
   {
     "no": 140,
@@ -1406,7 +1406,7 @@ const dataWisudawan = [
     "prodi": "D3 Keperawatan",
     "jurusan": "Jurusan Keperawatan",
     "predikat": "Dengan Pujian",
-    "url_foto": "assets/images/foto-wisudawan/KEP/MAUFIROH_D3 KEPERAWATAN.JPG"
+    "url_foto": "assets/images/foto-wisudawan/KEP/MAUFIROH_D3 KEPERAWATAN.webp"
   },
   {
     "no": 141,
@@ -1416,7 +1416,7 @@ const dataWisudawan = [
     "prodi": "D3 Keperawatan",
     "jurusan": "Jurusan Keperawatan",
     "predikat": "Dengan Pujian",
-    "url_foto": "assets/images/foto-wisudawan/KEP/MITA DEVI OKTAVIA_D3 KEPERAWATAN.jpeg"
+    "url_foto": "assets/images/foto-wisudawan/KEP/MITA DEVI OKTAVIA_D3 KEPERAWATAN.webp"
   },
   {
     "no": 142,
@@ -1426,7 +1426,7 @@ const dataWisudawan = [
     "prodi": "D3 Keperawatan",
     "jurusan": "Jurusan Keperawatan",
     "predikat": "Sangat Memuaskan",
-    "url_foto": "assets/images/foto-wisudawan/KEP/MUHAMMAD GASTIADIRRIJAL MUSTAFA_D3 KEPERAWATAN.JPG"
+    "url_foto": "assets/images/foto-wisudawan/KEP/MUHAMMAD GASTIADIRRIJAL MUSTAFA_D3 KEPERAWATAN.webp"
   },
   {
     "no": 143,
@@ -1436,7 +1436,7 @@ const dataWisudawan = [
     "prodi": "D3 Keperawatan",
     "jurusan": "Jurusan Keperawatan",
     "predikat": "Dengan Pujian",
-    "url_foto": "assets/images/foto-wisudawan/KEP/NISWAH DAFITRI FIRTAMA_D3 KEPERAWATAN.JPG"
+    "url_foto": "assets/images/foto-wisudawan/KEP/NISWAH DAFITRI FIRTAMA_D3 KEPERAWATAN.webp"
   },
   {
     "no": 144,
@@ -1446,7 +1446,7 @@ const dataWisudawan = [
     "prodi": "D3 Keperawatan",
     "jurusan": "Jurusan Keperawatan",
     "predikat": "Sangat Memuaskan",
-    "url_foto": "assets/images/foto-wisudawan/KEP/NOVI ELFIRA KHOIRUN NISA_D3 KEPERAWATAN.JPG"
+    "url_foto": "assets/images/foto-wisudawan/KEP/NOVI ELFIRA KHOIRUN NISA_D3 KEPERAWATAN.webp"
   },
   {
     "no": 145,
@@ -1456,7 +1456,7 @@ const dataWisudawan = [
     "prodi": "D3 Keperawatan",
     "jurusan": "Jurusan Keperawatan",
     "predikat": "Dengan Pujian",
-    "url_foto": "assets/images/foto-wisudawan/KEP/NUR RAHMAWATI_D3 KEPERAWATAN.JPG"
+    "url_foto": "assets/images/foto-wisudawan/KEP/NUR RAHMAWATI_D3 KEPERAWATAN.webp"
   },
   {
     "no": 146,
@@ -1466,7 +1466,7 @@ const dataWisudawan = [
     "prodi": "D3 Keperawatan",
     "jurusan": "Jurusan Keperawatan",
     "predikat": "Dengan Pujian",
-    "url_foto": "assets/images/foto-wisudawan/KEP/NURIS SYAMSIYAH_D3 KEPERAWATAN.JPG"
+    "url_foto": "assets/images/foto-wisudawan/KEP/NURIS SYAMSIYAH_D3 KEPERAWATAN.webp"
   },
   {
     "no": 147,
@@ -1476,7 +1476,7 @@ const dataWisudawan = [
     "prodi": "D3 Keperawatan",
     "jurusan": "Jurusan Keperawatan",
     "predikat": "Dengan Pujian",
-    "url_foto": "assets/images/foto-wisudawan/KEP/NURVITA IZZAH SAFIRA_D3 KEPERAWATAN.JPG"
+    "url_foto": "assets/images/foto-wisudawan/KEP/NURVITA IZZAH SAFIRA_D3 KEPERAWATAN.webp"
   },
   {
     "no": 148,
@@ -1486,7 +1486,7 @@ const dataWisudawan = [
     "prodi": "D3 Keperawatan",
     "jurusan": "Jurusan Keperawatan",
     "predikat": "Dengan Pujian",
-    "url_foto": "assets/images/foto-wisudawan/KEP/RAHMAWATI_D3 KEPERAWATAN.JPG"
+    "url_foto": "assets/images/foto-wisudawan/KEP/RAHMAWATI_D3 KEPERAWATAN.webp"
   },
   {
     "no": 149,
@@ -1496,7 +1496,7 @@ const dataWisudawan = [
     "prodi": "D3 Keperawatan",
     "jurusan": "Jurusan Keperawatan",
     "predikat": "Sangat Memuaskan",
-    "url_foto": "assets/images/foto-wisudawan/KEP/RAUDLATUL JANNAH_D3 KEPERAWATAN.JPG"
+    "url_foto": "assets/images/foto-wisudawan/KEP/RAUDLATUL JANNAH_D3 KEPERAWATAN.webp"
   },
   {
     "no": 150,
@@ -1506,7 +1506,7 @@ const dataWisudawan = [
     "prodi": "D3 Keperawatan",
     "jurusan": "Jurusan Keperawatan",
     "predikat": "Sangat Memuaskan",
-    "url_foto": "assets/images/foto-wisudawan/KEP/ROBIATUL ADAWIYAH_D3 KEPERAWATAN.JPG"
+    "url_foto": "assets/images/foto-wisudawan/KEP/ROBIATUL ADAWIYAH_D3 KEPERAWATAN.webp"
   },
   {
     "no": 151,
@@ -1516,7 +1516,7 @@ const dataWisudawan = [
     "prodi": "D3 Keperawatan",
     "jurusan": "Jurusan Keperawatan",
     "predikat": "Sangat Memuaskan",
-    "url_foto": "assets/images/foto-wisudawan/KEP/ROBIATUL ADEWIYAH_D3 KEPERAWATAN.JPG"
+    "url_foto": "assets/images/foto-wisudawan/KEP/ROBIATUL ADEWIYAH_D3 KEPERAWATAN.webp"
   },
   {
     "no": 152,
@@ -1526,7 +1526,7 @@ const dataWisudawan = [
     "prodi": "D3 Keperawatan",
     "jurusan": "Jurusan Keperawatan",
     "predikat": "Dengan Pujian",
-    "url_foto": "assets/images/foto-wisudawan/KEP/ROISAH DINIYAH_D3 KEPERAWATAN.JPG"
+    "url_foto": "assets/images/foto-wisudawan/KEP/ROISAH DINIYAH_D3 KEPERAWATAN.webp"
   },
   {
     "no": 153,
@@ -1536,7 +1536,7 @@ const dataWisudawan = [
     "prodi": "D3 Keperawatan",
     "jurusan": "Jurusan Keperawatan",
     "predikat": "Sangat Memuaskan",
-    "url_foto": "assets/images/foto-wisudawan/KEP/SINTIA MAHARANI_D3 KEPERAWATAN.JPG"
+    "url_foto": "assets/images/foto-wisudawan/KEP/SINTIA MAHARANI_D3 KEPERAWATAN.webp"
   },
   {
     "no": 154,
@@ -1546,7 +1546,7 @@ const dataWisudawan = [
     "prodi": "D3 Keperawatan",
     "jurusan": "Jurusan Keperawatan",
     "predikat": "Sangat Memuaskan",
-    "url_foto": "assets/images/foto-wisudawan/KEP/SITI MUTMAINNAH_D3 KEPERAWATAN.JPG"
+    "url_foto": "assets/images/foto-wisudawan/KEP/SITI MUTMAINNAH_D3 KEPERAWATAN.webp"
   },
   {
     "no": 155,
@@ -1556,7 +1556,7 @@ const dataWisudawan = [
     "prodi": "D3 Keperawatan",
     "jurusan": "Jurusan Keperawatan",
     "predikat": "Dengan Pujian",
-    "url_foto": "assets/images/foto-wisudawan/KEP/SUBKHAN UMAM AMRULLAH_D3 KEPERAWATAN.JPG"
+    "url_foto": "assets/images/foto-wisudawan/KEP/SUBKHAN UMAM AMRULLAH_D3 KEPERAWATAN.webp"
   },
   {
     "no": 156,
@@ -1566,7 +1566,7 @@ const dataWisudawan = [
     "prodi": "D3 Keperawatan",
     "jurusan": "Jurusan Keperawatan",
     "predikat": "Dengan Pujian",
-    "url_foto": "assets/images/foto-wisudawan/KEP/SULASTRI_D3 KEPERAWATAN.JPG"
+    "url_foto": "assets/images/foto-wisudawan/KEP/SULASTRI_D3 KEPERAWATAN.webp"
   },
   {
     "no": 157,
@@ -1576,7 +1576,7 @@ const dataWisudawan = [
     "prodi": "D3 Keperawatan",
     "jurusan": "Jurusan Keperawatan",
     "predikat": "Dengan Pujian",
-    "url_foto": "assets/images/foto-wisudawan/KEP/SUWEIBEH_D3 KEPERAWATAN.JPG"
+    "url_foto": "assets/images/foto-wisudawan/KEP/SUWEIBEH_D3 KEPERAWATAN.webp"
   },
   {
     "no": 158,
@@ -1586,7 +1586,7 @@ const dataWisudawan = [
     "prodi": "D3 Keperawatan",
     "jurusan": "Jurusan Keperawatan",
     "predikat": "Dengan Pujian",
-    "url_foto": "assets/images/foto-wisudawan/KEP/WIDIA MAULIDINA_D3 KEPERAWATAN.JPG"
+    "url_foto": "assets/images/foto-wisudawan/KEP/WIDIA MAULIDINA_D3 KEPERAWATAN.webp"
   },
   {
     "no": 159,
@@ -1596,7 +1596,7 @@ const dataWisudawan = [
     "prodi": "D3 Keperawatan",
     "jurusan": "Jurusan Keperawatan",
     "predikat": "Sangat Memuaskan",
-    "url_foto": "assets/images/foto-wisudawan/KEP/MOH BONTO TUNIPALANGGA_D3 KEPERAWATAN.JPG"
+    "url_foto": "assets/images/foto-wisudawan/KEP/MOH BONTO TUNIPALANGGA_D3 KEPERAWATAN.webp"
   },
   {
     "no": 160,
@@ -1606,7 +1606,7 @@ const dataWisudawan = [
     "prodi": "D3 Keperawatan",
     "jurusan": "Jurusan Keperawatan",
     "predikat": "Dengan Pujian",
-    "url_foto": "assets/images/foto-wisudawan/KEP/FAIQOTUR RIZKI AMALIA_D3 KEPERAWATAN.JPG"
+    "url_foto": "assets/images/foto-wisudawan/KEP/FAIQOTUR RIZKI AMALIA_D3 KEPERAWATAN.webp"
   },
   {
     "no": 161,
@@ -1616,7 +1616,7 @@ const dataWisudawan = [
     "prodi": "D3 Keperawatan",
     "jurusan": "Jurusan Keperawatan",
     "predikat": "Sangat Memuaskan",
-    "url_foto": "assets/images/foto-wisudawan/KEP/EKA ZUBAIDA WULANDARI_D3 KEPERAWATAN.JPG"
+    "url_foto": "assets/images/foto-wisudawan/KEP/EKA ZUBAIDA WULANDARI_D3 KEPERAWATAN.webp"
   },
   {
     "no": 162,
@@ -1626,7 +1626,7 @@ const dataWisudawan = [
     "prodi": "D3 Keperawatan",
     "jurusan": "Jurusan Keperawatan",
     "predikat": "Sangat Memuaskan",
-    "url_foto": "assets/images/foto-wisudawan/KEP/RAHMAT NUR HIDAYAT_D3 KEPERAWATAN.JPG"
+    "url_foto": "assets/images/foto-wisudawan/KEP/RAHMAT NUR HIDAYAT_D3 KEPERAWATAN.webp"
   },
   {
     "no": 163,
@@ -1636,7 +1636,7 @@ const dataWisudawan = [
     "prodi": "D3 Keperawatan",
     "jurusan": "Jurusan Keperawatan",
     "predikat": "Sangat Memuaskan",
-    "url_foto": "assets/images/foto-wisudawan/KEP/FATIR NOER AWALIYAH PUTRI_D3 KEPERAWATAN.JPG"
+    "url_foto": "assets/images/foto-wisudawan/KEP/FATIR NOER AWALIYAH PUTRI_D3 KEPERAWATAN.webp"
   },
   {
     "no": 164,
@@ -1646,7 +1646,7 @@ const dataWisudawan = [
     "prodi": "D3 Keperawatan",
     "jurusan": "Jurusan Keperawatan",
     "predikat": "Dengan Pujian",
-    "url_foto": "assets/images/foto-wisudawan/KEP/SITI FATIMA_D3 KEPERAWATAN.JPG"
+    "url_foto": "assets/images/foto-wisudawan/KEP/SITI FATIMA_D3 KEPERAWATAN.webp"
   },
   {
     "no": 165,
@@ -1656,7 +1656,7 @@ const dataWisudawan = [
     "prodi": "D3 Keperawatan",
     "jurusan": "Jurusan Keperawatan",
     "predikat": "Sangat Memuaskan",
-    "url_foto": "assets/images/foto-wisudawan/KEP/RISKIA SUFANDINI_D3 KEPERAWATAN.JPG"
+    "url_foto": "assets/images/foto-wisudawan/KEP/RISKIA SUFANDINI_D3 KEPERAWATAN.webp"
   },
   {
     "no": 166,
@@ -1666,7 +1666,7 @@ const dataWisudawan = [
     "prodi": "D3 Keperawatan",
     "jurusan": "Jurusan Keperawatan",
     "predikat": "Dengan Pujian",
-    "url_foto": "assets/images/foto-wisudawan/KEP/REFAN ANTONIO_D3 KEPERAWATAN.JPG"
+    "url_foto": "assets/images/foto-wisudawan/KEP/REFAN ANTONIO_D3 KEPERAWATAN.webp"
   },
   {
     "no": 167,
@@ -1676,7 +1676,7 @@ const dataWisudawan = [
     "prodi": "D3 Keperawatan",
     "jurusan": "Jurusan Keperawatan",
     "predikat": "Sangat Memuaskan",
-    "url_foto": "assets/images/foto-wisudawan/KEP/UMMI FAUZIYAH QARIB_D3 KEPERAWATAN.JPG"
+    "url_foto": "assets/images/foto-wisudawan/KEP/UMMI FAUZIYAH QARIB_D3 KEPERAWATAN.webp"
   },
   {
     "no": 168,
@@ -1686,7 +1686,7 @@ const dataWisudawan = [
     "prodi": "D3 Keperawatan",
     "jurusan": "Jurusan Keperawatan",
     "predikat": "Sangat Memuaskan",
-    "url_foto": "assets/images/foto-wisudawan/KEP/ARISTA PUSPITA SARI_D3 KEPERAWATAN.JPG"
+    "url_foto": "assets/images/foto-wisudawan/KEP/ARISTA PUSPITA SARI_D3 KEPERAWATAN.webp"
   },
   {
     "no": 169,
@@ -1696,7 +1696,7 @@ const dataWisudawan = [
     "prodi": "D3 Keperawatan",
     "jurusan": "Jurusan Keperawatan",
     "predikat": "Sangat Memuaskan",
-    "url_foto": "assets/images/foto-wisudawan/KEP/NOVY RIZKY WIDIANTY_D3 KEPERAWATAN.JPG"
+    "url_foto": "assets/images/foto-wisudawan/KEP/NOVY RIZKY WIDIANTY_D3 KEPERAWATAN.webp"
   },
   {
     "no": 170,
@@ -1706,7 +1706,7 @@ const dataWisudawan = [
     "prodi": "D3 Keperawatan",
     "jurusan": "Jurusan Keperawatan",
     "predikat": "Sangat Memuaskan",
-    "url_foto": "assets/images/foto-wisudawan/KEP/LARASATI PUTRI MAHARANI_D3 KEPERAWATAN.JPG"
+    "url_foto": "assets/images/foto-wisudawan/KEP/LARASATI PUTRI MAHARANI_D3 KEPERAWATAN.webp"
   },
   {
     "no": 171,
@@ -1716,7 +1716,7 @@ const dataWisudawan = [
     "prodi": "D3 Keperawatan",
     "jurusan": "Jurusan Keperawatan",
     "predikat": "Sangat Memuaskan",
-    "url_foto": "assets/images/foto-wisudawan/KEP/HULLATUL FAUDAH_D3 KEPERAWATAN.JPG"
+    "url_foto": "assets/images/foto-wisudawan/KEP/HULLATUL FAUDAH_D3 KEPERAWATAN.webp"
   },
   {
     "no": 172,
@@ -1726,7 +1726,7 @@ const dataWisudawan = [
     "prodi": "D3 Keperawatan",
     "jurusan": "Jurusan Keperawatan",
     "predikat": "Sangat Memuaskan",
-    "url_foto": "assets/images/foto-wisudawan/KEP/M. HAIKAL FASYA ABRORI_D3 KEPERAWATAN.JPG"
+    "url_foto": "assets/images/foto-wisudawan/KEP/M. HAIKAL FASYA ABRORI_D3 KEPERAWATAN.webp"
   },
   {
     "no": 173,
@@ -1736,7 +1736,7 @@ const dataWisudawan = [
     "prodi": "D3 Keperawatan",
     "jurusan": "Jurusan Keperawatan",
     "predikat": "Sangat Memuaskan",
-    "url_foto": "assets/images/foto-wisudawan/KEP/IRWANSYAH_D3 KEPERAWATAN.JPG"
+    "url_foto": "assets/images/foto-wisudawan/KEP/IRWANSYAH_D3 KEPERAWATAN.webp"
   },
   {
     "no": 174,
@@ -1746,7 +1746,7 @@ const dataWisudawan = [
     "prodi": "D3 Keperawatan",
     "jurusan": "Jurusan Keperawatan",
     "predikat": "Dengan Pujian",
-    "url_foto": "assets/images/foto-wisudawan/KEP/NISWATIS SAKIYAH_D3 KEPERAWATAN.JPG"
+    "url_foto": "assets/images/foto-wisudawan/KEP/NISWATIS SAKIYAH_D3 KEPERAWATAN.webp"
   },
   {
     "no": 175,
@@ -1756,7 +1756,7 @@ const dataWisudawan = [
     "prodi": "D3 Keperawatan",
     "jurusan": "Jurusan Keperawatan",
     "predikat": "Sangat Memuaskan",
-    "url_foto": "assets/images/foto-wisudawan/KEP/SOFIYA_D3 KEPERAWATAN.JPG"
+    "url_foto": "assets/images/foto-wisudawan/KEP/SOFIYA_D3 KEPERAWATAN.webp"
   },
   {
     "no": 176,
@@ -1766,7 +1766,7 @@ const dataWisudawan = [
     "prodi": "D3 Keperawatan",
     "jurusan": "Jurusan Keperawatan",
     "predikat": "Sangat Memuaskan",
-    "url_foto": "assets/images/foto-wisudawan/KEP/SUCI NUR ISLAMI_D3 KEPERAWATAN.JPG"
+    "url_foto": "assets/images/foto-wisudawan/KEP/SUCI NUR ISLAMI_D3 KEPERAWATAN.webp"
   },
   {
     "no": 177,
@@ -1776,7 +1776,7 @@ const dataWisudawan = [
     "prodi": "D3 Keperawatan",
     "jurusan": "Jurusan Keperawatan",
     "predikat": "Sangat Memuaskan",
-    "url_foto": "assets/images/foto-wisudawan/KEP/SELVIA AGUSTIN_D3 KEPERAWATAN.JPG"
+    "url_foto": "assets/images/foto-wisudawan/KEP/SELVIA AGUSTIN_D3 KEPERAWATAN.webp"
   },
   {
     "no": 178,
@@ -1786,6 +1786,6 @@ const dataWisudawan = [
     "prodi": "D3 Keperawatan",
     "jurusan": "Jurusan Keperawatan",
     "predikat": "Sangat Memuaskan",
-    "url_foto": "assets/images/foto-wisudawan/KEP/AINI YATUR ROHMAH_D3 KEPERAWATAN.JPG"
+    "url_foto": "assets/images/foto-wisudawan/KEP/AINI YATUR ROHMAH_D3 KEPERAWATAN.webp"
   }
 ];
