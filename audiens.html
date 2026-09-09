@@ -1,213 +1,254 @@
 <!doctype html>
 <html lang="id">
-  <head>
-    <meta charset="UTF-8" />
-    <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"
-    />
-    <title>Kirim Reaksi</title>
-    <script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-app.js"></script>
-    <script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-database.js"></script>
-    <style>
-      @import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;700&display=swap');
 
-      body {
-        font-family: 'Space Grotesk', sans-serif;
-        text-align: center;
-        background: #ffde59; /* Bright Yellow Background */
-        color: #000;
-        margin: 0;
-        padding: 20px;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        min-height: 100vh;
-        box-sizing: border-box;
-      }
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+  <title>Kirim Reaksi</title>
+  <script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-app.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-database.js"></script>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;700&display=swap');
 
-      .neo-box {
-        background: #fff;
-        border: 4px solid #000;
-        box-shadow: 8px 8px 0px #000;
-        border-radius: 12px;
-        padding: 30px 20px;
-        width: 100%;
-        max-width: 400px;
-        margin-bottom: 20px;
-      }
+    body {
+      font-family: 'Space Grotesk', sans-serif;
+      text-align: center;
+      background: #ffde59;
+      /* Bright Yellow Background */
+      color: #000;
+      margin: 0;
+      padding: 20px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      min-height: 100vh;
+      box-sizing: border-box;
+    }
 
-      h1, h2, h3, p {
-        margin: 0;
-        padding: 0;
-      }
+    .neo-box {
+      background: #fff;
+      border: 4px solid #000;
+      box-shadow: 8px 8px 0px #000;
+      border-radius: 12px;
+      padding: 30px 20px;
+      width: 100%;
+      max-width: 400px;
+      margin-bottom: 20px;
+    }
 
-      .label-panggung {
-        font-size: 14px;
-        font-weight: 700;
-        text-transform: uppercase;
-        background: #000;
-        color: #fff;
-        padding: 5px 12px;
-        border-radius: 20px;
-        display: inline-block;
-        margin-bottom: 20px;
-      }
+    h1,
+    h2,
+    h3,
+    p {
+      margin: 0;
+      padding: 0;
+    }
 
-      #teks-nama {
-        font-size: 28px;
-        font-weight: 700;
-        line-height: 1.3;
-        margin-bottom: 30px;
-        color: #000;
-        text-transform: uppercase;
-        /* Dibuat solid black tanpa shadow agar kontras maksimal dan mudah dibaca */
-      }
+    .label-panggung {
+      font-size: 14px;
+      font-weight: 700;
+      text-transform: uppercase;
+      background: #000;
+      color: #fff;
+      padding: 5px 12px;
+      border-radius: 20px;
+      display: inline-block;
+      margin-bottom: 20px;
+    }
 
-      .teks-instruksi {
-        font-weight: 700;
-        margin-bottom: 15px;
-        font-size: 18px;
-      }
+    #teks-nama {
+      font-size: 28px;
+      font-weight: 700;
+      line-height: 1.3;
+      margin-bottom: 30px;
+      color: #000;
+      text-transform: uppercase;
+      /* Dibuat solid black tanpa shadow agar kontras maksimal dan mudah dibaca */
+    }
 
-      .btn-container {
-        display: flex;
-        justify-content: center;
-        gap: 15px;
-        flex-wrap: wrap;
-      }
+    .teks-instruksi {
+      font-weight: 700;
+      margin-bottom: 15px;
+      font-size: 18px;
+    }
 
-      .btn-emoji {
-        font-size: 35px; /* Sedikit dikecilkan agar muat banyak */
-        background: #fff;
-        border: 4px solid #000;
-        border-radius: 12px;
-        padding: 10px 18px;
-        cursor: pointer;
-        box-shadow: 4px 4px 0px #000;
-        transition: all 0.1s ease;
-      }
+    .btn-container {
+      display: flex;
+      justify-content: center;
+      gap: 15px;
+      flex-wrap: wrap;
+    }
 
-      /* Warna-warni meriah untuk 8 tombol */
-      .btn-emoji:nth-child(1) { background: #38b6ff; } /* Biru */
-      .btn-emoji:nth-child(2) { background: #ff5757; } /* Merah */
-      .btn-emoji:nth-child(3) { background: #ffbd59; } /* Oranye */
-      .btn-emoji:nth-child(4) { background: #ff66c4; } /* Pink */
-      .btn-emoji:nth-child(5) { background: #c1ff72; } /* Lime */
-      .btn-emoji:nth-child(6) { background: #8c52ff; } /* Ungu */
-      .btn-emoji:nth-child(7) { background: #00bf63; } /* Hijau */
-      .btn-emoji:nth-child(8) { background: #ff3131; } /* Merah Terang */
+    .btn-emoji {
+      font-size: 35px;
+      /* Sedikit dikecilkan agar muat banyak */
+      background: #fff;
+      border: 4px solid #000;
+      border-radius: 12px;
+      padding: 10px 18px;
+      cursor: pointer;
+      box-shadow: 4px 4px 0px #000;
+      transition: all 0.1s ease;
+    }
 
-      .btn-emoji:active {
-        transform: translate(4px, 4px);
-        box-shadow: 0px 0px 0px #000;
-      }
+    /* Warna-warni meriah untuk 8 tombol */
+    .btn-emoji:nth-child(1) {
+      background: #38b6ff;
+    }
 
-      #status, #pesan-penuh, #area-interaktif {
-        display: none; /* Controlled by JS */
-      }
+    /* Biru */
+    .btn-emoji:nth-child(2) {
+      background: #ff5757;
+    }
 
-      #pesan-penuh {
-        background: #ff5757;
-        color: #fff;
-      }
+    /* Merah */
+    .btn-emoji:nth-child(3) {
+      background: #ffbd59;
+    }
 
-      #pesan-penuh h3 {
-        margin-bottom: 10px;
-        text-shadow: 2px 2px 0px #000;
-      }
-    </style>
-  </head>
-  <body>
-    <!-- Loading State -->
-    <div id="status" class="neo-box" style="display: block;">
-      <h2>Mengecek kursi...</h2>
+    /* Oranye */
+    .btn-emoji:nth-child(4) {
+      background: #ff66c4;
+    }
+
+    /* Pink */
+    .btn-emoji:nth-child(5) {
+      background: #c1ff72;
+    }
+
+    /* Lime */
+    .btn-emoji:nth-child(6) {
+      background: #8c52ff;
+    }
+
+    /* Ungu */
+    .btn-emoji:nth-child(7) {
+      background: #00bf63;
+    }
+
+    /* Hijau */
+    .btn-emoji:nth-child(8) {
+      background: #ff3131;
+    }
+
+    /* Merah Terang */
+
+    .btn-emoji:active {
+      transform: translate(4px, 4px);
+      box-shadow: 0px 0px 0px #000;
+    }
+
+    #status,
+    #pesan-penuh,
+    #area-interaktif {
+      display: none;
+      /* Controlled by JS */
+    }
+
+    #pesan-penuh {
+      background: #ff5757;
+      color: #fff;
+    }
+
+    #pesan-penuh h3 {
+      margin-bottom: 10px;
+      text-shadow: 2px 2px 0px #000;
+    }
+  </style>
+</head>
+
+<body>
+  <!-- Loading State -->
+  <div id="status" class="neo-box" style="display: block;">
+    <h2>Mengecek kursi...</h2>
+  </div>
+
+  <!-- Error State -->
+  <div id="pesan-penuh" class="neo-box">
+    <h3>Maaf, Kuota Penuh 😔</h3>
+    <p style="font-weight: 700;">Saat ini 50 audiens sedang aktif. Silakan tunggu beberapa saat dan refresh halaman ini.
+    </p>
+  </div>
+
+  <!-- Interactive State -->
+  <div id="area-interaktif" class="neo-box">
+    <span class="label-panggung">Saat ini di panggung</span>
+    <h2 id="teks-nama">Menunggu...</h2>
+
+    <p class="teks-instruksi">Berikan reaksi Anda!</p>
+    <div class="btn-container">
+      <button class="btn-emoji" onclick="kirimReaksi('👏')">👏</button>
+      <button class="btn-emoji" onclick="kirimReaksi('❤️')">❤️</button>
+      <button class="btn-emoji" onclick="kirimReaksi('🎉')">🎉</button>
+      <button class="btn-emoji" onclick="kirimReaksi('🎓')">🎓</button>
+      <button class="btn-emoji" onclick="kirimReaksi('✨')">✨</button>
+      <button class="btn-emoji" onclick="kirimReaksi('💐')">💐</button>
+      <button class="btn-emoji" onclick="kirimReaksi('🤩')">🤩</button>
+      <button class="btn-emoji" onclick="kirimReaksi('🔥')">🔥</button>
     </div>
+  </div>
 
-    <!-- Error State -->
-    <div id="pesan-penuh" class="neo-box">
-      <h3>Maaf, Kuota Penuh 😔</h3>
-      <p style="font-weight: 700;">Saat ini 50 audiens sedang aktif. Silakan tunggu beberapa saat dan refresh halaman ini.</p>
-    </div>
+  <script>
+    // --- PASTE FIREBASE CONFIG ANDA DI SINI ---
+    const firebaseConfig = {
+      apiKey: "AIzaSyDJ__M-cf3mmNBfgMUz1gap4MiYDkDzieQ",
+      authDomain: "live-reaction-1aa2b.firebaseapp.com",
+      databaseURL:
+        "https://live-reaction-1aa2b-default-rtdb.asia-southeast1.firebasedatabase.app",
+      projectId: "live-reaction-1aa2b",
+      storageBucket: "live-reaction-1aa2b.firebasestorage.app",
+      messagingSenderId: "816278406549",
+      appId: "1:816278406549:web:404fdab279c6512be8229c",
+      measurementId: "G-146S1736X5",
+    };
+    firebase.initializeApp(firebaseConfig);
+    const db = firebase.database();
 
-    <!-- Interactive State -->
-    <div id="area-interaktif" class="neo-box">
-      <span class="label-panggung">Saat ini di panggung</span>
-      <h2 id="teks-nama">Menunggu...</h2>
-      
-      <p class="teks-instruksi">Berikan reaksi Anda!</p>
-      <div class="btn-container">
-        <button class="btn-emoji" onclick="kirimReaksi('👏')">👏</button>
-        <button class="btn-emoji" onclick="kirimReaksi('❤️')">❤️</button>
-        <button class="btn-emoji" onclick="kirimReaksi('🎉')">🎉</button>
-        <button class="btn-emoji" onclick="kirimReaksi('🎓')">🎓</button>
-        <button class="btn-emoji" onclick="kirimReaksi('✨')">✨</button>
-        <button class="btn-emoji" onclick="kirimReaksi('💐')">💐</button>
-        <button class="btn-emoji" onclick="kirimReaksi('🤩')">🤩</button>
-        <button class="btn-emoji" onclick="kirimReaksi('🔥')">🔥</button>
-      </div>
-    </div>
+    // Logika Pembatasan Kuota (Maksimal 30)
+    const MAX_USERS = 30;
+    const userId = Math.random().toString(36).substring(7);
+    const myRef = db.ref("penonton_aktif/" + userId);
+    const penontonAktifRef = db.ref("penonton_aktif");
 
-    <script>
-      // --- PASTE FIREBASE CONFIG ANDA DI SINI ---
-      const firebaseConfig = {
-        apiKey: "AIzaSyDJ__M-cf3mmNBfgMUz1gap4MiYDkDzieQ",
-        authDomain: "live-reaction-1aa2b.firebaseapp.com",
-        databaseURL:
-          "https://live-reaction-1aa2b-default-rtdb.asia-southeast1.firebasedatabase.app",
-        projectId: "live-reaction-1aa2b",
-        storageBucket: "live-reaction-1aa2b.firebasestorage.app",
-        messagingSenderId: "816278406549",
-        appId: "1:816278406549:web:404fdab279c6512be8229c",
-        measurementId: "G-146S1736X5",
-      };
-      firebase.initializeApp(firebaseConfig);
-      const db = firebase.database();
+    penontonAktifRef.on("value", (snapshot) => {
+      const totalAktif = snapshot.numChildren();
+      document.getElementById("status").style.display = "none";
 
-      // Logika Pembatasan Kuota (Maksimal 50)
-      const MAX_USERS = 50;
-      const userId = Math.random().toString(36).substring(7);
-      const myRef = db.ref("penonton_aktif/" + userId);
-      const penontonAktifRef = db.ref("penonton_aktif");
+      if (snapshot.hasChild(userId) || totalAktif < MAX_USERS) {
+        document.getElementById("area-interaktif").style.display = "block";
+        document.getElementById("pesan-penuh").style.display = "none";
+        myRef.set(true);
+        myRef.onDisconnect().remove();
+      } else {
+        document.getElementById("area-interaktif").style.display = "none";
+        document.getElementById("pesan-penuh").style.display = "block";
+      }
+    });
 
-      penontonAktifRef.on("value", (snapshot) => {
-        const totalAktif = snapshot.numChildren();
-        document.getElementById("status").style.display = "none";
+    // Update nama wisudawan dari Operator
+    db.ref("status_layar").on("value", (snapshot) => {
+      const data = snapshot.val();
+      if (data)
+        document.getElementById("teks-nama").innerText = data.nama_wisudawan;
+    });
 
-        if (snapshot.hasChild(userId) || totalAktif < MAX_USERS) {
-          document.getElementById("area-interaktif").style.display = "block";
-          document.getElementById("pesan-penuh").style.display = "none";
-          myRef.set(true);
-          myRef.onDisconnect().remove();
-        } else {
-          document.getElementById("area-interaktif").style.display = "none";
-          document.getElementById("pesan-penuh").style.display = "block";
-        }
+    // Fungsi Kirim Reaksi (Dengan Throttling Anti-Spam)
+    let terakhirKirim = 0;
+    function kirimReaksi(emoji) {
+      const sekarang = Date.now();
+      // Batasi maksimal 2-3 klik per detik (300ms antar klik)
+      if (sekarang - terakhirKirim < 300) {
+        return; // Abaikan diam-diam jika audiens terlalu brutal memencet
+      }
+      terakhirKirim = sekarang;
+
+      db.ref("reaksi_live").push({
+        emoji: emoji,
+        timestamp: sekarang,
       });
+    }
+  </script>
+</body>
 
-      // Update nama wisudawan dari Operator
-      db.ref("status_layar").on("value", (snapshot) => {
-        const data = snapshot.val();
-        if (data)
-          document.getElementById("teks-nama").innerText = data.nama_wisudawan;
-      });
-
-      // Fungsi Kirim Reaksi (Dengan Throttling Anti-Spam)
-      let terakhirKirim = 0;
-      function kirimReaksi(emoji) {
-        const sekarang = Date.now();
-        // Batasi maksimal 2-3 klik per detik (300ms antar klik)
-        if (sekarang - terakhirKirim < 300) {
-          return; // Abaikan diam-diam jika audiens terlalu brutal memencet
-        }
-        terakhirKirim = sekarang;
-
-        db.ref("reaksi_live").push({
-          emoji: emoji,
-          timestamp: sekarang,
-        });
-      }
-    </script>
-  </body>
 </html>

@@ -146,6 +146,15 @@
     firebase.initializeApp(firebaseConfig);
     const db = firebase.database();
 
+    // --- PROTEKSI ANTI-ISENG (Mencegah Klik Kanan & Inspect Element) ---
+    document.addEventListener('contextmenu', event => event.preventDefault());
+    document.onkeydown = function(e) {
+      if(e.key === "F12") return false;
+      if(e.ctrlKey && e.shiftKey && (e.key === "I" || e.key === "i")) return false; // Ctrl+Shift+I
+      if(e.ctrlKey && e.shiftKey && (e.key === "J" || e.key === "j")) return false; // Ctrl+Shift+J
+      if(e.ctrlKey && (e.key === "U" || e.key === "u")) return false; // Ctrl+U (View Source)
+    };
+
     // --- DUAL SYNC SETUP ---
     const channel = new BroadcastChannel('wisuda_channel');
     let indexSaatIni = -1;
