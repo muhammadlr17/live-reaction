@@ -1,0 +1,256 @@
+<!doctype html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Panel Operator Wisuda</title>
+  <script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-app.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-database.js"></script>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;700&display=swap');
+    body {
+      font-family: 'Space Grotesk', sans-serif;
+      background: #f1c40f; /* Neo brutalism yellow */
+      margin: 0;
+      padding: 20px;
+      color: #000;
+    }
+    .header-panel {
+      background: #fff;
+      border: 4px solid #000;
+      box-shadow: 6px 6px 0px #000;
+      border-radius: 12px;
+      padding: 20px;
+      margin-bottom: 20px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      position: sticky;
+      top: 20px;
+      z-index: 100;
+    }
+    .search-box {
+      font-family: 'Space Grotesk', sans-serif;
+      font-size: 1.2rem;
+      padding: 10px 15px;
+      border: 3px solid #000;
+      border-radius: 8px;
+      width: 300px;
+      font-weight: 700;
+      box-shadow: 4px 4px 0px #000;
+      outline: none;
+    }
+    .search-box:focus {
+      border-color: #38b6ff;
+    }
+    .list-container {
+      background: #fff;
+      border: 4px solid #000;
+      box-shadow: 8px 8px 0px #000;
+      border-radius: 12px;
+      overflow: hidden;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+    }
+    th, td {
+      border-bottom: 2px solid #000;
+      padding: 15px;
+      text-align: left;
+    }
+    th {
+      background: #38b6ff;
+      border-bottom: 4px solid #000;
+      font-weight: 700;
+      font-size: 1.2rem;
+    }
+    tr.active-row {
+      background: #c1ff72 !important; /* Hijau terang untuk yg aktif */
+    }
+    tr:nth-child(even) {
+      background: #f8f9fa;
+    }
+    .btn-tampil {
+      font-family: 'Space Grotesk', sans-serif;
+      background: #ff5757;
+      color: #fff;
+      font-weight: 700;
+      border: 3px solid #000;
+      padding: 8px 15px;
+      border-radius: 6px;
+      cursor: pointer;
+      box-shadow: 3px 3px 0px #000;
+      transition: all 0.1s ease;
+    }
+    .btn-tampil:active {
+      transform: translate(3px, 3px);
+      box-shadow: 0px 0px 0px #000;
+    }
+    .btn-aktif {
+      background: #00bf63; /* Hijau saat sedang aktif */
+      cursor: default;
+      box-shadow: 0px 0px 0px #000;
+      transform: translate(3px, 3px);
+    }
+    .prodi-header {
+      background: #000;
+      color: #fff;
+      font-size: 1.1rem;
+      text-align: center;
+      padding: 10px;
+      letter-spacing: 2px;
+      font-weight: 700;
+    }
+  </style>
+</head>
+<body>
+  <div class="header-panel">
+    <div>
+      <h1 style="margin:0; font-size: 24px;">🎛️ Master Panel Operator</h1>
+      <p style="margin: 5px 0 0 0; font-weight: 700; font-size:14px; color: #555;">Sistem terhubung via BroadcastChannel (Offline) & Firebase (Online)</p>
+    </div>
+    <input type="text" id="searchInput" class="search-box" placeholder="Cari Nama atau NRP..." onkeyup="cariData()">
+  </div>
+
+  <div class="list-container">
+    <table id="tabelWisudawan">
+      <thead>
+        <tr>
+          <th width="5%">No</th>
+          <th width="15%">NRP</th>
+          <th width="45%">Nama Lengkap</th>
+          <th width="20%">Predikat</th>
+          <th width="15%">Aksi</th>
+        </tr>
+      </thead>
+      <tbody id="isiTabel">
+        <!-- Akan diisi oleh JS -->
+      </tbody>
+    </table>
+  </div>
+
+  <script src="data.js"></script>
+  <script>
+    // --- FIREBASE INITIALIZATION ---
+    const firebaseConfig = {
+      apiKey: "AIzaSyDJ__M-cf3mmNBfgMUz1gap4MiYDkDzieQ",
+      authDomain: "live-reaction-1aa2b.firebaseapp.com",
+      databaseURL: "https://live-reaction-1aa2b-default-rtdb.asia-southeast1.firebasedatabase.app",
+      projectId: "live-reaction-1aa2b",
+      storageBucket: "live-reaction-1aa2b.firebasestorage.app",
+      messagingSenderId: "816278406549",
+      appId: "1:816278406549:web:404fdab279c6512be8229c",
+      measurementId: "G-146S1736X5",
+    };
+    firebase.initializeApp(firebaseConfig);
+    const db = firebase.database();
+
+    // --- DUAL SYNC SETUP ---
+    const channel = new BroadcastChannel('wisuda_channel');
+    let indexSaatIni = -1;
+
+    const tbody = document.getElementById('isiTabel');
+    
+    function renderTabel() {
+      let currentProdi = '';
+      let html = '';
+      
+      dataWisudawan.forEach((item, index) => {
+        if (item.prodi !== currentProdi) {
+          currentProdi = item.prodi;
+          html += `<tr><td colspan="5" class="prodi-header">${currentProdi.toUpperCase()}</td></tr>`;
+        }
+        
+        html += `
+          <tr id="baris-${index}" class="data-row">
+            <td>${item.no}</td>
+            <td class="td-nrp">${item.nrp}</td>
+            <td class="td-nama" style="font-weight: 700;">${item.namaLengkap}</td>
+            <td>${item.predikat}</td>
+            <td>
+              <button id="btn-${index}" class="btn-tampil" onclick="lompatKe(${index})">Tampilkan</button>
+            </td>
+          </tr>
+        `;
+      });
+      
+      tbody.innerHTML = html;
+    }
+    
+    renderTabel();
+
+    function lompatKe(index) {
+      if (index === indexSaatIni) return;
+      
+      // Kirim sinyal ke Videotron
+      channel.postMessage({ type: 'LOMPAT', index: index });
+      db.ref('kontrol_layar').set({ indexSaatIni: index });
+      
+      updateUI(index);
+    }
+
+    function updateUI(index) {
+      // Reset warna dan tombol lama
+      if (indexSaatIni !== -1) {
+        const barisLama = document.getElementById(`baris-${indexSaatIni}`);
+        const btnLama = document.getElementById(`btn-${indexSaatIni}`);
+        if (barisLama) barisLama.classList.remove('active-row');
+        if (btnLama) {
+          btnLama.innerText = 'Tampilkan';
+          btnLama.classList.remove('btn-aktif');
+        }
+      }
+      
+      indexSaatIni = index;
+      
+      // Update warna dan tombol baru
+      const barisBaru = document.getElementById(`baris-${indexSaatIni}`);
+      const btnBaru = document.getElementById(`btn-${indexSaatIni}`);
+      if (barisBaru) {
+        barisBaru.classList.add('active-row');
+        // Smooth scroll agar tabel mengikuti (aktifkan jika diinginkan)
+        // barisBaru.scrollIntoView({ behavior: 'smooth', block: 'center' });
+      }
+      if (btnBaru) {
+        btnBaru.innerText = 'Sedang Tampil';
+        btnBaru.classList.add('btn-aktif');
+      }
+    }
+
+    // Mendengarkan jika Videotron diganti via Keyboard (Arrow Keys)
+    channel.onmessage = (event) => {
+      if (event.data.type === 'UPDATE_INDEX') {
+        if (event.data.index !== indexSaatIni) {
+          updateUI(event.data.index);
+        }
+      }
+    };
+
+    // Firebase fallback pendengar (Jika operator menggunakan HP/Laptop lain)
+    db.ref('kontrol_layar/indexSaatIni').on('value', (snapshot) => {
+      const idx = snapshot.val();
+      if (idx !== null && idx !== indexSaatIni) {
+        updateUI(idx);
+      }
+    });
+
+    // Fitur Pencarian Cerdas
+    function cariData() {
+      const input = document.getElementById('searchInput').value.toLowerCase();
+      const rows = document.getElementsByClassName('data-row');
+      
+      for (let i = 0; i < rows.length; i++) {
+        const nrp = rows[i].querySelector('.td-nrp').innerText.toLowerCase();
+        const nama = rows[i].querySelector('.td-nama').innerText.toLowerCase();
+        
+        if (nrp.includes(input) || nama.includes(input)) {
+          rows[i].style.display = '';
+        } else {
+          rows[i].style.display = 'none';
+        }
+      }
+    }
+  </script>
+</body>
+</html>

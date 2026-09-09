@@ -263,6 +263,28 @@
     // ==========================================
     let indexSaatIni = 0;
 
+    // SETUP DUAL-SYNC (Mendengarkan instruksi lompat urutan dari operator.html)
+    const channel = new BroadcastChannel('wisuda_channel');
+
+    // Mendengarkan dari 1 laptop yang sama (Zero-Latency)
+    channel.onmessage = (event) => {
+      if (event.data.type === 'LOMPAT') {
+        if (event.data.index !== indexSaatIni) {
+          indexSaatIni = event.data.index;
+          renderWisudawan(indexSaatIni);
+        }
+      }
+    };
+
+    // Mendengarkan dari Laptop/HP yang berbeda (via Internet)
+    db.ref('kontrol_layar/indexSaatIni').on('value', (snapshot) => {
+      const idx = snapshot.val();
+      if (idx !== null && idx !== indexSaatIni) {
+        indexSaatIni = idx;
+        renderWisudawan(indexSaatIni);
+      }
+    });
+
     // ==========================================
     // 2. FUNGSI UNTUK MERENDER DATA KE LAYAR
     // ==========================================
@@ -314,11 +336,15 @@
         `Urutan: ${indexSaatIni + 1} dari ${dataWisudawan.length}`;
 
       // Update hint urutan untuk MC (di dalam card)
-      document.getElementById("hint-mc").innerText =
+      document.getElementById("hint-mc").innerText = 
         `${indexSaatIni + 1} / ${dataWisudawan.length}`;
 
       // Otomatis kirim nama wisudawan ke HP audiens (Firebase)
       db.ref('status_layar').set({ nama_wisudawan: profil.namaLengkap });
+      
+      // Sinkronisasi: Laporkan ke operator jika ganti urutan manual via keyboard
+      channel.postMessage({ type: 'UPDATE_INDEX', index: indexSaatIni });
+      db.ref('kontrol_layar').set({ indexSaatIni: indexSaatIni });
     }
 
     renderWisudawan(indexSaatIni);
