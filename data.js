@@ -1,763 +1,7 @@
 const dataWisudawan = [
-  // D3 Teknik Listrik Industri
-  {
-    "no": 1,
-    "namaLengkap": "Esti Aisyah Dinasaputri, A.Md.T.",
-    "nrp": "33112101028",
-    "ipk": "3.61",
-    "prodi": "D3 Teknik Listrik Industri",
-    "jurusan": "Jurusan Teknologi Elektro",
-    "predikat": "Sangat Memuaskan",
-    "url_foto": "assets/images/foto-wisudawan/TLI/ESTI AISYAH DINASAPUTRI_D3 TEKNIK LISTRIK INDUSTRI.webp"
-  },
-  {
-    "no": 2,
-    "namaLengkap": "Raflie Nurivansyah, A.Md.T.",
-    "nrp": "33112101044",
-    "ipk": "3.58",
-    "prodi": "D3 Teknik Listrik Industri",
-    "jurusan": "Jurusan Teknologi Elektro",
-    "predikat": "Sangat Memuaskan",
-    "url_foto": "assets/images/foto-wisudawan/TLI/RAFLIE NURURIVANSYAH_D3 TEKNIK LISTRIK INDUSTRI.webp"
-  },
-  {
-    "no": 3,
-    "namaLengkap": "Moh. Rifqi Assyiroji, A.Md.T.",
-    "nrp": "33112201010",
-    "ipk": "3.19",
-    "prodi": "D3 Teknik Listrik Industri",
-    "jurusan": "Jurusan Teknologi Elektro",
-    "predikat": "Sangat Memuaskan",
-    "url_foto": "assets/images/foto-wisudawan/TLI/MOH RIFQI ASSYIROJI_D3 TEKNIK LISTRIK INDUSTRI.webp"
-  },
-  {
-    "no": 4,
-    "namaLengkap": "Ach Zainal Abidin, A.Md.T.",
-    "nrp": "33112201046",
-    "ipk": "3.43",
-    "prodi": "D3 Teknik Listrik Industri",
-    "jurusan": "Jurusan Teknologi Elektro",
-    "predikat": "Sangat Memuaskan",
-    "url_foto": "assets/images/foto-wisudawan/TLI/ACH ZAINAL ABIDIN_D3 TEKNIK LISTRIK INDUSTRI.webp"
-  },
-  {
-    "no": 5,
-    "namaLengkap": "Achmad Mughofir, A.Md.T.",
-    "nrp": "33112301002",
-    "ipk": "3.71",
-    "prodi": "D3 Teknik Listrik Industri",
-    "jurusan": "Jurusan Teknologi Elektro",
-    "predikat": "Dengan Pujian",
-    "url_foto": "assets/images/foto-wisudawan/TLI/ACHMAD MUGHOFIR_D3 TEKNIK LISTRIK INDUSTRI.webp"
-  },
-  {
-    "no": 6,
-    "namaLengkap": "Halimatus Sa'diyah, A.Md.T.",
-    "nrp": "33112301005",
-    "ipk": "3.34",
-    "prodi": "D3 Teknik Listrik Industri",
-    "jurusan": "Jurusan Teknologi Elektro",
-    "predikat": "Sangat Memuaskan",
-    "url_foto": "assets/images/foto-wisudawan/TLI/HALIMATUS SA`DIYAH_D3 TEKNIK LISTRIK INDUSTRI.webp"
-  },
-  {
-    "no": 7,
-    "namaLengkap": "Mohamad Ihwan Maulana, A.Md.T.",
-    "nrp": "33112301007",
-    "ipk": "3.42",
-    "prodi": "D3 Teknik Listrik Industri",
-    "jurusan": "Jurusan Teknologi Elektro",
-    "predikat": "Sangat Memuaskan",
-    "url_foto": "assets/images/foto-wisudawan/TLI/MOHAMAD IHWAN MAULANA_D3 TEKNIK LISTRIK INDUSTRI.webp"
-  },
-  {
-    "no": 8,
-    "namaLengkap": "Muchammad Syahrul Ramadhani, A.Md.T.",
-    "nrp": "33112301008",
-    "ipk": "3.08",
-    "prodi": "D3 Teknik Listrik Industri",
-    "jurusan": "Jurusan Teknologi Elektro",
-    "predikat": "Sangat Memuaskan",
-    "url_foto": "assets/images/foto-wisudawan/TLI/MUCHAMMAD SYAHRUL RAMADHANI_D3 TEKNIK LISTRIK INDUSTRI.webp"
-  },
-  {
-    "no": 9,
-    "namaLengkap": "Muhammad Aditya Rahman, A.Md.T.",
-    "nrp": "33112301009",
-    "ipk": "3.63",
-    "prodi": "D3 Teknik Listrik Industri",
-    "jurusan": "Jurusan Teknologi Elektro",
-    "predikat": "Dengan Pujian",
-    "url_foto": "assets/images/foto-wisudawan/TLI/MUHAMMAD ADITYA RAHMAN_D3 TEKNIK LISTRIK INDUSTRI.webp"
-  },
-  {
-    "no": 10,
-    "namaLengkap": "Rania Rambu Rabbani, A.Md.T.",
-    "nrp": "33112301010",
-    "ipk": "3.27",
-    "prodi": "D3 Teknik Listrik Industri",
-    "jurusan": "Jurusan Teknologi Elektro",
-    "predikat": "Sangat Memuaskan",
-    "url_foto": "assets/images/foto-wisudawan/TLI/RANIA RAMBU RABBANI_D3 TEKNIK LISTRIK INDUSTRI.webp"
-  },
-  {
-    "no": 11,
-    "namaLengkap": "Rizky Ilhami, A.Md.T.",
-    "nrp": "33112301011",
-    "ipk": "3.47",
-    "prodi": "D3 Teknik Listrik Industri",
-    "jurusan": "Jurusan Teknologi Elektro",
-    "predikat": "Sangat Memuaskan",
-    "url_foto": "assets/images/foto-wisudawan/TLI/RISKY ILHAMI _D3 TEKNIK LISTRIK INDUSTRI.webp"
-  },
-  {
-    "no": 12,
-    "namaLengkap": "Firman Wahlul Amri, A.Md.T.",
-    "nrp": "33112301013",
-    "ipk": "3.36",
-    "prodi": "D3 Teknik Listrik Industri",
-    "jurusan": "Jurusan Teknologi Elektro",
-    "predikat": "Sangat Memuaskan",
-    "url_foto": "assets/images/foto-wisudawan/TLI/FIRMAN WAHLUL AMRI_D3 TEKNIK LISTRIK INDUSTRI.webp"
-  },
-  {
-    "no": 13,
-    "namaLengkap": "Mahrita Imami, A.Md.T.",
-    "nrp": "33112301015",
-    "ipk": "3.29",
-    "prodi": "D3 Teknik Listrik Industri",
-    "jurusan": "Jurusan Teknologi Elektro",
-    "predikat": "Sangat Memuaskan",
-    "url_foto": "assets/images/foto-wisudawan/TLI/MAHRITA IMAMI_D3 TEKNIIK LISTRIK INDUSTRI.webp"
-  },
-  {
-    "no": 14,
-    "namaLengkap": "Moh. Fajar Syahbana, A.Md.T.",
-    "nrp": "33112301016",
-    "ipk": "3.32",
-    "prodi": "D3 Teknik Listrik Industri",
-    "jurusan": "Jurusan Teknologi Elektro",
-    "predikat": "Sangat Memuaskan",
-    "url_foto": "assets/images/foto-wisudawan/TLI/MOH. FAJAR SYAHBANA_D3 TEKNIK LISTRIK INDUSTRI.webp"
-  },
-  {
-    "no": 15,
-    "namaLengkap": "Najilatul Maufiroh, A.Md.T.",
-    "nrp": "33112301018",
-    "ipk": "3.26",
-    "prodi": "D3 Teknik Listrik Industri",
-    "jurusan": "Jurusan Teknologi Elektro",
-    "predikat": "Sangat Memuaskan",
-    "url_foto": "assets/images/foto-wisudawan/TLI/NAJILATUL MAUFIROH_D3 TEKNIK LISTRIK INDUSTRI.webp"
-  },
-  {
-    "no": 16,
-    "namaLengkap": "Nurul Hikmah Sanima, A.Md.T.",
-    "nrp": "33112301019",
-    "ipk": "3.28",
-    "prodi": "D3 Teknik Listrik Industri",
-    "jurusan": "Jurusan Teknologi Elektro",
-    "predikat": "Sangat Memuaskan",
-    "url_foto": "assets/images/foto-wisudawan/TLI/NURUL HIKMAH SANIMA_D3 TEKNIK LISTRIK INDUSTRI.webp"
-  },
-  {
-    "no": 17,
-    "namaLengkap": "Alfin Wahyu Pratama, A.Md.T.",
-    "nrp": "33112301021",
-    "ipk": "3.34",
-    "prodi": "D3 Teknik Listrik Industri",
-    "jurusan": "Jurusan Teknologi Elektro",
-    "predikat": "Sangat Memuaskan",
-    "url_foto": "assets/images/foto-wisudawan/TLI/ALFIN WAHYU PRATAMA_D3 TEKNIK LISTRIK INDUSTRI.webp"
-  },
-  {
-    "no": 18,
-    "namaLengkap": "Farhan, A.Md.T.",
-    "nrp": "33112301022",
-    "ipk": "3.13",
-    "prodi": "D3 Teknik Listrik Industri",
-    "jurusan": "Jurusan Teknologi Elektro",
-    "predikat": "Sangat Memuaskan",
-    "url_foto": "assets/images/foto-wisudawan/TLI/FARHAN_D3 TEKNIK LISTRIK INDUSTRI.webp"
-  },
-  {
-    "no": 19,
-    "namaLengkap": "Zayyadi, A.Md.T.",
-    "nrp": "33112301024",
-    "ipk": "3.07",
-    "prodi": "D3 Teknik Listrik Industri",
-    "jurusan": "Jurusan Teknologi Elektro",
-    "predikat": "Sangat Memuaskan",
-    "url_foto": "assets/images/foto-wisudawan/TLI/ZAYYADI_D3 TEKNIK LISTRIK INDUSTRI.webp"
-  },
-  {
-    "no": 20,
-    "namaLengkap": "Iben Fauzantaro, A.Md.T.",
-    "nrp": "33112301025",
-    "ipk": "3.86",
-    "prodi": "D3 Teknik Listrik Industri",
-    "jurusan": "Jurusan Teknologi Elektro",
-    "predikat": "Dengan Pujian",
-    "url_foto": "assets/images/foto-wisudawan/TLI/IBEN FAUZANTARO_D3 TEKNIK LISTRIK INDUSTRI.webp"
-  },
-  {
-    "no": 21,
-    "namaLengkap": "Elvira Mulyani, A.Md.T.",
-    "nrp": "33112301026",
-    "ipk": "3.35",
-    "prodi": "D3 Teknik Listrik Industri",
-    "jurusan": "Jurusan Teknologi Elektro",
-    "predikat": "Sangat Memuaskan",
-    "url_foto": "assets/images/foto-wisudawan/TLI/ELVIRA MULYANI_D3 TEKNIK LISTRIK INDUSTRI.webp"
-  },
-  {
-    "no": 22,
-    "namaLengkap": "Triana Agustin, A.Md.T.",
-    "nrp": "33112301027",
-    "ipk": "3.77",
-    "prodi": "D3 Teknik Listrik Industri",
-    "jurusan": "Jurusan Teknologi Elektro",
-    "predikat": "Dengan Pujian",
-    "url_foto": "assets/images/foto-wisudawan/TLI/TRIANA AGUSTIN_D3 TEKNIK LISTRIK INDUSTRI.webp"
-  },
-  {
-    "no": 23,
-    "namaLengkap": "Putri Ayu Damayanti, A.Md.T.",
-    "nrp": "33112301028",
-    "ipk": "3.57",
-    "prodi": "D3 Teknik Listrik Industri",
-    "jurusan": "Jurusan Teknologi Elektro",
-    "predikat": "Dengan Pujian",
-    "url_foto": "assets/images/foto-wisudawan/TLI/PUTRI AYU DAMAYANTI_D3 TEKNIK LISTRIK INDUSTRI.webp"
-  },
-  {
-    "no": 24,
-    "namaLengkap": "Fathul Rosi, A.Md.T.",
-    "nrp": "33112301030",
-    "ipk": "3.42",
-    "prodi": "D3 Teknik Listrik Industri",
-    "jurusan": "Jurusan Teknologi Elektro",
-    "predikat": "Sangat Memuaskan",
-    "url_foto": "assets/images/foto-wisudawan/TLI/FATHUL ROSI_D3 TEKNIK LISTRIK INDUSTRI.webp"
-  },
-  {
-    "no": 25,
-    "namaLengkap": "Achmad Maulidil Hikam, A.Md.T.",
-    "nrp": "33112301031",
-    "ipk": "3.37",
-    "prodi": "D3 Teknik Listrik Industri",
-    "jurusan": "Jurusan Teknologi Elektro",
-    "predikat": "Sangat Memuaskan",
-    "url_foto": "assets/images/foto-wisudawan/TLI/ACHMAD MAULIDIL HIKAM_D3 TEKNIK LISTRIK INDUSTRI.webp"
-  },
-  {
-    "no": 26,
-    "namaLengkap": "Ach. Suyuti Al Farisy, A.Md.T.",
-    "nrp": "33112301032",
-    "ipk": "3.53",
-    "prodi": "D3 Teknik Listrik Industri",
-    "jurusan": "Jurusan Teknologi Elektro",
-    "predikat": "Dengan Pujian",
-    "url_foto": "assets/images/foto-wisudawan/TLI/ACH. SUYUTI AL FARISY_D3 TEKNIK LISTRIK INDUSTRI.webp"
-  },
-  {
-    "no": 27,
-    "namaLengkap": "Carmenita Hari Primukti, A.Md.T.",
-    "nrp": "33112301034",
-    "ipk": "3.77",
-    "prodi": "D3 Teknik Listrik Industri",
-    "jurusan": "Jurusan Teknologi Elektro",
-    "predikat": "Dengan Pujian",
-    "url_foto": "assets/images/foto-wisudawan/TLI/CARMENITA HARI PRIMUKTI_D3 TEKNIK LISTRIK INDUSTRI.webp"
-  },
-  {
-    "no": 28,
-    "namaLengkap": "Achmad Ibnu Malik, A.Md.T.",
-    "nrp": "33112301035",
-    "ipk": "3.23",
-    "prodi": "D3 Teknik Listrik Industri",
-    "jurusan": "Jurusan Teknologi Elektro",
-    "predikat": "Sangat Memuaskan",
-    "url_foto": "assets/images/foto-wisudawan/TLI/ACHMAD IBNU MALIK_D3 TEKNIK LISTRIK INDUSTRI.webp"
-  },
-  {
-    "no": 29,
-    "namaLengkap": "Fadgham Ammar Jalil, A.Md.T.",
-    "nrp": "33112301036",
-    "ipk": "3.13",
-    "prodi": "D3 Teknik Listrik Industri",
-    "jurusan": "Jurusan Teknologi Elektro",
-    "predikat": "Sangat Memuaskan",
-    "url_foto": "assets/images/foto-wisudawan/TLI/FADGHAM AMMAR JALIL_D3 TEKNIK LISTRIK INDUSTRI.webp"
-  },
-
-  // D3 Teknik Mesin Alat Berat
-  {
-    "no": 30,
-    "namaLengkap": "Raafi Adhitya Saputra, A.Md.T.",
-    "nrp": "33212201009",
-    "ipk": "3.18",
-    "prodi": "D3 Teknik Mesin Alat Berat",
-    "jurusan": "Jurusan Rekayasa Mesin Industri",
-    "predikat": "Sangat Memuaskan",
-    "url_foto": "assets/images/foto-wisudawan/TMAB/RAAFI ADHITYA SAPUTRA_D3 TEKNIK MESIN ALAT BERAT.webp"
-  },
-  {
-    "no": 31,
-    "namaLengkap": "Agung Setiabudi Hidayatullah, A.Md.T.",
-    "nrp": "33212301001",
-    "ipk": "2.88",
-    "prodi": "D3 Teknik Mesin Alat Berat",
-    "jurusan": "Jurusan Rekayasa Mesin Industri",
-    "predikat": "Memuaskan",
-    "url_foto": "assets/images/foto-wisudawan/TMAB/AGUNG SETIABUDI H_D3 TEKNIK MESIN ALAT BERAT.webp"
-  },
-  {
-    "no": 32,
-    "namaLengkap": "Ahmad Khoirul Rofiq, A.Md.T.",
-    "nrp": "33212301002",
-    "ipk": "3.49",
-    "prodi": "D3 Teknik Mesin Alat Berat",
-    "jurusan": "Jurusan Rekayasa Mesin Industri",
-    "predikat": "Sangat Memuaskan",
-    "url_foto": "assets/images/foto-wisudawan/TMAB/AHMAD KHOIRUL ROFIQ_D3 TEKNIK MESIN ALAT BERAT.webp"
-  },
-  {
-    "no": 33,
-    "namaLengkap": "Ainun Naim, A.Md.T.",
-    "nrp": "33212301003",
-    "ipk": "3.20",
-    "prodi": "D3 Teknik Mesin Alat Berat",
-    "jurusan": "Jurusan Rekayasa Mesin Industri",
-    "predikat": "Sangat Memuaskan",
-    "url_foto": "assets/images/foto-wisudawan/TMAB/AINUN NAIM_D3 TEKNIK MESIN ALAT BERAT.webp"
-  },
-  {
-    "no": 34,
-    "namaLengkap": "Fahmi Achmat Maarif, A.Md.T.",
-    "nrp": "33212301005",
-    "ipk": "3.14",
-    "prodi": "D3 Teknik Mesin Alat Berat",
-    "jurusan": "Jurusan Rekayasa Mesin Industri",
-    "predikat": "Sangat Memuaskan",
-    "url_foto": "assets/images/foto-wisudawan/TMAB/FAHMI ACHMAT NAARIF_D3 TEKNIK MESIN ALAT BERAT.webp"
-  },
-  {
-    "no": 35,
-    "namaLengkap": "Himmatul Aulia, A.Md.T.",
-    "nrp": "33212301006",
-    "ipk": "3.12",
-    "prodi": "D3 Teknik Mesin Alat Berat",
-    "jurusan": "Jurusan Rekayasa Mesin Industri",
-    "predikat": "Sangat Memuaskan",
-    "url_foto": "assets/images/foto-wisudawan/TMAB/HIMMATUL AULIA_D3 TEKNIK MESIN ALAT BERAT.webp"
-  },
-  {
-    "no": 36,
-    "namaLengkap": "Lailatus Sahri Sarifah, A.Md.T.",
-    "nrp": "33212301008",
-    "ipk": "3.33",
-    "prodi": "D3 Teknik Mesin Alat Berat",
-    "jurusan": "Jurusan Rekayasa Mesin Industri",
-    "predikat": "Sangat Memuaskan",
-    "url_foto": "assets/images/foto-wisudawan/TMAB/LAILATUS SAHRI S_D3 TEKNIK MESIN ALAT BERAT.webp"
-  },
-  {
-    "no": 37,
-    "namaLengkap": "Luqman Arif, A.Md.T.",
-    "nrp": "33212301009",
-    "ipk": "3.17",
-    "prodi": "D3 Teknik Mesin Alat Berat",
-    "jurusan": "Jurusan Rekayasa Mesin Industri",
-    "predikat": "Sangat Memuaskan",
-    "url_foto": "assets/images/foto-wisudawan/TMAB/LUQMAN ARIF_D3 TEKNIK MESIN ALAT BERAT.webp"
-  },
-  {
-    "no": 38,
-    "namaLengkap": "Moh Mashduqi Fadli, A.Md.T.",
-    "nrp": "33212301010",
-    "ipk": "3.28",
-    "prodi": "D3 Teknik Mesin Alat Berat",
-    "jurusan": "Jurusan Rekayasa Mesin Industri",
-    "predikat": "Sangat Memuaskan",
-    "url_foto": "assets/images/foto-wisudawan/TMAB/MOH MASHDUQI F_D3 TEKNIK MESIN ALAT BERAT.webp"
-  },
-  {
-    "no": 39,
-    "namaLengkap": "Moh. Noer Dandy Maulana, A.Md.T.",
-    "nrp": "33212301011",
-    "ipk": "3.45",
-    "prodi": "D3 Teknik Mesin Alat Berat",
-    "jurusan": "Jurusan Rekayasa Mesin Industri",
-    "predikat": "Sangat Memuaskan",
-    "url_foto": "assets/images/foto-wisudawan/TMAB/MOH. NOER DANDY M_D3 TEKNIK MESIN ALAT BERAT.webp"
-  },
-  {
-    "no": 40,
-    "namaLengkap": "Muhaimin, A.Md.T.",
-    "nrp": "33212301013",
-    "ipk": "3.10",
-    "prodi": "D3 Teknik Mesin Alat Berat",
-    "jurusan": "Jurusan Rekayasa Mesin Industri",
-    "predikat": "Sangat Memuaskan",
-    "url_foto": "assets/images/foto-wisudawan/TMAB/MUHAIMIN_D3 TEKNIK MESIN ALAT BERAT.webp"
-  },
-  {
-    "no": 41,
-    "namaLengkap": "Muhammat Firdaus, A.Md.T.",
-    "nrp": "33212301014",
-    "ipk": "3.35",
-    "prodi": "D3 Teknik Mesin Alat Berat",
-    "jurusan": "Jurusan Rekayasa Mesin Industri",
-    "predikat": "Sangat Memuaskan",
-    "url_foto": "assets/images/foto-wisudawan/TMAB/MUHAMMAT FIRDAUS_D3 TEKNIK MESIN ALAT BERAT.webp"
-  },
-  {
-    "no": 42,
-    "namaLengkap": "Rahmat Fajar, A.Md.T.",
-    "nrp": "33212301015",
-    "ipk": "3.53",
-    "prodi": "D3 Teknik Mesin Alat Berat",
-    "jurusan": "Jurusan Rekayasa Mesin Industri",
-    "predikat": "Dengan Pujian",
-    "url_foto": "assets/images/foto-wisudawan/TMAB/RAHMAT FAJAR_D3 TEKNIK MESIN ALAT BERAT.webp"
-  },
-  {
-    "no": 43,
-    "namaLengkap": "Rizky Ageng Rahmadani, A.Md.T.",
-    "nrp": "33212301016",
-    "ipk": "3.33",
-    "prodi": "D3 Teknik Mesin Alat Berat",
-    "jurusan": "Jurusan Rekayasa Mesin Industri",
-    "predikat": "Sangat Memuaskan",
-    "url_foto": "assets/images/foto-wisudawan/TMAB/RIZKY AGENG RAHMADANI_D3 TEKNIK MESIN ALAT BERAT.webp"
-  },
-  {
-    "no": 44,
-    "namaLengkap": "Sandy Dwi Wahyudi, A.Md.T.",
-    "nrp": "33212301017",
-    "ipk": "3.23",
-    "prodi": "D3 Teknik Mesin Alat Berat",
-    "jurusan": "Jurusan Rekayasa Mesin Industri",
-    "predikat": "Sangat Memuaskan",
-    "url_foto": "assets/images/foto-wisudawan/TMAB/SANDY DWI W_D3 TEKNIK MESIN ALAT BERAT.webp"
-  },
-  {
-    "no": 45,
-    "namaLengkap": "Selvi Agustin, A.Md.T.",
-    "nrp": "33212301018",
-    "ipk": "3.31",
-    "prodi": "D3 Teknik Mesin Alat Berat",
-    "jurusan": "Jurusan Rekayasa Mesin Industri",
-    "predikat": "Sangat Memuaskan",
-    "url_foto": "assets/images/foto-wisudawan/TMAB/SELVI AGUSTIN_D3 TEKNIK MESIN ALAT BERAT.webp"
-  },
-  {
-    "no": 46,
-    "namaLengkap": "Surahmat Tegar Pratanu, A.Md.T.",
-    "nrp": "33212301019",
-    "ipk": "2.98",
-    "prodi": "D3 Teknik Mesin Alat Berat",
-    "jurusan": "Jurusan Rekayasa Mesin Industri",
-    "predikat": "Memuaskan",
-    "url_foto": "assets/images/foto-wisudawan/TMAB/SURAHMAT TEGAR P_D3 TEKNIK MESIN ALAT BERAT.webp"
-  },
-  {
-    "no": 47,
-    "namaLengkap": "Syarif Hidayatullah, A.Md.T.",
-    "nrp": "33212301020",
-    "ipk": "3.45",
-    "prodi": "D3 Teknik Mesin Alat Berat",
-    "jurusan": "Jurusan Rekayasa Mesin Industri",
-    "predikat": "Sangat Memuaskan",
-    "url_foto": "assets/images/foto-wisudawan/TMAB/SYARIF HIDAYATULLAH_D3 TEKNIK MESIN ALAT BERAT.webp"
-  },
-  {
-    "no": 48,
-    "namaLengkap": "Achmad Belqi Yuda, A.Md.T.",
-    "nrp": "33212301022",
-    "ipk": "3.11",
-    "prodi": "D3 Teknik Mesin Alat Berat",
-    "jurusan": "Jurusan Rekayasa Mesin Industri",
-    "predikat": "Sangat Memuaskan",
-    "url_foto": "assets/images/foto-wisudawan/TMAB/ACHMAD BELQI YUDA_D3 TEKNIK MESIN ALAT BERAT.webp"
-  },
-  {
-    "no": 49,
-    "namaLengkap": "Ahmad Efendi, A.Md.T.",
-    "nrp": "33212301023",
-    "ipk": "3.06",
-    "prodi": "D3 Teknik Mesin Alat Berat",
-    "jurusan": "Jurusan Rekayasa Mesin Industri",
-    "predikat": "Sangat Memuaskan",
-    "url_foto": "assets/images/foto-wisudawan/TMAB/AHMAD EFENDI_D3 TEKNIK MESIN ALAT BERAT.webp"
-  },
-  {
-    "no": 50,
-    "namaLengkap": "Aril Adit Pratama, A.Md.T.",
-    "nrp": "33212301025",
-    "ipk": "3.43",
-    "prodi": "D3 Teknik Mesin Alat Berat",
-    "jurusan": "Jurusan Rekayasa Mesin Industri",
-    "predikat": "Sangat Memuaskan",
-    "url_foto": "assets/images/foto-wisudawan/TMAB/ARIL ADIT PRATAMA_D3 TEKNIK MESIN ALAT BERAT.webp"
-  },
-  {
-    "no": 51,
-    "namaLengkap": "Bahij Nauval Almas, A.Md.T.",
-    "nrp": "33212301026",
-    "ipk": "3.54",
-    "prodi": "D3 Teknik Mesin Alat Berat",
-    "jurusan": "Jurusan Rekayasa Mesin Industri",
-    "predikat": "Dengan Pujian",
-    "url_foto": "assets/images/foto-wisudawan/TMAB/BAHIJ NAUFAL ALMAS_D3 TEKNIK MESIN ALAT BERAT.webp"
-  },
-  {
-    "no": 52,
-    "namaLengkap": "Ifan Trio Maulana, A.Md.T.",
-    "nrp": "33212301027",
-    "ipk": "2.98",
-    "prodi": "D3 Teknik Mesin Alat Berat",
-    "jurusan": "Jurusan Rekayasa Mesin Industri",
-    "predikat": "Memuaskan",
-    "url_foto": "assets/images/foto-wisudawan/TMAB/IFAN TRIO MAULANA_D3 TEKNIK MESIN ALAT BERAT.webp"
-  },
-  {
-    "no": 53,
-    "namaLengkap": "Ilham Ramadhani, A.Md.T.",
-    "nrp": "33212301028",
-    "ipk": "2.87",
-    "prodi": "D3 Teknik Mesin Alat Berat",
-    "jurusan": "Jurusan Rekayasa Mesin Industri",
-    "predikat": "Memuaskan",
-    "url_foto": "assets/images/foto-wisudawan/TMAB/ILHAM RAMADANI_D3 TEKNIK MESIN ALAT BERAT.webp"
-  },
-  {
-    "no": 54,
-    "namaLengkap": "Moh Febrian Diyanto, A.Md.T.",
-    "nrp": "33212301029",
-    "ipk": "3.15",
-    "prodi": "D3 Teknik Mesin Alat Berat",
-    "jurusan": "Jurusan Rekayasa Mesin Industri",
-    "predikat": "Sangat Memuaskan",
-    "url_foto": "assets/images/foto-wisudawan/TMAB/MOH FEBRIAN DIYANTO_D3 TEKNIK MESIN ALAT BERAT.webp"
-  },
-  {
-    "no": 55,
-    "namaLengkap": "Muhammad Fikri Ramadlani, A.Md.T.",
-    "nrp": "33212301030",
-    "ipk": "2.96",
-    "prodi": "D3 Teknik Mesin Alat Berat",
-    "jurusan": "Jurusan Rekayasa Mesin Industri",
-    "predikat": "Memuaskan",
-    "url_foto": "assets/images/foto-wisudawan/TLI/MUCHAMMAD SYAHRUL RAMADHANI_D3 TEKNIK LISTRIK INDUSTRI.webp"
-  },
-  {
-    "no": 56,
-    "namaLengkap": "Muhammad Makbul, A.Md.T.",
-    "nrp": "33212301034",
-    "ipk": "3.65",
-    "prodi": "D3 Teknik Mesin Alat Berat",
-    "jurusan": "Jurusan Rekayasa Mesin Industri",
-    "predikat": "Dengan Pujian",
-    "url_foto": "assets/images/foto-wisudawan/TMAB/MUHAMMAD MAKBUL_D3 TEKNIK MESIN ALAT BERAT.webp"
-  },
-  {
-    "no": 57,
-    "namaLengkap": "Dhio Fajar Alif, A.Md.T.",
-    "nrp": "33212301036",
-    "ipk": "3.62",
-    "prodi": "D3 Teknik Mesin Alat Berat",
-    "jurusan": "Jurusan Rekayasa Mesin Industri",
-    "predikat": "Dengan Pujian",
-    "url_foto": "assets/images/foto-wisudawan/TMAB/DHIO FAJAR ALIF_D3 TEKNIK MESIN ALAT BERAT.webp"
-  },
-  {
-    "no": 58,
-    "namaLengkap": "Azizi Rohman, A.Md.T.",
-    "nrp": "33212301037",
-    "ipk": "3.08",
-    "prodi": "D3 Teknik Mesin Alat Berat",
-    "jurusan": "Jurusan Rekayasa Mesin Industri",
-    "predikat": "Sangat Memuaskan",
-    "url_foto": "assets/images/foto-wisudawan/TMAB/AZIZI ROHMAN_D3 TEKNIK MESIN ALAT BERAT.webp"
-  },
-  {
-    "no": 59,
-    "namaLengkap": "Faisal Basumi, A.Md.T.",
-    "nrp": "33212301038",
-    "ipk": "3.16",
-    "prodi": "D3 Teknik Mesin Alat Berat",
-    "jurusan": "Jurusan Rekayasa Mesin Industri",
-    "predikat": "Sangat Memuaskan",
-    "url_foto": "assets/images/foto-wisudawan/TMAB/FAISAL BASUMI_D3 TEKNIK MESIN ALAT BERAT.webp"
-  },
-  {
-    "no": 60,
-    "namaLengkap": "Imam Makhruj Afrahal Akbar Karno, A.Md.T.",
-    "nrp": "33212301039",
-    "ipk": "2.79",
-    "prodi": "D3 Teknik Mesin Alat Berat",
-    "jurusan": "Jurusan Rekayasa Mesin Industri",
-    "predikat": "Memuaskan",
-    "url_foto": "assets/images/foto-wisudawan/TMAB/IMAM MAKHRUJ AFRAHAL A.K_D3 TEKNIK MESIN ALAT BERAT.webp"
-  },
-  {
-    "no": 61,
-    "namaLengkap": "Rama Wijaya Brilliant Suyanto, A.Md.T.",
-    "nrp": "33212301040",
-    "ipk": "3.54",
-    "prodi": "D3 Teknik Mesin Alat Berat",
-    "jurusan": "Jurusan Rekayasa Mesin Industri",
-    "predikat": "Dengan Pujian",
-    "url_foto": "assets/images/foto-wisudawan/TMAB/RAMA WIJAYA B.S_D3 TEKNIK MESIN ALAT BERAT.webp"
-  },
-  {
-    "no": 62,
-    "namaLengkap": "Dwi Juniarta, A.Md.T.",
-    "nrp": "33212301041",
-    "ipk": "3.30",
-    "prodi": "D3 Teknik Mesin Alat Berat",
-    "jurusan": "Jurusan Rekayasa Mesin Industri",
-    "predikat": "Sangat Memuaskan",
-    "url_foto": "assets/images/foto-wisudawan/TMAB/DWI JUNIARTA_D3 TEKNIK MESIN ALAT BERAT.webp"
-  },
-  {
-    "no": 63,
-    "namaLengkap": "Firman Maulana Zulhan, A.Md.T.",
-    "nrp": "33212301042",
-    "ipk": "3.01",
-    "prodi": "D3 Teknik Mesin Alat Berat",
-    "jurusan": "Jurusan Rekayasa Mesin Industri",
-    "predikat": "Sangat Memuaskan",
-    "url_foto": "assets/images/foto-wisudawan/TMAB/FIRMAN MAULANA Z_D3 TEKNIK MESIN ALAT BERAT.webp"
-  },
-
-  // D3 Teknik Bangunan Kapal
-  {
-    "no": 64,
-    "namaLengkap": "Afif Wahyudi, A.Md.T.",
-    "nrp": "33312301001",
-    "ipk": "3.39",
-    "prodi": "D3 Teknik Bangunan Kapal",
-    "jurusan": "Jurusan Teknologi Kemaritiman",
-    "predikat": "Sangat Memuaskan",
-    "url_foto": "assets/images/foto-wisudawan/TBK/AFIF WAHYUDI_D3 TEKNIK BANGUNAN KAPAL.webp"
-  },
-  {
-    "no": 65,
-    "namaLengkap": "Aris Sayidil Ilmi, A.Md.T.",
-    "nrp": "33312301002",
-    "ipk": "3.05",
-    "prodi": "D3 Teknik Bangunan Kapal",
-    "jurusan": "Jurusan Teknologi Kemaritiman",
-    "predikat": "Sangat Memuaskan",
-    "url_foto": "assets/images/foto-wisudawan/TBK/ARIS SAYIDIL ILMI_D3 TEKNIK BANGUNAN KAPAL.webp"
-  },
-  {
-    "no": 66,
-    "namaLengkap": "Daimatul Hoiroh, A.Md.T.",
-    "nrp": "33312301003",
-    "ipk": "3.40",
-    "prodi": "D3 Teknik Bangunan Kapal",
-    "jurusan": "Jurusan Teknologi Kemaritiman",
-    "predikat": "Sangat Memuaskan",
-    "url_foto": "assets/images/foto-wisudawan/TBK/DAIMATUL HOIROH_D3 TEKNIK BANGUNAN KAPAL.webp"
-  },
-  {
-    "no": 67,
-    "namaLengkap": "Ikbalul Hoirilana, A.Md.T.",
-    "nrp": "33312301004",
-    "ipk": "3.12",
-    "prodi": "D3 Teknik Bangunan Kapal",
-    "jurusan": "Jurusan Teknologi Kemaritiman",
-    "predikat": "Sangat Memuaskan",
-    "url_foto": "assets/images/foto-wisudawan/TBK/IKBALUL HOIRILANA_D3 TEKNIK BANGUNAN KAPAL.webp"
-  },
-  {
-    "no": 68,
-    "namaLengkap": "Muhammad Akbar Nugroho Putra, A.Md.T.",
-    "nrp": "33312301005",
-    "ipk": "3.50",
-    "prodi": "D3 Teknik Bangunan Kapal",
-    "jurusan": "Jurusan Teknologi Kemaritiman",
-    "predikat": "Sangat Memuaskan",
-    "url_foto": "assets/images/foto-wisudawan/TBK/MUHAMMAD AKBAR NUGROHO P_D3 TEKNIK BANGUNAN KAPAL.webp"
-  },
-  {
-    "no": 69,
-    "namaLengkap": "Raynald Atila Chandra, A.Md.T.",
-    "nrp": "33312301006",
-    "ipk": "3.44",
-    "prodi": "D3 Teknik Bangunan Kapal",
-    "jurusan": "Jurusan Teknologi Kemaritiman",
-    "predikat": "Sangat Memuaskan",
-    "url_foto": "assets/images/foto-wisudawan/TBK/RAYNALD ATILA CHANDRA_D3 TEKNIK BANGUNAN KAPAL.webp"
-  },
-  {
-    "no": 70,
-    "namaLengkap": "Wisnu Adi Brata Pamungkas, A.Md.T.",
-    "nrp": "33312301008",
-    "ipk": "3.60",
-    "prodi": "D3 Teknik Bangunan Kapal",
-    "jurusan": "Jurusan Teknologi Kemaritiman",
-    "predikat": "Dengan Pujian",
-    "url_foto": "assets/images/foto-wisudawan/TBK/WISNU ADI BARA PAMUNGKAS_D3 TEKNIK BANGUNAN KAPAL.webp"
-  },
-  {
-    "no": 71,
-    "namaLengkap": "Moh Rohman Alfinto, A.Md.T.",
-    "nrp": "33312301009",
-    "ipk": "3.54",
-    "prodi": "D3 Teknik Bangunan Kapal",
-    "jurusan": "Jurusan Teknologi Kemaritiman",
-    "predikat": "Dengan Pujian",
-    "url_foto": "assets/images/foto-wisudawan/TBK/MOH. ROHMAN ALFINT0_D3 TEKNIK BANGUNAN KAPAL.webp"
-  },
-  {
-    "no": 72,
-    "namaLengkap": "Adilla Naili Izzati, A.Md.T.",
-    "nrp": "33312301010",
-    "ipk": "3.65",
-    "prodi": "D3 Teknik Bangunan Kapal",
-    "jurusan": "Jurusan Teknologi Kemaritiman",
-    "predikat": "Dengan Pujian",
-    "url_foto": "assets/images/foto-wisudawan/TBK/ADILLA NAILI IZZATI_D3 TEKNIK BANGUNAN KAPAL.webp"
-  },
-  {
-    "no": 73,
-    "namaLengkap": "Sulaiman, A.Md.T.",
-    "nrp": "33312301011",
-    "ipk": "2.82",
-    "prodi": "D3 Teknik Bangunan Kapal",
-    "jurusan": "Jurusan Teknologi Kemaritiman",
-    "predikat": "Memuaskan",
-    "url_foto": "assets/images/foto-wisudawan/TBK/SULAIMAN_D3 TEKNIK BANGUNAN KAPAL.webp"
-  },
-  {
-    "no": 74,
-    "namaLengkap": "M. Yusuf Bahtiar, A.Md.T.",
-    "nrp": "33312301014",
-    "ipk": "3.21",
-    "prodi": "D3 Teknik Bangunan Kapal",
-    "jurusan": "Jurusan Teknologi Kemaritiman",
-    "predikat": "Sangat Memuaskan",
-    "url_foto": "assets/images/foto-wisudawan/TBK/M. YUSUF BAHTIAR_D3 TEKNIK BANGUNAN KAPAL.webp"
-  },
-  {
-    "no": 75,
-    "namaLengkap": "Ihsan Nurdiansyah, A.Md.T.",
-    "nrp": "33312301015",
-    "ipk": "3.61",
-    "prodi": "D3 Teknik Bangunan Kapal",
-    "jurusan": "Jurusan Teknologi Kemaritiman",
-    "predikat": "Dengan Pujian",
-    "url_foto": "assets/images/foto-wisudawan/TBK/IHSAN NURDIANSYAH_D3 TEKNIK BANGUNAN KAPAL.webp"
-  },
-
   // D4 Teknologi Rekayasa Keselamatan
   {
-    "no": 76,
+    "no": 1,
     "namaLengkap": "Achmad Nabil Al Fiyan, S.Tr.Kes.",
     "nrp": "33332201001",
     "ipk": "3.66",
@@ -767,7 +11,7 @@ const dataWisudawan = [
     "url_foto": "assets/images/foto-wisudawan/TRK/ACHMAD NABIL AL FIYAN _D3 TEKNOLOGI REKAYASA KESELAMATAN.webp"
   },
   {
-    "no": 77,
+    "no": 2,
     "namaLengkap": "Moh. Dwi Risky Yulianto, S.Tr.Kes.",
     "nrp": "33332201003",
     "ipk": "3.14",
@@ -777,7 +21,7 @@ const dataWisudawan = [
     "url_foto": "assets/images/foto-wisudawan/TRK/moh. dwi risky yulianto_33332201003_Teknologi Kemaritiman.webp"
   },
   {
-    "no": 78,
+    "no": 3,
     "namaLengkap": "Ikmal Akbar, S.Tr.Kes.",
     "nrp": "33332201004",
     "ipk": "3.07",
@@ -787,7 +31,7 @@ const dataWisudawan = [
     "url_foto": "assets/images/foto-wisudawan/TRK/IKMAL AKBAR_D3 TEKNIK REKAYASA KESELAMATAN.webp"
   },
   {
-    "no": 79,
+    "no": 4,
     "namaLengkap": "Aris Diansyah, S.Tr.Kes.",
     "nrp": "33332201005",
     "ipk": "3.34",
@@ -796,7 +40,759 @@ const dataWisudawan = [
     "predikat": "Sangat Memuaskan",
     "url_foto": "assets/images/foto-wisudawan/TRK/ARIS DIANSYAH_D3 TEKNOLOGI REKAYASA KESELAMATAN.webp"
   },
-
+  // D3 Teknik Bangunan Kapal
+  {
+    "no": 5,
+    "namaLengkap": "Afif Wahyudi, A.Md.T.",
+    "nrp": "33312301001",
+    "ipk": "3.39",
+    "prodi": "D3 Teknik Bangunan Kapal",
+    "jurusan": "Jurusan Teknologi Kemaritiman",
+    "predikat": "Sangat Memuaskan",
+    "url_foto": "assets/images/foto-wisudawan/TBK/AFIF WAHYUDI_D3 TEKNIK BANGUNAN KAPAL.webp"
+  },
+  {
+    "no": 6,
+    "namaLengkap": "Aris Sayidil Ilmi, A.Md.T.",
+    "nrp": "33312301002",
+    "ipk": "3.05",
+    "prodi": "D3 Teknik Bangunan Kapal",
+    "jurusan": "Jurusan Teknologi Kemaritiman",
+    "predikat": "Sangat Memuaskan",
+    "url_foto": "assets/images/foto-wisudawan/TBK/ARIS SAYIDIL ILMI_D3 TEKNIK BANGUNAN KAPAL.webp"
+  },
+  {
+    "no": 7,
+    "namaLengkap": "Daimatul Hoiroh, A.Md.T.",
+    "nrp": "33312301003",
+    "ipk": "3.40",
+    "prodi": "D3 Teknik Bangunan Kapal",
+    "jurusan": "Jurusan Teknologi Kemaritiman",
+    "predikat": "Sangat Memuaskan",
+    "url_foto": "assets/images/foto-wisudawan/TBK/DAIMATUL HOIROH_D3 TEKNIK BANGUNAN KAPAL.webp"
+  },
+  {
+    "no": 8,
+    "namaLengkap": "Ikbalul Hoirilana, A.Md.T.",
+    "nrp": "33312301004",
+    "ipk": "3.12",
+    "prodi": "D3 Teknik Bangunan Kapal",
+    "jurusan": "Jurusan Teknologi Kemaritiman",
+    "predikat": "Sangat Memuaskan",
+    "url_foto": "assets/images/foto-wisudawan/TBK/IKBALUL HOIRILANA_D3 TEKNIK BANGUNAN KAPAL.webp"
+  },
+  {
+    "no": 9,
+    "namaLengkap": "Muhammad Akbar Nugroho Putra, A.Md.T.",
+    "nrp": "33312301005",
+    "ipk": "3.50",
+    "prodi": "D3 Teknik Bangunan Kapal",
+    "jurusan": "Jurusan Teknologi Kemaritiman",
+    "predikat": "Sangat Memuaskan",
+    "url_foto": "assets/images/foto-wisudawan/TBK/MUHAMMAD AKBAR NUGROHO P_D3 TEKNIK BANGUNAN KAPAL.webp"
+  },
+  {
+    "no": 10,
+    "namaLengkap": "Raynald Atila Chandra, A.Md.T.",
+    "nrp": "33312301006",
+    "ipk": "3.44",
+    "prodi": "D3 Teknik Bangunan Kapal",
+    "jurusan": "Jurusan Teknologi Kemaritiman",
+    "predikat": "Sangat Memuaskan",
+    "url_foto": "assets/images/foto-wisudawan/TBK/RAYNALD ATILA CHANDRA_D3 TEKNIK BANGUNAN KAPAL.webp"
+  },
+  {
+    "no": 11,
+    "namaLengkap": "Wisnu Adi Brata Pamungkas, A.Md.T.",
+    "nrp": "33312301008",
+    "ipk": "3.60",
+    "prodi": "D3 Teknik Bangunan Kapal",
+    "jurusan": "Jurusan Teknologi Kemaritiman",
+    "predikat": "Dengan Pujian",
+    "url_foto": "assets/images/foto-wisudawan/TBK/WISNU ADI BARA PAMUNGKAS_D3 TEKNIK BANGUNAN KAPAL.webp"
+  },
+  {
+    "no": 12,
+    "namaLengkap": "Moh Rohman Alfinto, A.Md.T.",
+    "nrp": "33312301009",
+    "ipk": "3.54",
+    "prodi": "D3 Teknik Bangunan Kapal",
+    "jurusan": "Jurusan Teknologi Kemaritiman",
+    "predikat": "Dengan Pujian",
+    "url_foto": "assets/images/foto-wisudawan/TBK/MOH. ROHMAN ALFINT0_D3 TEKNIK BANGUNAN KAPAL.webp"
+  },
+  {
+    "no": 13,
+    "namaLengkap": "Adilla Naili Izzati, A.Md.T.",
+    "nrp": "33312301010",
+    "ipk": "3.65",
+    "prodi": "D3 Teknik Bangunan Kapal",
+    "jurusan": "Jurusan Teknologi Kemaritiman",
+    "predikat": "Dengan Pujian",
+    "url_foto": "assets/images/foto-wisudawan/TBK/ADILLA NAILI IZZATI_D3 TEKNIK BANGUNAN KAPAL.webp"
+  },
+  {
+    "no": 14,
+    "namaLengkap": "Sulaiman, A.Md.T.",
+    "nrp": "33312301011",
+    "ipk": "2.82",
+    "prodi": "D3 Teknik Bangunan Kapal",
+    "jurusan": "Jurusan Teknologi Kemaritiman",
+    "predikat": "Memuaskan",
+    "url_foto": "assets/images/foto-wisudawan/TBK/SULAIMAN_D3 TEKNIK BANGUNAN KAPAL.webp"
+  },
+  {
+    "no": 15,
+    "namaLengkap": "M. Yusuf Bahtiar, A.Md.T.",
+    "nrp": "33312301014",
+    "ipk": "3.21",
+    "prodi": "D3 Teknik Bangunan Kapal",
+    "jurusan": "Jurusan Teknologi Kemaritiman",
+    "predikat": "Sangat Memuaskan",
+    "url_foto": "assets/images/foto-wisudawan/TBK/M. YUSUF BAHTIAR_D3 TEKNIK BANGUNAN KAPAL.webp"
+  },
+  {
+    "no": 16,
+    "namaLengkap": "Ihsan Nurdiansyah, A.Md.T.",
+    "nrp": "33312301015",
+    "ipk": "3.61",
+    "prodi": "D3 Teknik Bangunan Kapal",
+    "jurusan": "Jurusan Teknologi Kemaritiman",
+    "predikat": "Dengan Pujian",
+    "url_foto": "assets/images/foto-wisudawan/TBK/IHSAN NURDIANSYAH_D3 TEKNIK BANGUNAN KAPAL.webp"
+  },
+  // D3 Teknik Listrik Industri
+  {
+    "no": 17,
+    "namaLengkap": "Esti Aisyah Dinasaputri, A.Md.T.",
+    "nrp": "33112101028",
+    "ipk": "3.61",
+    "prodi": "D3 Teknik Listrik Industri",
+    "jurusan": "Jurusan Teknologi Elektro",
+    "predikat": "Sangat Memuaskan",
+    "url_foto": "assets/images/foto-wisudawan/TLI/ESTI AISYAH DINASAPUTRI_D3 TEKNIK LISTRIK INDUSTRI.webp"
+  },
+  {
+    "no": 18,
+    "namaLengkap": "Raflie Nurivansyah, A.Md.T.",
+    "nrp": "33112101044",
+    "ipk": "3.58",
+    "prodi": "D3 Teknik Listrik Industri",
+    "jurusan": "Jurusan Teknologi Elektro",
+    "predikat": "Sangat Memuaskan",
+    "url_foto": "assets/images/foto-wisudawan/TLI/RAFLIE NURURIVANSYAH_D3 TEKNIK LISTRIK INDUSTRI.webp"
+  },
+  {
+    "no": 19,
+    "namaLengkap": "Moh. Rifqi Assyiroji, A.Md.T.",
+    "nrp": "33112201010",
+    "ipk": "3.19",
+    "prodi": "D3 Teknik Listrik Industri",
+    "jurusan": "Jurusan Teknologi Elektro",
+    "predikat": "Sangat Memuaskan",
+    "url_foto": "assets/images/foto-wisudawan/TLI/MOH RIFQI ASSYIROJI_D3 TEKNIK LISTRIK INDUSTRI.webp"
+  },
+  {
+    "no": 20,
+    "namaLengkap": "Ach Zainal Abidin, A.Md.T.",
+    "nrp": "33112201046",
+    "ipk": "3.43",
+    "prodi": "D3 Teknik Listrik Industri",
+    "jurusan": "Jurusan Teknologi Elektro",
+    "predikat": "Sangat Memuaskan",
+    "url_foto": "assets/images/foto-wisudawan/TLI/ACH ZAINAL ABIDIN_D3 TEKNIK LISTRIK INDUSTRI.webp"
+  },
+  {
+    "no": 21,
+    "namaLengkap": "Achmad Mughofir, A.Md.T.",
+    "nrp": "33112301002",
+    "ipk": "3.71",
+    "prodi": "D3 Teknik Listrik Industri",
+    "jurusan": "Jurusan Teknologi Elektro",
+    "predikat": "Dengan Pujian",
+    "url_foto": "assets/images/foto-wisudawan/TLI/ACHMAD MUGHOFIR_D3 TEKNIK LISTRIK INDUSTRI.webp"
+  },
+  {
+    "no": 22,
+    "namaLengkap": "Halimatus Sa'diyah, A.Md.T.",
+    "nrp": "33112301005",
+    "ipk": "3.34",
+    "prodi": "D3 Teknik Listrik Industri",
+    "jurusan": "Jurusan Teknologi Elektro",
+    "predikat": "Sangat Memuaskan",
+    "url_foto": "assets/images/foto-wisudawan/TLI/HALIMATUS SA`DIYAH_D3 TEKNIK LISTRIK INDUSTRI.webp"
+  },
+  {
+    "no": 23,
+    "namaLengkap": "Mohamad Ihwan Maulana, A.Md.T.",
+    "nrp": "33112301007",
+    "ipk": "3.42",
+    "prodi": "D3 Teknik Listrik Industri",
+    "jurusan": "Jurusan Teknologi Elektro",
+    "predikat": "Sangat Memuaskan",
+    "url_foto": "assets/images/foto-wisudawan/TLI/MOHAMAD IHWAN MAULANA_D3 TEKNIK LISTRIK INDUSTRI.webp"
+  },
+  {
+    "no": 24,
+    "namaLengkap": "Muchammad Syahrul Ramadhani, A.Md.T.",
+    "nrp": "33112301008",
+    "ipk": "3.08",
+    "prodi": "D3 Teknik Listrik Industri",
+    "jurusan": "Jurusan Teknologi Elektro",
+    "predikat": "Sangat Memuaskan",
+    "url_foto": "assets/images/foto-wisudawan/TLI/MUCHAMMAD SYAHRUL RAMADHANI_D3 TEKNIK LISTRIK INDUSTRI.webp"
+  },
+  {
+    "no": 25,
+    "namaLengkap": "Muhammad Aditya Rahman, A.Md.T.",
+    "nrp": "33112301009",
+    "ipk": "3.63",
+    "prodi": "D3 Teknik Listrik Industri",
+    "jurusan": "Jurusan Teknologi Elektro",
+    "predikat": "Dengan Pujian",
+    "url_foto": "assets/images/foto-wisudawan/TLI/MUHAMMAD ADITYA RAHMAN_D3 TEKNIK LISTRIK INDUSTRI.webp"
+  },
+  {
+    "no": 26,
+    "namaLengkap": "Rania Rambu Rabbani, A.Md.T.",
+    "nrp": "33112301010",
+    "ipk": "3.27",
+    "prodi": "D3 Teknik Listrik Industri",
+    "jurusan": "Jurusan Teknologi Elektro",
+    "predikat": "Sangat Memuaskan",
+    "url_foto": "assets/images/foto-wisudawan/TLI/RANIA RAMBU RABBANI_D3 TEKNIK LISTRIK INDUSTRI.webp"
+  },
+  {
+    "no": 27,
+    "namaLengkap": "Rizky Ilhami, A.Md.T.",
+    "nrp": "33112301011",
+    "ipk": "3.47",
+    "prodi": "D3 Teknik Listrik Industri",
+    "jurusan": "Jurusan Teknologi Elektro",
+    "predikat": "Sangat Memuaskan",
+    "url_foto": "assets/images/foto-wisudawan/TLI/RISKY ILHAMI _D3 TEKNIK LISTRIK INDUSTRI.webp"
+  },
+  {
+    "no": 28,
+    "namaLengkap": "Firman Wahlul Amri, A.Md.T.",
+    "nrp": "33112301013",
+    "ipk": "3.36",
+    "prodi": "D3 Teknik Listrik Industri",
+    "jurusan": "Jurusan Teknologi Elektro",
+    "predikat": "Sangat Memuaskan",
+    "url_foto": "assets/images/foto-wisudawan/TLI/FIRMAN WAHLUL AMRI_D3 TEKNIK LISTRIK INDUSTRI.webp"
+  },
+  {
+    "no": 29,
+    "namaLengkap": "Mahrita Imami, A.Md.T.",
+    "nrp": "33112301015",
+    "ipk": "3.29",
+    "prodi": "D3 Teknik Listrik Industri",
+    "jurusan": "Jurusan Teknologi Elektro",
+    "predikat": "Sangat Memuaskan",
+    "url_foto": "assets/images/foto-wisudawan/TLI/MAHRITA IMAMI_D3 TEKNIIK LISTRIK INDUSTRI.webp"
+  },
+  {
+    "no": 30,
+    "namaLengkap": "Moh. Fajar Syahbana, A.Md.T.",
+    "nrp": "33112301016",
+    "ipk": "3.32",
+    "prodi": "D3 Teknik Listrik Industri",
+    "jurusan": "Jurusan Teknologi Elektro",
+    "predikat": "Sangat Memuaskan",
+    "url_foto": "assets/images/foto-wisudawan/TLI/MOH. FAJAR SYAHBANA_D3 TEKNIK LISTRIK INDUSTRI.webp"
+  },
+  {
+    "no": 31,
+    "namaLengkap": "Najilatul Maufiroh, A.Md.T.",
+    "nrp": "33112301018",
+    "ipk": "3.26",
+    "prodi": "D3 Teknik Listrik Industri",
+    "jurusan": "Jurusan Teknologi Elektro",
+    "predikat": "Sangat Memuaskan",
+    "url_foto": "assets/images/foto-wisudawan/TLI/NAJILATUL MAUFIROH_D3 TEKNIK LISTRIK INDUSTRI.webp"
+  },
+  {
+    "no": 32,
+    "namaLengkap": "Nurul Hikmah Sanima, A.Md.T.",
+    "nrp": "33112301019",
+    "ipk": "3.28",
+    "prodi": "D3 Teknik Listrik Industri",
+    "jurusan": "Jurusan Teknologi Elektro",
+    "predikat": "Sangat Memuaskan",
+    "url_foto": "assets/images/foto-wisudawan/TLI/NURUL HIKMAH SANIMA_D3 TEKNIK LISTRIK INDUSTRI.webp"
+  },
+  {
+    "no": 33,
+    "namaLengkap": "Alfin Wahyu Pratama, A.Md.T.",
+    "nrp": "33112301021",
+    "ipk": "3.34",
+    "prodi": "D3 Teknik Listrik Industri",
+    "jurusan": "Jurusan Teknologi Elektro",
+    "predikat": "Sangat Memuaskan",
+    "url_foto": "assets/images/foto-wisudawan/TLI/ALFIN WAHYU PRATAMA_D3 TEKNIK LISTRIK INDUSTRI.webp"
+  },
+  {
+    "no": 34,
+    "namaLengkap": "Farhan, A.Md.T.",
+    "nrp": "33112301022",
+    "ipk": "3.13",
+    "prodi": "D3 Teknik Listrik Industri",
+    "jurusan": "Jurusan Teknologi Elektro",
+    "predikat": "Sangat Memuaskan",
+    "url_foto": "assets/images/foto-wisudawan/TLI/FARHAN_D3 TEKNIK LISTRIK INDUSTRI.webp"
+  },
+  {
+    "no": 35,
+    "namaLengkap": "Zayyadi, A.Md.T.",
+    "nrp": "33112301024",
+    "ipk": "3.07",
+    "prodi": "D3 Teknik Listrik Industri",
+    "jurusan": "Jurusan Teknologi Elektro",
+    "predikat": "Sangat Memuaskan",
+    "url_foto": "assets/images/foto-wisudawan/TLI/ZAYYADI_D3 TEKNIK LISTRIK INDUSTRI.webp"
+  },
+  {
+    "no": 36,
+    "namaLengkap": "Iben Fauzantaro, A.Md.T.",
+    "nrp": "33112301025",
+    "ipk": "3.86",
+    "prodi": "D3 Teknik Listrik Industri",
+    "jurusan": "Jurusan Teknologi Elektro",
+    "predikat": "Dengan Pujian",
+    "url_foto": "assets/images/foto-wisudawan/TLI/IBEN FAUZANTARO_D3 TEKNIK LISTRIK INDUSTRI.webp"
+  },
+  {
+    "no": 37,
+    "namaLengkap": "Elvira Mulyani, A.Md.T.",
+    "nrp": "33112301026",
+    "ipk": "3.35",
+    "prodi": "D3 Teknik Listrik Industri",
+    "jurusan": "Jurusan Teknologi Elektro",
+    "predikat": "Sangat Memuaskan",
+    "url_foto": "assets/images/foto-wisudawan/TLI/ELVIRA MULYANI_D3 TEKNIK LISTRIK INDUSTRI.webp"
+  },
+  {
+    "no": 38,
+    "namaLengkap": "Triana Agustin, A.Md.T.",
+    "nrp": "33112301027",
+    "ipk": "3.77",
+    "prodi": "D3 Teknik Listrik Industri",
+    "jurusan": "Jurusan Teknologi Elektro",
+    "predikat": "Dengan Pujian",
+    "url_foto": "assets/images/foto-wisudawan/TLI/TRIANA AGUSTIN_D3 TEKNIK LISTRIK INDUSTRI.webp"
+  },
+  {
+    "no": 39,
+    "namaLengkap": "Putri Ayu Damayanti, A.Md.T.",
+    "nrp": "33112301028",
+    "ipk": "3.57",
+    "prodi": "D3 Teknik Listrik Industri",
+    "jurusan": "Jurusan Teknologi Elektro",
+    "predikat": "Dengan Pujian",
+    "url_foto": "assets/images/foto-wisudawan/TLI/PUTRI AYU DAMAYANTI_D3 TEKNIK LISTRIK INDUSTRI.webp"
+  },
+  {
+    "no": 40,
+    "namaLengkap": "Fathul Rosi, A.Md.T.",
+    "nrp": "33112301030",
+    "ipk": "3.42",
+    "prodi": "D3 Teknik Listrik Industri",
+    "jurusan": "Jurusan Teknologi Elektro",
+    "predikat": "Sangat Memuaskan",
+    "url_foto": "assets/images/foto-wisudawan/TLI/FATHUL ROSI_D3 TEKNIK LISTRIK INDUSTRI.webp"
+  },
+  {
+    "no": 41,
+    "namaLengkap": "Achmad Maulidil Hikam, A.Md.T.",
+    "nrp": "33112301031",
+    "ipk": "3.37",
+    "prodi": "D3 Teknik Listrik Industri",
+    "jurusan": "Jurusan Teknologi Elektro",
+    "predikat": "Sangat Memuaskan",
+    "url_foto": "assets/images/foto-wisudawan/TLI/ACHMAD MAULIDIL HIKAM_D3 TEKNIK LISTRIK INDUSTRI.webp"
+  },
+  {
+    "no": 42,
+    "namaLengkap": "Ach. Suyuti Al Farisy, A.Md.T.",
+    "nrp": "33112301032",
+    "ipk": "3.53",
+    "prodi": "D3 Teknik Listrik Industri",
+    "jurusan": "Jurusan Teknologi Elektro",
+    "predikat": "Dengan Pujian",
+    "url_foto": "assets/images/foto-wisudawan/TLI/ACH. SUYUTI AL FARISY_D3 TEKNIK LISTRIK INDUSTRI.webp"
+  },
+  {
+    "no": 43,
+    "namaLengkap": "Carmenita Hari Primukti, A.Md.T.",
+    "nrp": "33112301034",
+    "ipk": "3.77",
+    "prodi": "D3 Teknik Listrik Industri",
+    "jurusan": "Jurusan Teknologi Elektro",
+    "predikat": "Dengan Pujian",
+    "url_foto": "assets/images/foto-wisudawan/TLI/CARMENITA HARI PRIMUKTI_D3 TEKNIK LISTRIK INDUSTRI.webp"
+  },
+  {
+    "no": 44,
+    "namaLengkap": "Achmad Ibnu Malik, A.Md.T.",
+    "nrp": "33112301035",
+    "ipk": "3.23",
+    "prodi": "D3 Teknik Listrik Industri",
+    "jurusan": "Jurusan Teknologi Elektro",
+    "predikat": "Sangat Memuaskan",
+    "url_foto": "assets/images/foto-wisudawan/TLI/ACHMAD IBNU MALIK_D3 TEKNIK LISTRIK INDUSTRI.webp"
+  },
+  {
+    "no": 45,
+    "namaLengkap": "Fadgham Ammar Jalil, A.Md.T.",
+    "nrp": "33112301036",
+    "ipk": "3.13",
+    "prodi": "D3 Teknik Listrik Industri",
+    "jurusan": "Jurusan Teknologi Elektro",
+    "predikat": "Sangat Memuaskan",
+    "url_foto": "assets/images/foto-wisudawan/TLI/FADGHAM AMMAR JALIL_D3 TEKNIK LISTRIK INDUSTRI.webp"
+  },
+  // D3 Teknik Mesin Alat Berat
+  {
+    "no": 46,
+    "namaLengkap": "Raafi Adhitya Saputra, A.Md.T.",
+    "nrp": "33212201009",
+    "ipk": "3.18",
+    "prodi": "D3 Teknik Mesin Alat Berat",
+    "jurusan": "Jurusan Rekayasa Mesin Industri",
+    "predikat": "Sangat Memuaskan",
+    "url_foto": "assets/images/foto-wisudawan/TMAB/RAAFI ADHITYA SAPUTRA_D3 TEKNIK MESIN ALAT BERAT.webp"
+  },
+  {
+    "no": 47,
+    "namaLengkap": "Agung Setiabudi Hidayatullah, A.Md.T.",
+    "nrp": "33212301001",
+    "ipk": "2.88",
+    "prodi": "D3 Teknik Mesin Alat Berat",
+    "jurusan": "Jurusan Rekayasa Mesin Industri",
+    "predikat": "Memuaskan",
+    "url_foto": "assets/images/foto-wisudawan/TMAB/AGUNG SETIABUDI H_D3 TEKNIK MESIN ALAT BERAT.webp"
+  },
+  {
+    "no": 48,
+    "namaLengkap": "Ahmad Khoirul Rofiq, A.Md.T.",
+    "nrp": "33212301002",
+    "ipk": "3.49",
+    "prodi": "D3 Teknik Mesin Alat Berat",
+    "jurusan": "Jurusan Rekayasa Mesin Industri",
+    "predikat": "Sangat Memuaskan",
+    "url_foto": "assets/images/foto-wisudawan/TMAB/AHMAD KHOIRUL ROFIQ_D3 TEKNIK MESIN ALAT BERAT.webp"
+  },
+  {
+    "no": 49,
+    "namaLengkap": "Ainun Naim, A.Md.T.",
+    "nrp": "33212301003",
+    "ipk": "3.20",
+    "prodi": "D3 Teknik Mesin Alat Berat",
+    "jurusan": "Jurusan Rekayasa Mesin Industri",
+    "predikat": "Sangat Memuaskan",
+    "url_foto": "assets/images/foto-wisudawan/TMAB/AINUN NAIM_D3 TEKNIK MESIN ALAT BERAT.webp"
+  },
+  {
+    "no": 50,
+    "namaLengkap": "Fahmi Achmat Maarif, A.Md.T.",
+    "nrp": "33212301005",
+    "ipk": "3.14",
+    "prodi": "D3 Teknik Mesin Alat Berat",
+    "jurusan": "Jurusan Rekayasa Mesin Industri",
+    "predikat": "Sangat Memuaskan",
+    "url_foto": "assets/images/foto-wisudawan/TMAB/FAHMI ACHMAT NAARIF_D3 TEKNIK MESIN ALAT BERAT.webp"
+  },
+  {
+    "no": 51,
+    "namaLengkap": "Himmatul Aulia, A.Md.T.",
+    "nrp": "33212301006",
+    "ipk": "3.12",
+    "prodi": "D3 Teknik Mesin Alat Berat",
+    "jurusan": "Jurusan Rekayasa Mesin Industri",
+    "predikat": "Sangat Memuaskan",
+    "url_foto": "assets/images/foto-wisudawan/TMAB/HIMMATUL AULIA_D3 TEKNIK MESIN ALAT BERAT.webp"
+  },
+  {
+    "no": 52,
+    "namaLengkap": "Lailatus Sahri Sarifah, A.Md.T.",
+    "nrp": "33212301008",
+    "ipk": "3.33",
+    "prodi": "D3 Teknik Mesin Alat Berat",
+    "jurusan": "Jurusan Rekayasa Mesin Industri",
+    "predikat": "Sangat Memuaskan",
+    "url_foto": "assets/images/foto-wisudawan/TMAB/LAILATUS SAHRI S_D3 TEKNIK MESIN ALAT BERAT.webp"
+  },
+  {
+    "no": 53,
+    "namaLengkap": "Luqman Arif, A.Md.T.",
+    "nrp": "33212301009",
+    "ipk": "3.17",
+    "prodi": "D3 Teknik Mesin Alat Berat",
+    "jurusan": "Jurusan Rekayasa Mesin Industri",
+    "predikat": "Sangat Memuaskan",
+    "url_foto": "assets/images/foto-wisudawan/TMAB/LUQMAN ARIF_D3 TEKNIK MESIN ALAT BERAT.webp"
+  },
+  {
+    "no": 54,
+    "namaLengkap": "Moh Mashduqi Fadli, A.Md.T.",
+    "nrp": "33212301010",
+    "ipk": "3.28",
+    "prodi": "D3 Teknik Mesin Alat Berat",
+    "jurusan": "Jurusan Rekayasa Mesin Industri",
+    "predikat": "Sangat Memuaskan",
+    "url_foto": "assets/images/foto-wisudawan/TMAB/MOH MASHDUQI F_D3 TEKNIK MESIN ALAT BERAT.webp"
+  },
+  {
+    "no": 55,
+    "namaLengkap": "Moh. Noer Dandy Maulana, A.Md.T.",
+    "nrp": "33212301011",
+    "ipk": "3.45",
+    "prodi": "D3 Teknik Mesin Alat Berat",
+    "jurusan": "Jurusan Rekayasa Mesin Industri",
+    "predikat": "Sangat Memuaskan",
+    "url_foto": "assets/images/foto-wisudawan/TMAB/MOH. NOER DANDY M_D3 TEKNIK MESIN ALAT BERAT.webp"
+  },
+  {
+    "no": 56,
+    "namaLengkap": "Muhaimin, A.Md.T.",
+    "nrp": "33212301013",
+    "ipk": "3.10",
+    "prodi": "D3 Teknik Mesin Alat Berat",
+    "jurusan": "Jurusan Rekayasa Mesin Industri",
+    "predikat": "Sangat Memuaskan",
+    "url_foto": "assets/images/foto-wisudawan/TMAB/MUHAIMIN_D3 TEKNIK MESIN ALAT BERAT.webp"
+  },
+  {
+    "no": 57,
+    "namaLengkap": "Muhammat Firdaus, A.Md.T.",
+    "nrp": "33212301014",
+    "ipk": "3.35",
+    "prodi": "D3 Teknik Mesin Alat Berat",
+    "jurusan": "Jurusan Rekayasa Mesin Industri",
+    "predikat": "Sangat Memuaskan",
+    "url_foto": "assets/images/foto-wisudawan/TMAB/MUHAMMAT FIRDAUS_D3 TEKNIK MESIN ALAT BERAT.webp"
+  },
+  {
+    "no": 58,
+    "namaLengkap": "Rahmat Fajar, A.Md.T.",
+    "nrp": "33212301015",
+    "ipk": "3.53",
+    "prodi": "D3 Teknik Mesin Alat Berat",
+    "jurusan": "Jurusan Rekayasa Mesin Industri",
+    "predikat": "Dengan Pujian",
+    "url_foto": "assets/images/foto-wisudawan/TMAB/RAHMAT FAJAR_D3 TEKNIK MESIN ALAT BERAT.webp"
+  },
+  {
+    "no": 59,
+    "namaLengkap": "Rizky Ageng Rahmadani, A.Md.T.",
+    "nrp": "33212301016",
+    "ipk": "3.33",
+    "prodi": "D3 Teknik Mesin Alat Berat",
+    "jurusan": "Jurusan Rekayasa Mesin Industri",
+    "predikat": "Sangat Memuaskan",
+    "url_foto": "assets/images/foto-wisudawan/TMAB/RIZKY AGENG RAHMADANI_D3 TEKNIK MESIN ALAT BERAT.webp"
+  },
+  {
+    "no": 60,
+    "namaLengkap": "Sandy Dwi Wahyudi, A.Md.T.",
+    "nrp": "33212301017",
+    "ipk": "3.23",
+    "prodi": "D3 Teknik Mesin Alat Berat",
+    "jurusan": "Jurusan Rekayasa Mesin Industri",
+    "predikat": "Sangat Memuaskan",
+    "url_foto": "assets/images/foto-wisudawan/TMAB/SANDY DWI W_D3 TEKNIK MESIN ALAT BERAT.webp"
+  },
+  {
+    "no": 61,
+    "namaLengkap": "Selvi Agustin, A.Md.T.",
+    "nrp": "33212301018",
+    "ipk": "3.31",
+    "prodi": "D3 Teknik Mesin Alat Berat",
+    "jurusan": "Jurusan Rekayasa Mesin Industri",
+    "predikat": "Sangat Memuaskan",
+    "url_foto": "assets/images/foto-wisudawan/TMAB/SELVI AGUSTIN_D3 TEKNIK MESIN ALAT BERAT.webp"
+  },
+  {
+    "no": 62,
+    "namaLengkap": "Surahmat Tegar Pratanu, A.Md.T.",
+    "nrp": "33212301019",
+    "ipk": "2.98",
+    "prodi": "D3 Teknik Mesin Alat Berat",
+    "jurusan": "Jurusan Rekayasa Mesin Industri",
+    "predikat": "Memuaskan",
+    "url_foto": "assets/images/foto-wisudawan/TMAB/SURAHMAT TEGAR P_D3 TEKNIK MESIN ALAT BERAT.webp"
+  },
+  {
+    "no": 63,
+    "namaLengkap": "Syarif Hidayatullah, A.Md.T.",
+    "nrp": "33212301020",
+    "ipk": "3.45",
+    "prodi": "D3 Teknik Mesin Alat Berat",
+    "jurusan": "Jurusan Rekayasa Mesin Industri",
+    "predikat": "Sangat Memuaskan",
+    "url_foto": "assets/images/foto-wisudawan/TMAB/SYARIF HIDAYATULLAH_D3 TEKNIK MESIN ALAT BERAT.webp"
+  },
+  {
+    "no": 64,
+    "namaLengkap": "Achmad Belqi Yuda, A.Md.T.",
+    "nrp": "33212301022",
+    "ipk": "3.11",
+    "prodi": "D3 Teknik Mesin Alat Berat",
+    "jurusan": "Jurusan Rekayasa Mesin Industri",
+    "predikat": "Sangat Memuaskan",
+    "url_foto": "assets/images/foto-wisudawan/TMAB/ACHMAD BELQI YUDA_D3 TEKNIK MESIN ALAT BERAT.webp"
+  },
+  {
+    "no": 65,
+    "namaLengkap": "Ahmad Efendi, A.Md.T.",
+    "nrp": "33212301023",
+    "ipk": "3.06",
+    "prodi": "D3 Teknik Mesin Alat Berat",
+    "jurusan": "Jurusan Rekayasa Mesin Industri",
+    "predikat": "Sangat Memuaskan",
+    "url_foto": "assets/images/foto-wisudawan/TMAB/AHMAD EFENDI_D3 TEKNIK MESIN ALAT BERAT.webp"
+  },
+  {
+    "no": 66,
+    "namaLengkap": "Aril Adit Pratama, A.Md.T.",
+    "nrp": "33212301025",
+    "ipk": "3.43",
+    "prodi": "D3 Teknik Mesin Alat Berat",
+    "jurusan": "Jurusan Rekayasa Mesin Industri",
+    "predikat": "Sangat Memuaskan",
+    "url_foto": "assets/images/foto-wisudawan/TMAB/ARIL ADIT PRATAMA_D3 TEKNIK MESIN ALAT BERAT.webp"
+  },
+  {
+    "no": 67,
+    "namaLengkap": "Bahij Nauval Almas, A.Md.T.",
+    "nrp": "33212301026",
+    "ipk": "3.54",
+    "prodi": "D3 Teknik Mesin Alat Berat",
+    "jurusan": "Jurusan Rekayasa Mesin Industri",
+    "predikat": "Dengan Pujian",
+    "url_foto": "assets/images/foto-wisudawan/TMAB/BAHIJ NAUFAL ALMAS_D3 TEKNIK MESIN ALAT BERAT.webp"
+  },
+  {
+    "no": 68,
+    "namaLengkap": "Ifan Trio Maulana, A.Md.T.",
+    "nrp": "33212301027",
+    "ipk": "2.98",
+    "prodi": "D3 Teknik Mesin Alat Berat",
+    "jurusan": "Jurusan Rekayasa Mesin Industri",
+    "predikat": "Memuaskan",
+    "url_foto": "assets/images/foto-wisudawan/TMAB/IFAN TRIO MAULANA_D3 TEKNIK MESIN ALAT BERAT.webp"
+  },
+  {
+    "no": 69,
+    "namaLengkap": "Ilham Ramadhani, A.Md.T.",
+    "nrp": "33212301028",
+    "ipk": "2.87",
+    "prodi": "D3 Teknik Mesin Alat Berat",
+    "jurusan": "Jurusan Rekayasa Mesin Industri",
+    "predikat": "Memuaskan",
+    "url_foto": "assets/images/foto-wisudawan/TMAB/ILHAM RAMADANI_D3 TEKNIK MESIN ALAT BERAT.webp"
+  },
+  {
+    "no": 70,
+    "namaLengkap": "Moh Febrian Diyanto, A.Md.T.",
+    "nrp": "33212301029",
+    "ipk": "3.15",
+    "prodi": "D3 Teknik Mesin Alat Berat",
+    "jurusan": "Jurusan Rekayasa Mesin Industri",
+    "predikat": "Sangat Memuaskan",
+    "url_foto": "assets/images/foto-wisudawan/TMAB/MOH FEBRIAN DIYANTO_D3 TEKNIK MESIN ALAT BERAT.webp"
+  },
+  {
+    "no": 71,
+    "namaLengkap": "Muhammad Fikri Ramadlani, A.Md.T.",
+    "nrp": "33212301030",
+    "ipk": "2.96",
+    "prodi": "D3 Teknik Mesin Alat Berat",
+    "jurusan": "Jurusan Rekayasa Mesin Industri",
+    "predikat": "Memuaskan",
+    "url_foto": "assets/images/foto-wisudawan/TLI/MUCHAMMAD SYAHRUL RAMADHANI_D3 TEKNIK LISTRIK INDUSTRI.webp"
+  },
+  {
+    "no": 72,
+    "namaLengkap": "Muhammad Makbul, A.Md.T.",
+    "nrp": "33212301034",
+    "ipk": "3.65",
+    "prodi": "D3 Teknik Mesin Alat Berat",
+    "jurusan": "Jurusan Rekayasa Mesin Industri",
+    "predikat": "Dengan Pujian",
+    "url_foto": "assets/images/foto-wisudawan/TMAB/MUHAMMAD MAKBUL_D3 TEKNIK MESIN ALAT BERAT.webp"
+  },
+  {
+    "no": 73,
+    "namaLengkap": "Dhio Fajar Alif, A.Md.T.",
+    "nrp": "33212301036",
+    "ipk": "3.62",
+    "prodi": "D3 Teknik Mesin Alat Berat",
+    "jurusan": "Jurusan Rekayasa Mesin Industri",
+    "predikat": "Dengan Pujian",
+    "url_foto": "assets/images/foto-wisudawan/TMAB/DHIO FAJAR ALIF_D3 TEKNIK MESIN ALAT BERAT.webp"
+  },
+  {
+    "no": 74,
+    "namaLengkap": "Azizi Rohman, A.Md.T.",
+    "nrp": "33212301037",
+    "ipk": "3.08",
+    "prodi": "D3 Teknik Mesin Alat Berat",
+    "jurusan": "Jurusan Rekayasa Mesin Industri",
+    "predikat": "Sangat Memuaskan",
+    "url_foto": "assets/images/foto-wisudawan/TMAB/AZIZI ROHMAN_D3 TEKNIK MESIN ALAT BERAT.webp"
+  },
+  {
+    "no": 75,
+    "namaLengkap": "Faisal Basumi, A.Md.T.",
+    "nrp": "33212301038",
+    "ipk": "3.16",
+    "prodi": "D3 Teknik Mesin Alat Berat",
+    "jurusan": "Jurusan Rekayasa Mesin Industri",
+    "predikat": "Sangat Memuaskan",
+    "url_foto": "assets/images/foto-wisudawan/TMAB/FAISAL BASUMI_D3 TEKNIK MESIN ALAT BERAT.webp"
+  },
+  {
+    "no": 76,
+    "namaLengkap": "Imam Makhruj Afrahal Akbar Karno, A.Md.T.",
+    "nrp": "33212301039",
+    "ipk": "2.79",
+    "prodi": "D3 Teknik Mesin Alat Berat",
+    "jurusan": "Jurusan Rekayasa Mesin Industri",
+    "predikat": "Memuaskan",
+    "url_foto": "assets/images/foto-wisudawan/TMAB/IMAM MAKHRUJ AFRAHAL A.K_D3 TEKNIK MESIN ALAT BERAT.webp"
+  },
+  {
+    "no": 77,
+    "namaLengkap": "Rama Wijaya Brilliant Suyanto, A.Md.T.",
+    "nrp": "33212301040",
+    "ipk": "3.54",
+    "prodi": "D3 Teknik Mesin Alat Berat",
+    "jurusan": "Jurusan Rekayasa Mesin Industri",
+    "predikat": "Dengan Pujian",
+    "url_foto": "assets/images/foto-wisudawan/TMAB/RAMA WIJAYA B.S_D3 TEKNIK MESIN ALAT BERAT.webp"
+  },
+  {
+    "no": 78,
+    "namaLengkap": "Dwi Juniarta, A.Md.T.",
+    "nrp": "33212301041",
+    "ipk": "3.30",
+    "prodi": "D3 Teknik Mesin Alat Berat",
+    "jurusan": "Jurusan Rekayasa Mesin Industri",
+    "predikat": "Sangat Memuaskan",
+    "url_foto": "assets/images/foto-wisudawan/TMAB/DWI JUNIARTA_D3 TEKNIK MESIN ALAT BERAT.webp"
+  },
+  {
+    "no": 79,
+    "namaLengkap": "Firman Maulana Zulhan, A.Md.T.",
+    "nrp": "33212301042",
+    "ipk": "3.01",
+    "prodi": "D3 Teknik Mesin Alat Berat",
+    "jurusan": "Jurusan Rekayasa Mesin Industri",
+    "predikat": "Sangat Memuaskan",
+    "url_foto": "assets/images/foto-wisudawan/TMAB/FIRMAN MAULANA Z_D3 TEKNIK MESIN ALAT BERAT.webp"
+  },
   // D3 Keperawatan
   {
     "no": 80,

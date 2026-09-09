@@ -37,6 +37,8 @@
 
     /* --- NEO BRUTALISM STYLE --- */
     .card-wisudawan {
+      position: relative;
+      /* Dibutuhkan untuk absolute child */
       background: #ffffff;
       /* Solid white background */
       border: 6px solid #000000;
@@ -185,6 +187,18 @@
       /* Efek timbul tipis agar tetap terbaca operator */
       pointer-events: none;
     }
+
+    /* HINT URUTAN UNTUK MC (Samar di dalam box) */
+    .hint-urutan {
+      position: absolute;
+      bottom: 15px;
+      right: 20px;
+      font-size: 1.0rem;
+      font-weight: 600;
+      color: #ccc;
+      /* Abu-abu samar */
+      pointer-events: none;
+    }
   </style>
 </head>
 
@@ -215,6 +229,9 @@
         <div class="detail-value" id="tampil-jurusan"></div>
       </div>
     </div>
+
+    <!-- Hint Nomor Urut untuk MC -->
+    <div class="hint-urutan" id="hint-mc">#</div>
   </div>
 
   <!-- INDIKATOR URUTAN OPERATOR -->
@@ -295,6 +312,10 @@
       // Update indikator urutan untuk operator
       document.getElementById("teks-urutan").innerText =
         `Urutan: ${indexSaatIni + 1} dari ${dataWisudawan.length}`;
+
+      // Update hint urutan untuk MC (di dalam card)
+      document.getElementById("hint-mc").innerText =
+        `${indexSaatIni + 1} / ${dataWisudawan.length}`;
 
       // Otomatis kirim nama wisudawan ke HP audiens (Firebase)
       db.ref('status_layar').set({ nama_wisudawan: profil.namaLengkap });
