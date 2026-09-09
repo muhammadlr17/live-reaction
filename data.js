@@ -6,7 +6,7 @@ const dataWisudawan = [
     "nrp": "33112101028",
     "ipk": "3.61",
     "prodi": "D3 Teknik Listrik Industri",
-    "jurusan": "Jurusan Teknik Elektro",
+    "jurusan": "Jurusan Teknologi Elektro",
     "predikat": "Sangat Memuaskan",
     "url_foto": "assets/images/foto-wisudawan/TLI/ESTI AISYAH DINASAPUTRI_D3 TEKNIK LISTRIK INDUSTRI.webp"
   },
@@ -16,7 +16,7 @@ const dataWisudawan = [
     "nrp": "33112101044",
     "ipk": "3.58",
     "prodi": "D3 Teknik Listrik Industri",
-    "jurusan": "Jurusan Teknik Elektro",
+    "jurusan": "Jurusan Teknologi Elektro",
     "predikat": "Sangat Memuaskan",
     "url_foto": "assets/images/foto-wisudawan/TLI/RAFLIE NURURIVANSYAH_D3 TEKNIK LISTRIK INDUSTRI.webp"
   },
@@ -26,7 +26,7 @@ const dataWisudawan = [
     "nrp": "33112201010",
     "ipk": "3.19",
     "prodi": "D3 Teknik Listrik Industri",
-    "jurusan": "Jurusan Teknik Elektro",
+    "jurusan": "Jurusan Teknologi Elektro",
     "predikat": "Sangat Memuaskan",
     "url_foto": "assets/images/foto-wisudawan/TLI/MOH RIFQI ASSYIROJI_D3 TEKNIK LISTRIK INDUSTRI.webp"
   },
@@ -36,7 +36,7 @@ const dataWisudawan = [
     "nrp": "33112201046",
     "ipk": "3.43",
     "prodi": "D3 Teknik Listrik Industri",
-    "jurusan": "Jurusan Teknik Elektro",
+    "jurusan": "Jurusan Teknologi Elektro",
     "predikat": "Sangat Memuaskan",
     "url_foto": "assets/images/foto-wisudawan/TLI/ACH ZAINAL ABIDIN_D3 TEKNIK LISTRIK INDUSTRI.webp"
   },
@@ -46,7 +46,7 @@ const dataWisudawan = [
     "nrp": "33112301002",
     "ipk": "3.71",
     "prodi": "D3 Teknik Listrik Industri",
-    "jurusan": "Jurusan Teknik Elektro",
+    "jurusan": "Jurusan Teknologi Elektro",
     "predikat": "Dengan Pujian",
     "url_foto": "assets/images/foto-wisudawan/TLI/ACHMAD MUGHOFIR_D3 TEKNIK LISTRIK INDUSTRI.webp"
   },
@@ -56,7 +56,7 @@ const dataWisudawan = [
     "nrp": "33112301005",
     "ipk": "3.34",
     "prodi": "D3 Teknik Listrik Industri",
-    "jurusan": "Jurusan Teknik Elektro",
+    "jurusan": "Jurusan Teknologi Elektro",
     "predikat": "Sangat Memuaskan",
     "url_foto": "assets/images/foto-wisudawan/TLI/HALIMATUS SA`DIYAH_D3 TEKNIK LISTRIK INDUSTRI.webp"
   },
@@ -66,7 +66,7 @@ const dataWisudawan = [
     "nrp": "33112301007",
     "ipk": "3.42",
     "prodi": "D3 Teknik Listrik Industri",
-    "jurusan": "Jurusan Teknik Elektro",
+    "jurusan": "Jurusan Teknologi Elektro",
     "predikat": "Sangat Memuaskan",
     "url_foto": "assets/images/foto-wisudawan/TLI/MOHAMAD IHWAN MAULANA_D3 TEKNIK LISTRIK INDUSTRI.webp"
   },
@@ -76,7 +76,7 @@ const dataWisudawan = [
     "nrp": "33112301008",
     "ipk": "3.08",
     "prodi": "D3 Teknik Listrik Industri",
-    "jurusan": "Jurusan Teknik Elektro",
+    "jurusan": "Jurusan Teknologi Elektro",
     "predikat": "Sangat Memuaskan",
     "url_foto": "assets/images/foto-wisudawan/TLI/MUCHAMMAD SYAHRUL RAMADHANI_D3 TEKNIK LISTRIK INDUSTRI.webp"
   },
@@ -86,7 +86,7 @@ const dataWisudawan = [
     "nrp": "33112301009",
     "ipk": "3.63",
     "prodi": "D3 Teknik Listrik Industri",
-    "jurusan": "Jurusan Teknik Elektro",
+    "jurusan": "Jurusan Teknologi Elektro",
     "predikat": "Dengan Pujian",
     "url_foto": "assets/images/foto-wisudawan/TLI/MUHAMMAD ADITYA RAHMAN_D3 TEKNIK LISTRIK INDUSTRI.webp"
   },
@@ -96,7 +96,7 @@ const dataWisudawan = [
     "nrp": "33112301010",
     "ipk": "3.27",
     "prodi": "D3 Teknik Listrik Industri",
-    "jurusan": "Jurusan Teknik Elektro",
+    "jurusan": "Jurusan Teknologi Elektro",
     "predikat": "Sangat Memuaskan",
     "url_foto": "assets/images/foto-wisudawan/TLI/RANIA RAMBU RABBANI_D3 TEKNIK LISTRIK INDUSTRI.webp"
   },
@@ -106,7 +106,7 @@ const dataWisudawan = [
     "nrp": "33112301011",
     "ipk": "3.47",
     "prodi": "D3 Teknik Listrik Industri",
-    "jurusan": "Jurusan Teknik Elektro",
+    "jurusan": "Jurusan Teknologi Elektro",
     "predikat": "Sangat Memuaskan",
     "url_foto": "assets/images/foto-wisudawan/TLI/RISKY ILHAMI _D3 TEKNIK LISTRIK INDUSTRI.webp"
   },
@@ -116,7 +116,7 @@ const dataWisudawan = [
     "nrp": "33112301013",
     "ipk": "3.36",
     "prodi": "D3 Teknik Listrik Industri",
-    "jurusan": "Jurusan Teknik Elektro",
+    "jurusan": "Jurusan Teknologi Elektro",
     "predikat": "Sangat Memuaskan",
     "url_foto": "assets/images/foto-wisudawan/TLI/FIRMAN WAHLUL AMRI_D3 TEKNIK LISTRIK INDUSTRI.webp"
   },
@@ -126,7 +126,7 @@ const dataWisudawan = [
     "nrp": "33112301015",
     "ipk": "3.29",
     "prodi": "D3 Teknik Listrik Industri",
-    "jurusan": "Jurusan Teknik Elektro",
+    "jurusan": "Jurusan Teknologi Elektro",
     "predikat": "Sangat Memuaskan",
     "url_foto": "assets/images/foto-wisudawan/TLI/MAHRITA IMAMI_D3 TEKNIIK LISTRIK INDUSTRI.webp"
   },
@@ -136,7 +136,7 @@ const dataWisudawan = [
     "nrp": "33112301016",
     "ipk": "3.32",
     "prodi": "D3 Teknik Listrik Industri",
-    "jurusan": "Jurusan Teknik Elektro",
+    "jurusan": "Jurusan Teknologi Elektro",
     "predikat": "Sangat Memuaskan",
     "url_foto": "assets/images/foto-wisudawan/TLI/MOH. FAJAR SYAHBANA_D3 TEKNIK LISTRIK INDUSTRI.webp"
   },
@@ -146,7 +146,7 @@ const dataWisudawan = [
     "nrp": "33112301018",
     "ipk": "3.26",
     "prodi": "D3 Teknik Listrik Industri",
-    "jurusan": "Jurusan Teknik Elektro",
+    "jurusan": "Jurusan Teknologi Elektro",
     "predikat": "Sangat Memuaskan",
     "url_foto": "assets/images/foto-wisudawan/TLI/NAJILATUL MAUFIROH_D3 TEKNIK LISTRIK INDUSTRI.webp"
   },
@@ -156,7 +156,7 @@ const dataWisudawan = [
     "nrp": "33112301019",
     "ipk": "3.28",
     "prodi": "D3 Teknik Listrik Industri",
-    "jurusan": "Jurusan Teknik Elektro",
+    "jurusan": "Jurusan Teknologi Elektro",
     "predikat": "Sangat Memuaskan",
     "url_foto": "assets/images/foto-wisudawan/TLI/NURUL HIKMAH SANIMA_D3 TEKNIK LISTRIK INDUSTRI.webp"
   },
@@ -166,7 +166,7 @@ const dataWisudawan = [
     "nrp": "33112301021",
     "ipk": "3.34",
     "prodi": "D3 Teknik Listrik Industri",
-    "jurusan": "Jurusan Teknik Elektro",
+    "jurusan": "Jurusan Teknologi Elektro",
     "predikat": "Sangat Memuaskan",
     "url_foto": "assets/images/foto-wisudawan/TLI/ALFIN WAHYU PRATAMA_D3 TEKNIK LISTRIK INDUSTRI.webp"
   },
@@ -176,7 +176,7 @@ const dataWisudawan = [
     "nrp": "33112301022",
     "ipk": "3.13",
     "prodi": "D3 Teknik Listrik Industri",
-    "jurusan": "Jurusan Teknik Elektro",
+    "jurusan": "Jurusan Teknologi Elektro",
     "predikat": "Sangat Memuaskan",
     "url_foto": "assets/images/foto-wisudawan/TLI/FARHAN_D3 TEKNIK LISTRIK INDUSTRI.webp"
   },
@@ -186,7 +186,7 @@ const dataWisudawan = [
     "nrp": "33112301024",
     "ipk": "3.07",
     "prodi": "D3 Teknik Listrik Industri",
-    "jurusan": "Jurusan Teknik Elektro",
+    "jurusan": "Jurusan Teknologi Elektro",
     "predikat": "Sangat Memuaskan",
     "url_foto": "assets/images/foto-wisudawan/TLI/ZAYYADI_D3 TEKNIK LISTRIK INDUSTRI.webp"
   },
@@ -196,7 +196,7 @@ const dataWisudawan = [
     "nrp": "33112301025",
     "ipk": "3.86",
     "prodi": "D3 Teknik Listrik Industri",
-    "jurusan": "Jurusan Teknik Elektro",
+    "jurusan": "Jurusan Teknologi Elektro",
     "predikat": "Dengan Pujian",
     "url_foto": "assets/images/foto-wisudawan/TLI/IBEN FAUZANTARO_D3 TEKNIK LISTRIK INDUSTRI.webp"
   },
@@ -206,7 +206,7 @@ const dataWisudawan = [
     "nrp": "33112301026",
     "ipk": "3.35",
     "prodi": "D3 Teknik Listrik Industri",
-    "jurusan": "Jurusan Teknik Elektro",
+    "jurusan": "Jurusan Teknologi Elektro",
     "predikat": "Sangat Memuaskan",
     "url_foto": "assets/images/foto-wisudawan/TLI/ELVIRA MULYANI_D3 TEKNIK LISTRIK INDUSTRI.webp"
   },
@@ -216,7 +216,7 @@ const dataWisudawan = [
     "nrp": "33112301027",
     "ipk": "3.77",
     "prodi": "D3 Teknik Listrik Industri",
-    "jurusan": "Jurusan Teknik Elektro",
+    "jurusan": "Jurusan Teknologi Elektro",
     "predikat": "Dengan Pujian",
     "url_foto": "assets/images/foto-wisudawan/TLI/TRIANA AGUSTIN_D3 TEKNIK LISTRIK INDUSTRI.webp"
   },
@@ -226,7 +226,7 @@ const dataWisudawan = [
     "nrp": "33112301028",
     "ipk": "3.57",
     "prodi": "D3 Teknik Listrik Industri",
-    "jurusan": "Jurusan Teknik Elektro",
+    "jurusan": "Jurusan Teknologi Elektro",
     "predikat": "Dengan Pujian",
     "url_foto": "assets/images/foto-wisudawan/TLI/PUTRI AYU DAMAYANTI_D3 TEKNIK LISTRIK INDUSTRI.webp"
   },
@@ -236,7 +236,7 @@ const dataWisudawan = [
     "nrp": "33112301030",
     "ipk": "3.42",
     "prodi": "D3 Teknik Listrik Industri",
-    "jurusan": "Jurusan Teknik Elektro",
+    "jurusan": "Jurusan Teknologi Elektro",
     "predikat": "Sangat Memuaskan",
     "url_foto": "assets/images/foto-wisudawan/TLI/FATHUL ROSI_D3 TEKNIK LISTRIK INDUSTRI.webp"
   },
@@ -246,7 +246,7 @@ const dataWisudawan = [
     "nrp": "33112301031",
     "ipk": "3.37",
     "prodi": "D3 Teknik Listrik Industri",
-    "jurusan": "Jurusan Teknik Elektro",
+    "jurusan": "Jurusan Teknologi Elektro",
     "predikat": "Sangat Memuaskan",
     "url_foto": "assets/images/foto-wisudawan/TLI/ACHMAD MAULIDIL HIKAM_D3 TEKNIK LISTRIK INDUSTRI.webp"
   },
@@ -256,7 +256,7 @@ const dataWisudawan = [
     "nrp": "33112301032",
     "ipk": "3.53",
     "prodi": "D3 Teknik Listrik Industri",
-    "jurusan": "Jurusan Teknik Elektro",
+    "jurusan": "Jurusan Teknologi Elektro",
     "predikat": "Dengan Pujian",
     "url_foto": "assets/images/foto-wisudawan/TLI/ACH. SUYUTI AL FARISY_D3 TEKNIK LISTRIK INDUSTRI.webp"
   },
@@ -266,7 +266,7 @@ const dataWisudawan = [
     "nrp": "33112301034",
     "ipk": "3.77",
     "prodi": "D3 Teknik Listrik Industri",
-    "jurusan": "Jurusan Teknik Elektro",
+    "jurusan": "Jurusan Teknologi Elektro",
     "predikat": "Dengan Pujian",
     "url_foto": "assets/images/foto-wisudawan/TLI/CARMENITA HARI PRIMUKTI_D3 TEKNIK LISTRIK INDUSTRI.webp"
   },
@@ -276,7 +276,7 @@ const dataWisudawan = [
     "nrp": "33112301035",
     "ipk": "3.23",
     "prodi": "D3 Teknik Listrik Industri",
-    "jurusan": "Jurusan Teknik Elektro",
+    "jurusan": "Jurusan Teknologi Elektro",
     "predikat": "Sangat Memuaskan",
     "url_foto": "assets/images/foto-wisudawan/TLI/ACHMAD IBNU MALIK_D3 TEKNIK LISTRIK INDUSTRI.webp"
   },
@@ -286,7 +286,7 @@ const dataWisudawan = [
     "nrp": "33112301036",
     "ipk": "3.13",
     "prodi": "D3 Teknik Listrik Industri",
-    "jurusan": "Jurusan Teknik Elektro",
+    "jurusan": "Jurusan Teknologi Elektro",
     "predikat": "Sangat Memuaskan",
     "url_foto": "assets/images/foto-wisudawan/TLI/FADGHAM AMMAR JALIL_D3 TEKNIK LISTRIK INDUSTRI.webp"
   },
@@ -298,7 +298,7 @@ const dataWisudawan = [
     "nrp": "33212201009",
     "ipk": "3.18",
     "prodi": "D3 Teknik Mesin Alat Berat",
-    "jurusan": "Jurusan Teknik Mesin",
+    "jurusan": "Jurusan Rekayasa Mesin Industri",
     "predikat": "Sangat Memuaskan",
     "url_foto": "assets/images/foto-wisudawan/TMAB/RAAFI ADHITYA SAPUTRA_D3 TEKNIK MESIN ALAT BERAT.webp"
   },
@@ -308,7 +308,7 @@ const dataWisudawan = [
     "nrp": "33212301001",
     "ipk": "2.88",
     "prodi": "D3 Teknik Mesin Alat Berat",
-    "jurusan": "Jurusan Teknik Mesin",
+    "jurusan": "Jurusan Rekayasa Mesin Industri",
     "predikat": "Memuaskan",
     "url_foto": "assets/images/foto-wisudawan/TMAB/AGUNG SETIABUDI H_D3 TEKNIK MESIN ALAT BERAT.webp"
   },
@@ -318,7 +318,7 @@ const dataWisudawan = [
     "nrp": "33212301002",
     "ipk": "3.49",
     "prodi": "D3 Teknik Mesin Alat Berat",
-    "jurusan": "Jurusan Teknik Mesin",
+    "jurusan": "Jurusan Rekayasa Mesin Industri",
     "predikat": "Sangat Memuaskan",
     "url_foto": "assets/images/foto-wisudawan/TMAB/AHMAD KHOIRUL ROFIQ_D3 TEKNIK MESIN ALAT BERAT.webp"
   },
@@ -328,7 +328,7 @@ const dataWisudawan = [
     "nrp": "33212301003",
     "ipk": "3.20",
     "prodi": "D3 Teknik Mesin Alat Berat",
-    "jurusan": "Jurusan Teknik Mesin",
+    "jurusan": "Jurusan Rekayasa Mesin Industri",
     "predikat": "Sangat Memuaskan",
     "url_foto": "assets/images/foto-wisudawan/TMAB/AINUN NAIM_D3 TEKNIK MESIN ALAT BERAT.webp"
   },
@@ -338,7 +338,7 @@ const dataWisudawan = [
     "nrp": "33212301005",
     "ipk": "3.14",
     "prodi": "D3 Teknik Mesin Alat Berat",
-    "jurusan": "Jurusan Teknik Mesin",
+    "jurusan": "Jurusan Rekayasa Mesin Industri",
     "predikat": "Sangat Memuaskan",
     "url_foto": "assets/images/foto-wisudawan/TMAB/FAHMI ACHMAT NAARIF_D3 TEKNIK MESIN ALAT BERAT.webp"
   },
@@ -348,7 +348,7 @@ const dataWisudawan = [
     "nrp": "33212301006",
     "ipk": "3.12",
     "prodi": "D3 Teknik Mesin Alat Berat",
-    "jurusan": "Jurusan Teknik Mesin",
+    "jurusan": "Jurusan Rekayasa Mesin Industri",
     "predikat": "Sangat Memuaskan",
     "url_foto": "assets/images/foto-wisudawan/TMAB/HIMMATUL AULIA_D3 TEKNIK MESIN ALAT BERAT.webp"
   },
@@ -358,7 +358,7 @@ const dataWisudawan = [
     "nrp": "33212301008",
     "ipk": "3.33",
     "prodi": "D3 Teknik Mesin Alat Berat",
-    "jurusan": "Jurusan Teknik Mesin",
+    "jurusan": "Jurusan Rekayasa Mesin Industri",
     "predikat": "Sangat Memuaskan",
     "url_foto": "assets/images/foto-wisudawan/TMAB/LAILATUS SAHRI S_D3 TEKNIK MESIN ALAT BERAT.webp"
   },
@@ -368,7 +368,7 @@ const dataWisudawan = [
     "nrp": "33212301009",
     "ipk": "3.17",
     "prodi": "D3 Teknik Mesin Alat Berat",
-    "jurusan": "Jurusan Teknik Mesin",
+    "jurusan": "Jurusan Rekayasa Mesin Industri",
     "predikat": "Sangat Memuaskan",
     "url_foto": "assets/images/foto-wisudawan/TMAB/LUQMAN ARIF_D3 TEKNIK MESIN ALAT BERAT.webp"
   },
@@ -378,7 +378,7 @@ const dataWisudawan = [
     "nrp": "33212301010",
     "ipk": "3.28",
     "prodi": "D3 Teknik Mesin Alat Berat",
-    "jurusan": "Jurusan Teknik Mesin",
+    "jurusan": "Jurusan Rekayasa Mesin Industri",
     "predikat": "Sangat Memuaskan",
     "url_foto": "assets/images/foto-wisudawan/TMAB/MOH MASHDUQI F_D3 TEKNIK MESIN ALAT BERAT.webp"
   },
@@ -388,7 +388,7 @@ const dataWisudawan = [
     "nrp": "33212301011",
     "ipk": "3.45",
     "prodi": "D3 Teknik Mesin Alat Berat",
-    "jurusan": "Jurusan Teknik Mesin",
+    "jurusan": "Jurusan Rekayasa Mesin Industri",
     "predikat": "Sangat Memuaskan",
     "url_foto": "assets/images/foto-wisudawan/TMAB/MOH. NOER DANDY M_D3 TEKNIK MESIN ALAT BERAT.webp"
   },
@@ -398,7 +398,7 @@ const dataWisudawan = [
     "nrp": "33212301013",
     "ipk": "3.10",
     "prodi": "D3 Teknik Mesin Alat Berat",
-    "jurusan": "Jurusan Teknik Mesin",
+    "jurusan": "Jurusan Rekayasa Mesin Industri",
     "predikat": "Sangat Memuaskan",
     "url_foto": "assets/images/foto-wisudawan/TMAB/MUHAIMIN_D3 TEKNIK MESIN ALAT BERAT.webp"
   },
@@ -408,7 +408,7 @@ const dataWisudawan = [
     "nrp": "33212301014",
     "ipk": "3.35",
     "prodi": "D3 Teknik Mesin Alat Berat",
-    "jurusan": "Jurusan Teknik Mesin",
+    "jurusan": "Jurusan Rekayasa Mesin Industri",
     "predikat": "Sangat Memuaskan",
     "url_foto": "assets/images/foto-wisudawan/TMAB/MUHAMMAT FIRDAUS_D3 TEKNIK MESIN ALAT BERAT.webp"
   },
@@ -418,7 +418,7 @@ const dataWisudawan = [
     "nrp": "33212301015",
     "ipk": "3.53",
     "prodi": "D3 Teknik Mesin Alat Berat",
-    "jurusan": "Jurusan Teknik Mesin",
+    "jurusan": "Jurusan Rekayasa Mesin Industri",
     "predikat": "Dengan Pujian",
     "url_foto": "assets/images/foto-wisudawan/TMAB/RAHMAT FAJAR_D3 TEKNIK MESIN ALAT BERAT.webp"
   },
@@ -428,7 +428,7 @@ const dataWisudawan = [
     "nrp": "33212301016",
     "ipk": "3.33",
     "prodi": "D3 Teknik Mesin Alat Berat",
-    "jurusan": "Jurusan Teknik Mesin",
+    "jurusan": "Jurusan Rekayasa Mesin Industri",
     "predikat": "Sangat Memuaskan",
     "url_foto": "assets/images/foto-wisudawan/TMAB/RIZKY AGENG RAHMADANI_D3 TEKNIK MESIN ALAT BERAT.webp"
   },
@@ -438,7 +438,7 @@ const dataWisudawan = [
     "nrp": "33212301017",
     "ipk": "3.23",
     "prodi": "D3 Teknik Mesin Alat Berat",
-    "jurusan": "Jurusan Teknik Mesin",
+    "jurusan": "Jurusan Rekayasa Mesin Industri",
     "predikat": "Sangat Memuaskan",
     "url_foto": "assets/images/foto-wisudawan/TMAB/SANDY DWI W_D3 TEKNIK MESIN ALAT BERAT.webp"
   },
@@ -448,7 +448,7 @@ const dataWisudawan = [
     "nrp": "33212301018",
     "ipk": "3.31",
     "prodi": "D3 Teknik Mesin Alat Berat",
-    "jurusan": "Jurusan Teknik Mesin",
+    "jurusan": "Jurusan Rekayasa Mesin Industri",
     "predikat": "Sangat Memuaskan",
     "url_foto": "assets/images/foto-wisudawan/TMAB/SELVI AGUSTIN_D3 TEKNIK MESIN ALAT BERAT.webp"
   },
@@ -458,7 +458,7 @@ const dataWisudawan = [
     "nrp": "33212301019",
     "ipk": "2.98",
     "prodi": "D3 Teknik Mesin Alat Berat",
-    "jurusan": "Jurusan Teknik Mesin",
+    "jurusan": "Jurusan Rekayasa Mesin Industri",
     "predikat": "Memuaskan",
     "url_foto": "assets/images/foto-wisudawan/TMAB/SURAHMAT TEGAR P_D3 TEKNIK MESIN ALAT BERAT.webp"
   },
@@ -468,7 +468,7 @@ const dataWisudawan = [
     "nrp": "33212301020",
     "ipk": "3.45",
     "prodi": "D3 Teknik Mesin Alat Berat",
-    "jurusan": "Jurusan Teknik Mesin",
+    "jurusan": "Jurusan Rekayasa Mesin Industri",
     "predikat": "Sangat Memuaskan",
     "url_foto": "assets/images/foto-wisudawan/TMAB/SYARIF HIDAYATULLAH_D3 TEKNIK MESIN ALAT BERAT.webp"
   },
@@ -478,7 +478,7 @@ const dataWisudawan = [
     "nrp": "33212301022",
     "ipk": "3.11",
     "prodi": "D3 Teknik Mesin Alat Berat",
-    "jurusan": "Jurusan Teknik Mesin",
+    "jurusan": "Jurusan Rekayasa Mesin Industri",
     "predikat": "Sangat Memuaskan",
     "url_foto": "assets/images/foto-wisudawan/TMAB/ACHMAD BELQI YUDA_D3 TEKNIK MESIN ALAT BERAT.webp"
   },
@@ -488,7 +488,7 @@ const dataWisudawan = [
     "nrp": "33212301023",
     "ipk": "3.06",
     "prodi": "D3 Teknik Mesin Alat Berat",
-    "jurusan": "Jurusan Teknik Mesin",
+    "jurusan": "Jurusan Rekayasa Mesin Industri",
     "predikat": "Sangat Memuaskan",
     "url_foto": "assets/images/foto-wisudawan/TMAB/AHMAD EFENDI_D3 TEKNIK MESIN ALAT BERAT.webp"
   },
@@ -498,7 +498,7 @@ const dataWisudawan = [
     "nrp": "33212301025",
     "ipk": "3.43",
     "prodi": "D3 Teknik Mesin Alat Berat",
-    "jurusan": "Jurusan Teknik Mesin",
+    "jurusan": "Jurusan Rekayasa Mesin Industri",
     "predikat": "Sangat Memuaskan",
     "url_foto": "assets/images/foto-wisudawan/TMAB/ARIL ADIT PRATAMA_D3 TEKNIK MESIN ALAT BERAT.webp"
   },
@@ -508,7 +508,7 @@ const dataWisudawan = [
     "nrp": "33212301026",
     "ipk": "3.54",
     "prodi": "D3 Teknik Mesin Alat Berat",
-    "jurusan": "Jurusan Teknik Mesin",
+    "jurusan": "Jurusan Rekayasa Mesin Industri",
     "predikat": "Dengan Pujian",
     "url_foto": "assets/images/foto-wisudawan/TMAB/BAHIJ NAUFAL ALMAS_D3 TEKNIK MESIN ALAT BERAT.webp"
   },
@@ -518,7 +518,7 @@ const dataWisudawan = [
     "nrp": "33212301027",
     "ipk": "2.98",
     "prodi": "D3 Teknik Mesin Alat Berat",
-    "jurusan": "Jurusan Teknik Mesin",
+    "jurusan": "Jurusan Rekayasa Mesin Industri",
     "predikat": "Memuaskan",
     "url_foto": "assets/images/foto-wisudawan/TMAB/IFAN TRIO MAULANA_D3 TEKNIK MESIN ALAT BERAT.webp"
   },
@@ -528,7 +528,7 @@ const dataWisudawan = [
     "nrp": "33212301028",
     "ipk": "2.87",
     "prodi": "D3 Teknik Mesin Alat Berat",
-    "jurusan": "Jurusan Teknik Mesin",
+    "jurusan": "Jurusan Rekayasa Mesin Industri",
     "predikat": "Memuaskan",
     "url_foto": "assets/images/foto-wisudawan/TMAB/ILHAM RAMADANI_D3 TEKNIK MESIN ALAT BERAT.webp"
   },
@@ -538,7 +538,7 @@ const dataWisudawan = [
     "nrp": "33212301029",
     "ipk": "3.15",
     "prodi": "D3 Teknik Mesin Alat Berat",
-    "jurusan": "Jurusan Teknik Mesin",
+    "jurusan": "Jurusan Rekayasa Mesin Industri",
     "predikat": "Sangat Memuaskan",
     "url_foto": "assets/images/foto-wisudawan/TMAB/MOH FEBRIAN DIYANTO_D3 TEKNIK MESIN ALAT BERAT.webp"
   },
@@ -548,7 +548,7 @@ const dataWisudawan = [
     "nrp": "33212301030",
     "ipk": "2.96",
     "prodi": "D3 Teknik Mesin Alat Berat",
-    "jurusan": "Jurusan Teknik Mesin",
+    "jurusan": "Jurusan Rekayasa Mesin Industri",
     "predikat": "Memuaskan",
     "url_foto": "assets/images/foto-wisudawan/TLI/MUCHAMMAD SYAHRUL RAMADHANI_D3 TEKNIK LISTRIK INDUSTRI.webp"
   },
@@ -558,7 +558,7 @@ const dataWisudawan = [
     "nrp": "33212301034",
     "ipk": "3.65",
     "prodi": "D3 Teknik Mesin Alat Berat",
-    "jurusan": "Jurusan Teknik Mesin",
+    "jurusan": "Jurusan Rekayasa Mesin Industri",
     "predikat": "Dengan Pujian",
     "url_foto": "assets/images/foto-wisudawan/TMAB/MUHAMMAD MAKBUL_D3 TEKNIK MESIN ALAT BERAT.webp"
   },
@@ -568,7 +568,7 @@ const dataWisudawan = [
     "nrp": "33212301036",
     "ipk": "3.62",
     "prodi": "D3 Teknik Mesin Alat Berat",
-    "jurusan": "Jurusan Teknik Mesin",
+    "jurusan": "Jurusan Rekayasa Mesin Industri",
     "predikat": "Dengan Pujian",
     "url_foto": "assets/images/foto-wisudawan/TMAB/DHIO FAJAR ALIF_D3 TEKNIK MESIN ALAT BERAT.webp"
   },
@@ -578,7 +578,7 @@ const dataWisudawan = [
     "nrp": "33212301037",
     "ipk": "3.08",
     "prodi": "D3 Teknik Mesin Alat Berat",
-    "jurusan": "Jurusan Teknik Mesin",
+    "jurusan": "Jurusan Rekayasa Mesin Industri",
     "predikat": "Sangat Memuaskan",
     "url_foto": "assets/images/foto-wisudawan/TMAB/AZIZI ROHMAN_D3 TEKNIK MESIN ALAT BERAT.webp"
   },
@@ -588,7 +588,7 @@ const dataWisudawan = [
     "nrp": "33212301038",
     "ipk": "3.16",
     "prodi": "D3 Teknik Mesin Alat Berat",
-    "jurusan": "Jurusan Teknik Mesin",
+    "jurusan": "Jurusan Rekayasa Mesin Industri",
     "predikat": "Sangat Memuaskan",
     "url_foto": "assets/images/foto-wisudawan/TMAB/FAISAL BASUMI_D3 TEKNIK MESIN ALAT BERAT.webp"
   },
@@ -598,7 +598,7 @@ const dataWisudawan = [
     "nrp": "33212301039",
     "ipk": "2.79",
     "prodi": "D3 Teknik Mesin Alat Berat",
-    "jurusan": "Jurusan Teknik Mesin",
+    "jurusan": "Jurusan Rekayasa Mesin Industri",
     "predikat": "Memuaskan",
     "url_foto": "assets/images/foto-wisudawan/TMAB/IMAM MAKHRUJ AFRAHAL A.K_D3 TEKNIK MESIN ALAT BERAT.webp"
   },
@@ -608,7 +608,7 @@ const dataWisudawan = [
     "nrp": "33212301040",
     "ipk": "3.54",
     "prodi": "D3 Teknik Mesin Alat Berat",
-    "jurusan": "Jurusan Teknik Mesin",
+    "jurusan": "Jurusan Rekayasa Mesin Industri",
     "predikat": "Dengan Pujian",
     "url_foto": "assets/images/foto-wisudawan/TMAB/RAMA WIJAYA B.S_D3 TEKNIK MESIN ALAT BERAT.webp"
   },
@@ -618,7 +618,7 @@ const dataWisudawan = [
     "nrp": "33212301041",
     "ipk": "3.30",
     "prodi": "D3 Teknik Mesin Alat Berat",
-    "jurusan": "Jurusan Teknik Mesin",
+    "jurusan": "Jurusan Rekayasa Mesin Industri",
     "predikat": "Sangat Memuaskan",
     "url_foto": "assets/images/foto-wisudawan/TMAB/DWI JUNIARTA_D3 TEKNIK MESIN ALAT BERAT.webp"
   },
@@ -628,7 +628,7 @@ const dataWisudawan = [
     "nrp": "33212301042",
     "ipk": "3.01",
     "prodi": "D3 Teknik Mesin Alat Berat",
-    "jurusan": "Jurusan Teknik Mesin",
+    "jurusan": "Jurusan Rekayasa Mesin Industri",
     "predikat": "Sangat Memuaskan",
     "url_foto": "assets/images/foto-wisudawan/TMAB/FIRMAN MAULANA Z_D3 TEKNIK MESIN ALAT BERAT.webp"
   },
@@ -640,7 +640,7 @@ const dataWisudawan = [
     "nrp": "33312301001",
     "ipk": "3.39",
     "prodi": "D3 Teknik Bangunan Kapal",
-    "jurusan": "Jurusan Teknik Perkapalan",
+    "jurusan": "Jurusan Teknologi Kemaritiman",
     "predikat": "Sangat Memuaskan",
     "url_foto": "assets/images/foto-wisudawan/TBK/AFIF WAHYUDI_D3 TEKNIK BANGUNAN KAPAL.webp"
   },
@@ -650,7 +650,7 @@ const dataWisudawan = [
     "nrp": "33312301002",
     "ipk": "3.05",
     "prodi": "D3 Teknik Bangunan Kapal",
-    "jurusan": "Jurusan Teknik Perkapalan",
+    "jurusan": "Jurusan Teknologi Kemaritiman",
     "predikat": "Sangat Memuaskan",
     "url_foto": "assets/images/foto-wisudawan/TBK/ARIS SAYIDIL ILMI_D3 TEKNIK BANGUNAN KAPAL.webp"
   },
@@ -660,7 +660,7 @@ const dataWisudawan = [
     "nrp": "33312301003",
     "ipk": "3.40",
     "prodi": "D3 Teknik Bangunan Kapal",
-    "jurusan": "Jurusan Teknik Perkapalan",
+    "jurusan": "Jurusan Teknologi Kemaritiman",
     "predikat": "Sangat Memuaskan",
     "url_foto": "assets/images/foto-wisudawan/TBK/DAIMATUL HOIROH_D3 TEKNIK BANGUNAN KAPAL.webp"
   },
@@ -670,7 +670,7 @@ const dataWisudawan = [
     "nrp": "33312301004",
     "ipk": "3.12",
     "prodi": "D3 Teknik Bangunan Kapal",
-    "jurusan": "Jurusan Teknik Perkapalan",
+    "jurusan": "Jurusan Teknologi Kemaritiman",
     "predikat": "Sangat Memuaskan",
     "url_foto": "assets/images/foto-wisudawan/TBK/IKBALUL HOIRILANA_D3 TEKNIK BANGUNAN KAPAL.webp"
   },
@@ -680,7 +680,7 @@ const dataWisudawan = [
     "nrp": "33312301005",
     "ipk": "3.50",
     "prodi": "D3 Teknik Bangunan Kapal",
-    "jurusan": "Jurusan Teknik Perkapalan",
+    "jurusan": "Jurusan Teknologi Kemaritiman",
     "predikat": "Sangat Memuaskan",
     "url_foto": "assets/images/foto-wisudawan/TBK/MUHAMMAD AKBAR NUGROHO P_D3 TEKNIK BANGUNAN KAPAL.webp"
   },
@@ -690,7 +690,7 @@ const dataWisudawan = [
     "nrp": "33312301006",
     "ipk": "3.44",
     "prodi": "D3 Teknik Bangunan Kapal",
-    "jurusan": "Jurusan Teknik Perkapalan",
+    "jurusan": "Jurusan Teknologi Kemaritiman",
     "predikat": "Sangat Memuaskan",
     "url_foto": "assets/images/foto-wisudawan/TBK/RAYNALD ATILA CHANDRA_D3 TEKNIK BANGUNAN KAPAL.webp"
   },
@@ -700,7 +700,7 @@ const dataWisudawan = [
     "nrp": "33312301008",
     "ipk": "3.60",
     "prodi": "D3 Teknik Bangunan Kapal",
-    "jurusan": "Jurusan Teknik Perkapalan",
+    "jurusan": "Jurusan Teknologi Kemaritiman",
     "predikat": "Dengan Pujian",
     "url_foto": "assets/images/foto-wisudawan/TBK/WISNU ADI BARA PAMUNGKAS_D3 TEKNIK BANGUNAN KAPAL.webp"
   },
@@ -710,7 +710,7 @@ const dataWisudawan = [
     "nrp": "33312301009",
     "ipk": "3.54",
     "prodi": "D3 Teknik Bangunan Kapal",
-    "jurusan": "Jurusan Teknik Perkapalan",
+    "jurusan": "Jurusan Teknologi Kemaritiman",
     "predikat": "Dengan Pujian",
     "url_foto": "assets/images/foto-wisudawan/TBK/MOH. ROHMAN ALFINT0_D3 TEKNIK BANGUNAN KAPAL.webp"
   },
@@ -720,7 +720,7 @@ const dataWisudawan = [
     "nrp": "33312301010",
     "ipk": "3.65",
     "prodi": "D3 Teknik Bangunan Kapal",
-    "jurusan": "Jurusan Teknik Perkapalan",
+    "jurusan": "Jurusan Teknologi Kemaritiman",
     "predikat": "Dengan Pujian",
     "url_foto": "assets/images/foto-wisudawan/TBK/ADILLA NAILI IZZATI_D3 TEKNIK BANGUNAN KAPAL.webp"
   },
@@ -730,7 +730,7 @@ const dataWisudawan = [
     "nrp": "33312301011",
     "ipk": "2.82",
     "prodi": "D3 Teknik Bangunan Kapal",
-    "jurusan": "Jurusan Teknik Perkapalan",
+    "jurusan": "Jurusan Teknologi Kemaritiman",
     "predikat": "Memuaskan",
     "url_foto": "assets/images/foto-wisudawan/TBK/SULAIMAN_D3 TEKNIK BANGUNAN KAPAL.webp"
   },
@@ -740,7 +740,7 @@ const dataWisudawan = [
     "nrp": "33312301014",
     "ipk": "3.21",
     "prodi": "D3 Teknik Bangunan Kapal",
-    "jurusan": "Jurusan Teknik Perkapalan",
+    "jurusan": "Jurusan Teknologi Kemaritiman",
     "predikat": "Sangat Memuaskan",
     "url_foto": "assets/images/foto-wisudawan/TBK/M. YUSUF BAHTIAR_D3 TEKNIK BANGUNAN KAPAL.webp"
   },
@@ -750,7 +750,7 @@ const dataWisudawan = [
     "nrp": "33312301015",
     "ipk": "3.61",
     "prodi": "D3 Teknik Bangunan Kapal",
-    "jurusan": "Jurusan Teknik Perkapalan",
+    "jurusan": "Jurusan Teknologi Kemaritiman",
     "predikat": "Dengan Pujian",
     "url_foto": "assets/images/foto-wisudawan/TBK/IHSAN NURDIANSYAH_D3 TEKNIK BANGUNAN KAPAL.webp"
   },
@@ -762,7 +762,7 @@ const dataWisudawan = [
     "nrp": "33332201001",
     "ipk": "3.66",
     "prodi": "D4 Teknologi Rekayasa Keselamatan",
-    "jurusan": "Jurusan Keselamatan dan Kesehatan Kerja",
+    "jurusan": "Jurusan Teknologi Kemaritiman",
     "predikat": "Dengan Pujian",
     "url_foto": "assets/images/foto-wisudawan/TRK/ACHMAD NABIL AL FIYAN _D3 TEKNOLOGI REKAYASA KESELAMATAN.webp"
   },
@@ -772,9 +772,9 @@ const dataWisudawan = [
     "nrp": "33332201003",
     "ipk": "3.14",
     "prodi": "D4 Teknologi Rekayasa Keselamatan",
-    "jurusan": "Jurusan Keselamatan dan Kesehatan Kerja",
+    "jurusan": "Jurusan Teknologi Kemaritiman",
     "predikat": "Sangat Memuaskan",
-    "url_foto": "https://placehold.co/300x400/3498db/ffffff?text=FOTO+RISKY"
+    "url_foto": "assets/images/foto-wisudawan/TRK/moh. dwi risky yulianto_33332201003_Teknologi Kemaritiman.webp"
   },
   {
     "no": 78,
@@ -782,7 +782,7 @@ const dataWisudawan = [
     "nrp": "33332201004",
     "ipk": "3.07",
     "prodi": "D4 Teknologi Rekayasa Keselamatan",
-    "jurusan": "Jurusan Keselamatan dan Kesehatan Kerja",
+    "jurusan": "Jurusan Teknologi Kemaritiman",
     "predikat": "Sangat Memuaskan",
     "url_foto": "assets/images/foto-wisudawan/TRK/IKMAL AKBAR_D3 TEKNIK REKAYASA KESELAMATAN.webp"
   },
@@ -792,7 +792,7 @@ const dataWisudawan = [
     "nrp": "33332201005",
     "ipk": "3.34",
     "prodi": "D4 Teknologi Rekayasa Keselamatan",
-    "jurusan": "Jurusan Keselamatan dan Kesehatan Kerja",
+    "jurusan": "Jurusan Teknologi Kemaritiman",
     "predikat": "Sangat Memuaskan",
     "url_foto": "assets/images/foto-wisudawan/TRK/ARIS DIANSYAH_D3 TEKNOLOGI REKAYASA KESELAMATAN.webp"
   },
@@ -804,7 +804,7 @@ const dataWisudawan = [
     "nrp": "33412201012",
     "ipk": "3.14",
     "prodi": "D3 Keperawatan",
-    "jurusan": "Jurusan Keperawatan",
+    "jurusan": "Jurusan Kesehatan",
     "predikat": "Sangat Memuaskan",
     "url_foto": "assets/images/foto-wisudawan/KEP/MOH. RIDWAN_D3 KEPERAWATAN.webp"
   },
@@ -814,7 +814,7 @@ const dataWisudawan = [
     "nrp": "33412201045",
     "ipk": "3.07",
     "prodi": "D3 Keperawatan",
-    "jurusan": "Jurusan Keperawatan",
+    "jurusan": "Jurusan Kesehatan",
     "predikat": "Sangat Memuaskan",
     "url_foto": "assets/images/foto-wisudawan/KEP/IQBAL_D3 KEPERAWATAN.webp"
   },
@@ -824,7 +824,7 @@ const dataWisudawan = [
     "nrp": "33412201071",
     "ipk": "3.06",
     "prodi": "D3 Keperawatan",
-    "jurusan": "Jurusan Keperawatan",
+    "jurusan": "Jurusan Kesehatan",
     "predikat": "Sangat Memuaskan",
     "url_foto": "assets/images/foto-wisudawan/KEP/NADIA FAJRIN PUTRI ARIFIN_D3 KEPERAWATAN.webp"
   },
@@ -834,9 +834,9 @@ const dataWisudawan = [
     "nrp": "33412201075",
     "ipk": "3.09",
     "prodi": "D3 Keperawatan",
-    "jurusan": "Jurusan Keperawatan",
+    "jurusan": "Jurusan Kesehatan",
     "predikat": "Sangat Memuaskan",
-    "url_foto": "https://placehold.co/300x400/3498db/ffffff?text=FOTO+SUKRON"
+    "url_foto": "assets/images/foto-wisudawan/KEP/Moh.Sukron Abi Bakri_33412201075_Keperawatan.webp"
   },
   {
     "no": 84,
@@ -844,7 +844,7 @@ const dataWisudawan = [
     "nrp": "33412201091",
     "ipk": "3.16",
     "prodi": "D3 Keperawatan",
-    "jurusan": "Jurusan Keperawatan",
+    "jurusan": "Jurusan Kesehatan",
     "predikat": "Sangat Memuaskan",
     "url_foto": "assets/images/foto-wisudawan/KEP/NIKEN ARDIA PRAMUDITA_D3 KEPERAWATAN.webp"
   },
@@ -854,7 +854,7 @@ const dataWisudawan = [
     "nrp": "33412201094",
     "ipk": "3.01",
     "prodi": "D3 Keperawatan",
-    "jurusan": "Jurusan Keperawatan",
+    "jurusan": "Jurusan Kesehatan",
     "predikat": "Sangat Memuaskan",
     "url_foto": "assets/images/foto-wisudawan/KEP/MOHAMMAD ZEINUR RIZKY_D3 KEPERAWATAN.webp"
   },
@@ -864,7 +864,7 @@ const dataWisudawan = [
     "nrp": "33412201101",
     "ipk": "3.08",
     "prodi": "D3 Keperawatan",
-    "jurusan": "Jurusan Keperawatan",
+    "jurusan": "Jurusan Kesehatan",
     "predikat": "Sangat Memuaskan",
     "url_foto": "assets/images/foto-wisudawan/KEP/MOH ADIYANTO_D3 KEPERAWATAN.webp"
   },
@@ -874,7 +874,7 @@ const dataWisudawan = [
     "nrp": "33412201123",
     "ipk": "3.18",
     "prodi": "D3 Keperawatan",
-    "jurusan": "Jurusan Keperawatan",
+    "jurusan": "Jurusan Kesehatan",
     "predikat": "Sangat Memuaskan",
     "url_foto": "assets/images/foto-wisudawan/KEP/IQBAL MAULANA MALIK IBROHIM_D3 KEPERAWATAN.webp"
   },
@@ -884,7 +884,7 @@ const dataWisudawan = [
     "nrp": "33412201124",
     "ipk": "3.03",
     "prodi": "D3 Keperawatan",
-    "jurusan": "Jurusan Keperawatan",
+    "jurusan": "Jurusan Kesehatan",
     "predikat": "Sangat Memuaskan",
     "url_foto": "assets/images/foto-wisudawan/KEP/ABDUL CHOLIK NUR ALI_D3 KEPERAWATAN.webp"
   },
@@ -894,7 +894,7 @@ const dataWisudawan = [
     "nrp": "33412201126",
     "ipk": "3.13",
     "prodi": "D3 Keperawatan",
-    "jurusan": "Jurusan Keperawatan",
+    "jurusan": "Jurusan Kesehatan",
     "predikat": "Sangat Memuaskan",
     "url_foto": "assets/images/foto-wisudawan/KEP/BADRUS SHOLEH AL FARIZI_D3 KEPERAWATAN.webp"
   },
@@ -904,7 +904,7 @@ const dataWisudawan = [
     "nrp": "33412201128",
     "ipk": "3.08",
     "prodi": "D3 Keperawatan",
-    "jurusan": "Jurusan Keperawatan",
+    "jurusan": "Jurusan Kesehatan",
     "predikat": "Sangat Memuaskan",
     "url_foto": "assets/images/foto-wisudawan/KEP/ZAIPUR RAHMAN_D3 KEPERAWATAN.webp"
   },
@@ -914,7 +914,7 @@ const dataWisudawan = [
     "nrp": "33412301001",
     "ipk": "3.17",
     "prodi": "D3 Keperawatan",
-    "jurusan": "Jurusan Keperawatan",
+    "jurusan": "Jurusan Kesehatan",
     "predikat": "Sangat Memuaskan",
     "url_foto": "assets/images/foto-wisudawan/KEP/ABDYAS SHOLAH_D3 KEPERAWATAN.webp"
   },
@@ -924,7 +924,7 @@ const dataWisudawan = [
     "nrp": "33412301002",
     "ipk": "3.35",
     "prodi": "D3 Keperawatan",
-    "jurusan": "Jurusan Keperawatan",
+    "jurusan": "Jurusan Kesehatan",
     "predikat": "Sangat Memuaskan",
     "url_foto": "assets/images/foto-wisudawan/KEP/BAHILATUL HANANIYAH_D3 KEPERAWATAN.webp"
   },
@@ -934,7 +934,7 @@ const dataWisudawan = [
     "nrp": "33412301003",
     "ipk": "3.15",
     "prodi": "D3 Keperawatan",
-    "jurusan": "Jurusan Keperawatan",
+    "jurusan": "Jurusan Kesehatan",
     "predikat": "Sangat Memuaskan",
     "url_foto": "assets/images/foto-wisudawan/KEP/DALIYA NUR LAILY A_D3 KEPERAWATAN.webp"
   },
@@ -944,7 +944,7 @@ const dataWisudawan = [
     "nrp": "33412301004",
     "ipk": "3.29",
     "prodi": "D3 Keperawatan",
-    "jurusan": "Jurusan Keperawatan",
+    "jurusan": "Jurusan Kesehatan",
     "predikat": "Sangat Memuaskan",
     "url_foto": "assets/images/foto-wisudawan/KEP/DHEA SUTRA DEWI_D3 KEPERAWATAN.webp"
   },
@@ -954,7 +954,7 @@ const dataWisudawan = [
     "nrp": "33412301005",
     "ipk": "3.35",
     "prodi": "D3 Keperawatan",
-    "jurusan": "Jurusan Keperawatan",
+    "jurusan": "Jurusan Kesehatan",
     "predikat": "Sangat Memuaskan",
     "url_foto": "assets/images/foto-wisudawan/KEP/DINDA SHAFIRA V_D3 KEPERAWATAN.webp"
   },
@@ -964,7 +964,7 @@ const dataWisudawan = [
     "nrp": "33412301006",
     "ipk": "3.43",
     "prodi": "D3 Keperawatan",
-    "jurusan": "Jurusan Keperawatan",
+    "jurusan": "Jurusan Kesehatan",
     "predikat": "Sangat Memuaskan",
     "url_foto": "assets/images/foto-wisudawan/KEP/FADHILAH NURUL AISYAH_D3 KEPERAWATAN.webp"
   },
@@ -974,7 +974,7 @@ const dataWisudawan = [
     "nrp": "33412301007",
     "ipk": "3.38",
     "prodi": "D3 Keperawatan",
-    "jurusan": "Jurusan Keperawatan",
+    "jurusan": "Jurusan Kesehatan",
     "predikat": "Sangat Memuaskan",
     "url_foto": "assets/images/foto-wisudawan/KEP/FADILATUL QUR`AINI_D3 KEPERAWATAN.webp"
   },
@@ -984,7 +984,7 @@ const dataWisudawan = [
     "nrp": "33412301008",
     "ipk": "3.23",
     "prodi": "D3 Keperawatan",
-    "jurusan": "Jurusan Keperawatan",
+    "jurusan": "Jurusan Kesehatan",
     "predikat": "Sangat Memuaskan",
     "url_foto": "assets/images/foto-wisudawan/KEP/FAUZAN ALDIMAS U_D3 KEPERAWATAN.webp"
   },
@@ -994,7 +994,7 @@ const dataWisudawan = [
     "nrp": "33412301009",
     "ipk": "3.50",
     "prodi": "D3 Keperawatan",
-    "jurusan": "Jurusan Keperawatan",
+    "jurusan": "Jurusan Kesehatan",
     "predikat": "Sangat Memuaskan",
     "url_foto": "assets/images/foto-wisudawan/KEP/FITRI NUR AISYAH _D3 KEPERAWATAN.webp"
   },
@@ -1004,7 +1004,7 @@ const dataWisudawan = [
     "nrp": "33412301010",
     "ipk": "3.39",
     "prodi": "D3 Keperawatan",
-    "jurusan": "Jurusan Keperawatan",
+    "jurusan": "Jurusan Kesehatan",
     "predikat": "Sangat Memuaskan",
     "url_foto": "assets/images/foto-wisudawan/KEP/INDAH SURAHCAHYANI_D3 KEPERAWATAN.webp"
   },
@@ -1014,7 +1014,7 @@ const dataWisudawan = [
     "nrp": "33412301011",
     "ipk": "3.31",
     "prodi": "D3 Keperawatan",
-    "jurusan": "Jurusan Keperawatan",
+    "jurusan": "Jurusan Kesehatan",
     "predikat": "Sangat Memuaskan",
     "url_foto": "assets/images/foto-wisudawan/KEP/IRA WULANDARI_D3 KEPERAWATAN.webp"
   },
@@ -1024,7 +1024,7 @@ const dataWisudawan = [
     "nrp": "33412301012",
     "ipk": "3.43",
     "prodi": "D3 Keperawatan",
-    "jurusan": "Jurusan Keperawatan",
+    "jurusan": "Jurusan Kesehatan",
     "predikat": "Sangat Memuaskan",
     "url_foto": "assets/images/foto-wisudawan/KEP/JEZZY WULANDARI_D3 KEPERAWATAN.webp"
   },
@@ -1034,7 +1034,7 @@ const dataWisudawan = [
     "nrp": "33412301013",
     "ipk": "3.25",
     "prodi": "D3 Keperawatan",
-    "jurusan": "Jurusan Keperawatan",
+    "jurusan": "Jurusan Kesehatan",
     "predikat": "Sangat Memuaskan",
     "url_foto": "assets/images/foto-wisudawan/KEP/JULIANINGSIH_D3 KEPERAWATAN.webp"
   },
@@ -1044,7 +1044,7 @@ const dataWisudawan = [
     "nrp": "33412301014",
     "ipk": "3.25",
     "prodi": "D3 Keperawatan",
-    "jurusan": "Jurusan Keperawatan",
+    "jurusan": "Jurusan Kesehatan",
     "predikat": "Sangat Memuaskan",
     "url_foto": "assets/images/foto-wisudawan/KEP/LEGYA NUR INDRAWATI_D3 KEPERAWATAN.webp"
   },
@@ -1054,7 +1054,7 @@ const dataWisudawan = [
     "nrp": "33412301015",
     "ipk": "3.26",
     "prodi": "D3 Keperawatan",
-    "jurusan": "Jurusan Keperawatan",
+    "jurusan": "Jurusan Kesehatan",
     "predikat": "Sangat Memuaskan",
     "url_foto": "assets/images/foto-wisudawan/KEP/MEILINDA CORNELLYA PUTRI_D3 KEPERAWATAN.webp"
   },
@@ -1064,7 +1064,7 @@ const dataWisudawan = [
     "nrp": "33412301016",
     "ipk": "3.40",
     "prodi": "D3 Keperawatan",
-    "jurusan": "Jurusan Keperawatan",
+    "jurusan": "Jurusan Kesehatan",
     "predikat": "Sangat Memuaskan",
     "url_foto": "assets/images/foto-wisudawan/KEP/MOCH. TRIO ADI SUTARTO_D3 KEPERAWATAN.webp"
   },
@@ -1074,7 +1074,7 @@ const dataWisudawan = [
     "nrp": "33412301018",
     "ipk": "3.16",
     "prodi": "D3 Keperawatan",
-    "jurusan": "Jurusan Keperawatan",
+    "jurusan": "Jurusan Kesehatan",
     "predikat": "Sangat Memuaskan",
     "url_foto": "assets/images/foto-wisudawan/KEP/MUSLIMATUN NURUL KHAIR_D3 KEPERAWATAN.webp"
   },
@@ -1084,7 +1084,7 @@ const dataWisudawan = [
     "nrp": "33412301019",
     "ipk": "3.08",
     "prodi": "D3 Keperawatan",
-    "jurusan": "Jurusan Keperawatan",
+    "jurusan": "Jurusan Kesehatan",
     "predikat": "Sangat Memuaskan",
     "url_foto": "assets/images/foto-wisudawan/KEP/MUSYARROFAH_D3 KEPERAWATAN.webp"
   },
@@ -1094,7 +1094,7 @@ const dataWisudawan = [
     "nrp": "33412301020",
     "ipk": "3.40",
     "prodi": "D3 Keperawatan",
-    "jurusan": "Jurusan Keperawatan",
+    "jurusan": "Jurusan Kesehatan",
     "predikat": "Sangat Memuaskan",
     "url_foto": "assets/images/foto-wisudawan/KEP/NADILA FIRDA AULIA_D3 KEPERAWATAN.webp"
   },
@@ -1104,7 +1104,7 @@ const dataWisudawan = [
     "nrp": "33412301021",
     "ipk": "3.04",
     "prodi": "D3 Keperawatan",
-    "jurusan": "Jurusan Keperawatan",
+    "jurusan": "Jurusan Kesehatan",
     "predikat": "Sangat Memuaskan",
     "url_foto": "assets/images/foto-wisudawan/KEP/NAHLA KAMALIA_D3 KEPERAWATAN.webp"
   },
@@ -1114,7 +1114,7 @@ const dataWisudawan = [
     "nrp": "33412301022",
     "ipk": "3.29",
     "prodi": "D3 Keperawatan",
-    "jurusan": "Jurusan Keperawatan",
+    "jurusan": "Jurusan Kesehatan",
     "predikat": "Sangat Memuaskan",
     "url_foto": "assets/images/foto-wisudawan/KEP/NOVITA AYU TRISNAWATI_D3 KEPERAWATAN.webp"
   },
@@ -1124,7 +1124,7 @@ const dataWisudawan = [
     "nrp": "33412301023",
     "ipk": "3.71",
     "prodi": "D3 Keperawatan",
-    "jurusan": "Jurusan Keperawatan",
+    "jurusan": "Jurusan Kesehatan",
     "predikat": "Dengan Pujian",
     "url_foto": "assets/images/foto-wisudawan/KEP/NUR INTAN HAMIDA U_D3 KEPERAWATAN.webp"
   },
@@ -1134,7 +1134,7 @@ const dataWisudawan = [
     "nrp": "33412301024",
     "ipk": "3.39",
     "prodi": "D3 Keperawatan",
-    "jurusan": "Jurusan Keperawatan",
+    "jurusan": "Jurusan Kesehatan",
     "predikat": "Sangat Memuaskan",
     "url_foto": "assets/images/foto-wisudawan/KEP/NURUL FATIROH HIDAYATI_D3 KEPERAWATAN.webp"
   },
@@ -1144,7 +1144,7 @@ const dataWisudawan = [
     "nrp": "33412301026",
     "ipk": "3.56",
     "prodi": "D3 Keperawatan",
-    "jurusan": "Jurusan Keperawatan",
+    "jurusan": "Jurusan Kesehatan",
     "predikat": "Dengan Pujian",
     "url_foto": "assets/images/foto-wisudawan/KEP/ROBBIYATIN NUR AZIZAH_D3 KEPERAWATAN.webp"
   },
@@ -1154,7 +1154,7 @@ const dataWisudawan = [
     "nrp": "33412301027",
     "ipk": "3.24",
     "prodi": "D3 Keperawatan",
-    "jurusan": "Jurusan Keperawatan",
+    "jurusan": "Jurusan Kesehatan",
     "predikat": "Sangat Memuaskan",
     "url_foto": "assets/images/foto-wisudawan/KEP/SARA AULIA_D3 KEPERAWATAN.webp"
   },
@@ -1164,7 +1164,7 @@ const dataWisudawan = [
     "nrp": "33412301028",
     "ipk": "3.34",
     "prodi": "D3 Keperawatan",
-    "jurusan": "Jurusan Keperawatan",
+    "jurusan": "Jurusan Kesehatan",
     "predikat": "Sangat Memuaskan",
     "url_foto": "assets/images/foto-wisudawan/KEP/SAVIRA FARENDITA F_D3 KEPERAWATAN.webp"
   },
@@ -1174,7 +1174,7 @@ const dataWisudawan = [
     "nrp": "33412301029",
     "ipk": "3.32",
     "prodi": "D3 Keperawatan",
-    "jurusan": "Jurusan Keperawatan",
+    "jurusan": "Jurusan Kesehatan",
     "predikat": "Sangat Memuaskan",
     "url_foto": "assets/images/foto-wisudawan/KEP/SURIHANA FITRI_D3 KEPERAWATAN.webp"
   },
@@ -1184,7 +1184,7 @@ const dataWisudawan = [
     "nrp": "33412301030",
     "ipk": "3.46",
     "prodi": "D3 Keperawatan",
-    "jurusan": "Jurusan Keperawatan",
+    "jurusan": "Jurusan Kesehatan",
     "predikat": "Sangat Memuaskan",
     "url_foto": "assets/images/foto-wisudawan/KEP/SYALSADILA DWI W_D3 KEPERAWATAN.webp"
   },
@@ -1194,7 +1194,7 @@ const dataWisudawan = [
     "nrp": "33412301031",
     "ipk": "3.61",
     "prodi": "D3 Keperawatan",
-    "jurusan": "Jurusan Keperawatan",
+    "jurusan": "Jurusan Kesehatan",
     "predikat": "Dengan Pujian",
     "url_foto": "assets/images/foto-wisudawan/KEP/WARDATUL IZZATI_D3 KEPERAWATAN.webp"
   },
@@ -1204,7 +1204,7 @@ const dataWisudawan = [
     "nrp": "33412301032",
     "ipk": "3.31",
     "prodi": "D3 Keperawatan",
-    "jurusan": "Jurusan Keperawatan",
+    "jurusan": "Jurusan Kesehatan",
     "predikat": "Sangat Memuaskan",
     "url_foto": "assets/images/foto-wisudawan/KEP/ADINDA LAILATUL FITRIYA_D3 KEPERAWATAN.webp"
   },
@@ -1214,7 +1214,7 @@ const dataWisudawan = [
     "nrp": "33412301034",
     "ipk": "3.52",
     "prodi": "D3 Keperawatan",
-    "jurusan": "Jurusan Keperawatan",
+    "jurusan": "Jurusan Kesehatan",
     "predikat": "Dengan Pujian",
     "url_foto": "assets/images/foto-wisudawan/KEP/AINUS SULALAH_D3 KEPERAWATAN.webp"
   },
@@ -1224,7 +1224,7 @@ const dataWisudawan = [
     "nrp": "33412301035",
     "ipk": "3.34",
     "prodi": "D3 Keperawatan",
-    "jurusan": "Jurusan Keperawatan",
+    "jurusan": "Jurusan Kesehatan",
     "predikat": "Sangat Memuaskan",
     "url_foto": "assets/images/foto-wisudawan/KEP/ALFIATUS SOLEHA_D3 KEPERAWATAN.webp"
   },
@@ -1234,7 +1234,7 @@ const dataWisudawan = [
     "nrp": "33412301036",
     "ipk": "3.34",
     "prodi": "D3 Keperawatan",
-    "jurusan": "Jurusan Keperawatan",
+    "jurusan": "Jurusan Kesehatan",
     "predikat": "Sangat Memuaskan",
     "url_foto": "assets/images/foto-wisudawan/KEP/AMALIA RIZKY GAFUR_D3 KEPERAWATAN.webp"
   },
@@ -1244,7 +1244,7 @@ const dataWisudawan = [
     "nrp": "33412301037",
     "ipk": "3.50",
     "prodi": "D3 Keperawatan",
-    "jurusan": "Jurusan Keperawatan",
+    "jurusan": "Jurusan Kesehatan",
     "predikat": "Sangat Memuaskan",
     "url_foto": "assets/images/foto-wisudawan/KEP/ANANDA NAURA N_D3 KEPERAWATAN.webp"
   },
@@ -1254,7 +1254,7 @@ const dataWisudawan = [
     "nrp": "33412301038",
     "ipk": "3.23",
     "prodi": "D3 Keperawatan",
-    "jurusan": "Jurusan Keperawatan",
+    "jurusan": "Jurusan Kesehatan",
     "predikat": "Sangat Memuaskan",
     "url_foto": "assets/images/foto-wisudawan/KEP/ANUGRAH NABILA RIZKY_D3 KEPERAWATAN.webp"
   },
@@ -1264,7 +1264,7 @@ const dataWisudawan = [
     "nrp": "33412301039",
     "ipk": "3.35",
     "prodi": "D3 Keperawatan",
-    "jurusan": "Jurusan Keperawatan",
+    "jurusan": "Jurusan Kesehatan",
     "predikat": "Sangat Memuaskan",
     "url_foto": "assets/images/foto-wisudawan/KEP/ASYLATUL MAULIDIYAH_D3 KEPERAWATAN.webp"
   },
@@ -1274,7 +1274,7 @@ const dataWisudawan = [
     "nrp": "33412301040",
     "ipk": "3.36",
     "prodi": "D3 Keperawatan",
-    "jurusan": "Jurusan Keperawatan",
+    "jurusan": "Jurusan Kesehatan",
     "predikat": "Sangat Memuaskan",
     "url_foto": "assets/images/foto-wisudawan/KEP/BAGAS DWIWANTO AKBAR_D3 KEPERAWATAN.webp"
   },
@@ -1284,7 +1284,7 @@ const dataWisudawan = [
     "nrp": "33412301041",
     "ipk": "3.30",
     "prodi": "D3 Keperawatan",
-    "jurusan": "Jurusan Keperawatan",
+    "jurusan": "Jurusan Kesehatan",
     "predikat": "Sangat Memuaskan",
     "url_foto": "assets/images/foto-wisudawan/KEP/BELA SAFARINA_D3 KEPERAWATAN.webp"
   },
@@ -1294,7 +1294,7 @@ const dataWisudawan = [
     "nrp": "33412301042",
     "ipk": "3.42",
     "prodi": "D3 Keperawatan",
-    "jurusan": "Jurusan Keperawatan",
+    "jurusan": "Jurusan Kesehatan",
     "predikat": "Sangat Memuaskan",
     "url_foto": "assets/images/foto-wisudawan/KEP/DESI FIRDA LESTARI_D3 KEPERAWATAN.webp"
   },
@@ -1304,7 +1304,7 @@ const dataWisudawan = [
     "nrp": "33412301043",
     "ipk": "3.29",
     "prodi": "D3 Keperawatan",
-    "jurusan": "Jurusan Keperawatan",
+    "jurusan": "Jurusan Kesehatan",
     "predikat": "Sangat Memuaskan",
     "url_foto": "assets/images/foto-wisudawan/KEP/DWI SATYA ADHI WICAKSANA_D3 KEPERAWATAN.webp"
   },
@@ -1314,7 +1314,7 @@ const dataWisudawan = [
     "nrp": "33412301045",
     "ipk": "3.39",
     "prodi": "D3 Keperawatan",
-    "jurusan": "Jurusan Keperawatan",
+    "jurusan": "Jurusan Kesehatan",
     "predikat": "Sangat Memuaskan",
     "url_foto": "assets/images/foto-wisudawan/KEP/ELVIN DIRA CITRA_D3 KEPERAWATAN.webp"
   },
@@ -1324,7 +1324,7 @@ const dataWisudawan = [
     "nrp": "33412301046",
     "ipk": "3.74",
     "prodi": "D3 Keperawatan",
-    "jurusan": "Jurusan Keperawatan",
+    "jurusan": "Jurusan Kesehatan",
     "predikat": "Dengan Pujian",
     "url_foto": "assets/images/foto-wisudawan/KEP/EMILIA DWI ROSALINDA_D3 KEPERAWATAN.webp"
   },
@@ -1334,7 +1334,7 @@ const dataWisudawan = [
     "nrp": "33412301047",
     "ipk": "3.24",
     "prodi": "D3 Keperawatan",
-    "jurusan": "Jurusan Keperawatan",
+    "jurusan": "Jurusan Kesehatan",
     "predikat": "Sangat Memuaskan",
     "url_foto": "assets/images/foto-wisudawan/KEP/FAIRUS FAHMI_D3 KEPERAWATAN.webp"
   },
@@ -1344,7 +1344,7 @@ const dataWisudawan = [
     "nrp": "33412301048",
     "ipk": "3.61",
     "prodi": "D3 Keperawatan",
-    "jurusan": "Jurusan Keperawatan",
+    "jurusan": "Jurusan Kesehatan",
     "predikat": "Dengan Pujian",
     "url_foto": "assets/images/foto-wisudawan/KEP/INAS ATIKA_D3 KEPERAWATAN.webp"
   },
@@ -1354,7 +1354,7 @@ const dataWisudawan = [
     "nrp": "33412301049",
     "ipk": "3.51",
     "prodi": "D3 Keperawatan",
-    "jurusan": "Jurusan Keperawatan",
+    "jurusan": "Jurusan Kesehatan",
     "predikat": "Dengan Pujian",
     "url_foto": "assets/images/foto-wisudawan/KEP/IRAWATI_D3 KEPERAWATAN.webp"
   },
@@ -1364,7 +1364,7 @@ const dataWisudawan = [
     "nrp": "33412301050",
     "ipk": "3.71",
     "prodi": "D3 Keperawatan",
-    "jurusan": "Jurusan Keperawatan",
+    "jurusan": "Jurusan Kesehatan",
     "predikat": "Dengan Pujian",
     "url_foto": "assets/images/foto-wisudawan/KEP/IRMA YUNITA_D3 KEPERAWATAN.webp"
   },
@@ -1374,7 +1374,7 @@ const dataWisudawan = [
     "nrp": "33412301051",
     "ipk": "3.60",
     "prodi": "D3 Keperawatan",
-    "jurusan": "Jurusan Keperawatan",
+    "jurusan": "Jurusan Kesehatan",
     "predikat": "Dengan Pujian",
     "url_foto": "assets/images/foto-wisudawan/KEP/ISHROKHIYAH OFI MAULIDINA_D3 KEPERAWATAN.webp"
   },
@@ -1384,7 +1384,7 @@ const dataWisudawan = [
     "nrp": "33412301052",
     "ipk": "3.45",
     "prodi": "D3 Keperawatan",
-    "jurusan": "Jurusan Keperawatan",
+    "jurusan": "Jurusan Kesehatan",
     "predikat": "Sangat Memuaskan",
     "url_foto": "assets/images/foto-wisudawan/KEP/KHOLISHOTUL ILMIYAH_D3 KEPERAWATAN.webp"
   },
@@ -1394,7 +1394,7 @@ const dataWisudawan = [
     "nrp": "33412301053",
     "ipk": "3.64",
     "prodi": "D3 Keperawatan",
-    "jurusan": "Jurusan Keperawatan",
+    "jurusan": "Jurusan Kesehatan",
     "predikat": "Dengan Pujian",
     "url_foto": "assets/images/foto-wisudawan/KEP/LULUK ATIN FAIKOH_D3 KEPERAWATAN.webp"
   },
@@ -1404,7 +1404,7 @@ const dataWisudawan = [
     "nrp": "33412301054",
     "ipk": "3.52",
     "prodi": "D3 Keperawatan",
-    "jurusan": "Jurusan Keperawatan",
+    "jurusan": "Jurusan Kesehatan",
     "predikat": "Dengan Pujian",
     "url_foto": "assets/images/foto-wisudawan/KEP/MAUFIROH_D3 KEPERAWATAN.webp"
   },
@@ -1414,7 +1414,7 @@ const dataWisudawan = [
     "nrp": "33412301055",
     "ipk": "3.62",
     "prodi": "D3 Keperawatan",
-    "jurusan": "Jurusan Keperawatan",
+    "jurusan": "Jurusan Kesehatan",
     "predikat": "Dengan Pujian",
     "url_foto": "assets/images/foto-wisudawan/KEP/MITA DEVI OKTAVIA_D3 KEPERAWATAN.webp"
   },
@@ -1424,7 +1424,7 @@ const dataWisudawan = [
     "nrp": "33412301056",
     "ipk": "3.42",
     "prodi": "D3 Keperawatan",
-    "jurusan": "Jurusan Keperawatan",
+    "jurusan": "Jurusan Kesehatan",
     "predikat": "Sangat Memuaskan",
     "url_foto": "assets/images/foto-wisudawan/KEP/MUHAMMAD GASTIADIRRIJAL MUSTAFA_D3 KEPERAWATAN.webp"
   },
@@ -1434,7 +1434,7 @@ const dataWisudawan = [
     "nrp": "33412301057",
     "ipk": "3.74",
     "prodi": "D3 Keperawatan",
-    "jurusan": "Jurusan Keperawatan",
+    "jurusan": "Jurusan Kesehatan",
     "predikat": "Dengan Pujian",
     "url_foto": "assets/images/foto-wisudawan/KEP/NISWAH DAFITRI FIRTAMA_D3 KEPERAWATAN.webp"
   },
@@ -1444,7 +1444,7 @@ const dataWisudawan = [
     "nrp": "33412301058",
     "ipk": "3.34",
     "prodi": "D3 Keperawatan",
-    "jurusan": "Jurusan Keperawatan",
+    "jurusan": "Jurusan Kesehatan",
     "predikat": "Sangat Memuaskan",
     "url_foto": "assets/images/foto-wisudawan/KEP/NOVI ELFIRA KHOIRUN NISA_D3 KEPERAWATAN.webp"
   },
@@ -1454,7 +1454,7 @@ const dataWisudawan = [
     "nrp": "33412301059",
     "ipk": "3.62",
     "prodi": "D3 Keperawatan",
-    "jurusan": "Jurusan Keperawatan",
+    "jurusan": "Jurusan Kesehatan",
     "predikat": "Dengan Pujian",
     "url_foto": "assets/images/foto-wisudawan/KEP/NUR RAHMAWATI_D3 KEPERAWATAN.webp"
   },
@@ -1464,7 +1464,7 @@ const dataWisudawan = [
     "nrp": "33412301060",
     "ipk": "3.62",
     "prodi": "D3 Keperawatan",
-    "jurusan": "Jurusan Keperawatan",
+    "jurusan": "Jurusan Kesehatan",
     "predikat": "Dengan Pujian",
     "url_foto": "assets/images/foto-wisudawan/KEP/NURIS SYAMSIYAH_D3 KEPERAWATAN.webp"
   },
@@ -1474,7 +1474,7 @@ const dataWisudawan = [
     "nrp": "33412301061",
     "ipk": "3.58",
     "prodi": "D3 Keperawatan",
-    "jurusan": "Jurusan Keperawatan",
+    "jurusan": "Jurusan Kesehatan",
     "predikat": "Dengan Pujian",
     "url_foto": "assets/images/foto-wisudawan/KEP/NURVITA IZZAH SAFIRA_D3 KEPERAWATAN.webp"
   },
@@ -1484,7 +1484,7 @@ const dataWisudawan = [
     "nrp": "33412301062",
     "ipk": "3.59",
     "prodi": "D3 Keperawatan",
-    "jurusan": "Jurusan Keperawatan",
+    "jurusan": "Jurusan Kesehatan",
     "predikat": "Dengan Pujian",
     "url_foto": "assets/images/foto-wisudawan/KEP/RAHMAWATI_D3 KEPERAWATAN.webp"
   },
@@ -1494,7 +1494,7 @@ const dataWisudawan = [
     "nrp": "33412301063",
     "ipk": "3.46",
     "prodi": "D3 Keperawatan",
-    "jurusan": "Jurusan Keperawatan",
+    "jurusan": "Jurusan Kesehatan",
     "predikat": "Sangat Memuaskan",
     "url_foto": "assets/images/foto-wisudawan/KEP/RAUDLATUL JANNAH_D3 KEPERAWATAN.webp"
   },
@@ -1504,7 +1504,7 @@ const dataWisudawan = [
     "nrp": "33412301064",
     "ipk": "3.24",
     "prodi": "D3 Keperawatan",
-    "jurusan": "Jurusan Keperawatan",
+    "jurusan": "Jurusan Kesehatan",
     "predikat": "Sangat Memuaskan",
     "url_foto": "assets/images/foto-wisudawan/KEP/ROBIATUL ADAWIYAH_D3 KEPERAWATAN.webp"
   },
@@ -1514,7 +1514,7 @@ const dataWisudawan = [
     "nrp": "33412301065",
     "ipk": "3.46",
     "prodi": "D3 Keperawatan",
-    "jurusan": "Jurusan Keperawatan",
+    "jurusan": "Jurusan Kesehatan",
     "predikat": "Sangat Memuaskan",
     "url_foto": "assets/images/foto-wisudawan/KEP/ROBIATUL ADEWIYAH_D3 KEPERAWATAN.webp"
   },
@@ -1524,7 +1524,7 @@ const dataWisudawan = [
     "nrp": "33412301066",
     "ipk": "3.54",
     "prodi": "D3 Keperawatan",
-    "jurusan": "Jurusan Keperawatan",
+    "jurusan": "Jurusan Kesehatan",
     "predikat": "Dengan Pujian",
     "url_foto": "assets/images/foto-wisudawan/KEP/ROISAH DINIYAH_D3 KEPERAWATAN.webp"
   },
@@ -1534,7 +1534,7 @@ const dataWisudawan = [
     "nrp": "33412301067",
     "ipk": "3.40",
     "prodi": "D3 Keperawatan",
-    "jurusan": "Jurusan Keperawatan",
+    "jurusan": "Jurusan Kesehatan",
     "predikat": "Sangat Memuaskan",
     "url_foto": "assets/images/foto-wisudawan/KEP/SINTIA MAHARANI_D3 KEPERAWATAN.webp"
   },
@@ -1544,7 +1544,7 @@ const dataWisudawan = [
     "nrp": "33412301068",
     "ipk": "3.44",
     "prodi": "D3 Keperawatan",
-    "jurusan": "Jurusan Keperawatan",
+    "jurusan": "Jurusan Kesehatan",
     "predikat": "Sangat Memuaskan",
     "url_foto": "assets/images/foto-wisudawan/KEP/SITI MUTMAINNAH_D3 KEPERAWATAN.webp"
   },
@@ -1554,7 +1554,7 @@ const dataWisudawan = [
     "nrp": "33412301069",
     "ipk": "3.67",
     "prodi": "D3 Keperawatan",
-    "jurusan": "Jurusan Keperawatan",
+    "jurusan": "Jurusan Kesehatan",
     "predikat": "Dengan Pujian",
     "url_foto": "assets/images/foto-wisudawan/KEP/SUBKHAN UMAM AMRULLAH_D3 KEPERAWATAN.webp"
   },
@@ -1564,7 +1564,7 @@ const dataWisudawan = [
     "nrp": "33412301070",
     "ipk": "3.64",
     "prodi": "D3 Keperawatan",
-    "jurusan": "Jurusan Keperawatan",
+    "jurusan": "Jurusan Kesehatan",
     "predikat": "Dengan Pujian",
     "url_foto": "assets/images/foto-wisudawan/KEP/SULASTRI_D3 KEPERAWATAN.webp"
   },
@@ -1574,7 +1574,7 @@ const dataWisudawan = [
     "nrp": "33412301071",
     "ipk": "3.67",
     "prodi": "D3 Keperawatan",
-    "jurusan": "Jurusan Keperawatan",
+    "jurusan": "Jurusan Kesehatan",
     "predikat": "Dengan Pujian",
     "url_foto": "assets/images/foto-wisudawan/KEP/SUWEIBEH_D3 KEPERAWATAN.webp"
   },
@@ -1584,7 +1584,7 @@ const dataWisudawan = [
     "nrp": "33412301072",
     "ipk": "3.55",
     "prodi": "D3 Keperawatan",
-    "jurusan": "Jurusan Keperawatan",
+    "jurusan": "Jurusan Kesehatan",
     "predikat": "Dengan Pujian",
     "url_foto": "assets/images/foto-wisudawan/KEP/WIDIA MAULIDINA_D3 KEPERAWATAN.webp"
   },
@@ -1594,7 +1594,7 @@ const dataWisudawan = [
     "nrp": "33412301073",
     "ipk": "3.29",
     "prodi": "D3 Keperawatan",
-    "jurusan": "Jurusan Keperawatan",
+    "jurusan": "Jurusan Kesehatan",
     "predikat": "Sangat Memuaskan",
     "url_foto": "assets/images/foto-wisudawan/KEP/MOH BONTO TUNIPALANGGA_D3 KEPERAWATAN.webp"
   },
@@ -1604,7 +1604,7 @@ const dataWisudawan = [
     "nrp": "33412301074",
     "ipk": "3.78",
     "prodi": "D3 Keperawatan",
-    "jurusan": "Jurusan Keperawatan",
+    "jurusan": "Jurusan Kesehatan",
     "predikat": "Dengan Pujian",
     "url_foto": "assets/images/foto-wisudawan/KEP/FAIQOTUR RIZKI AMALIA_D3 KEPERAWATAN.webp"
   },
@@ -1614,7 +1614,7 @@ const dataWisudawan = [
     "nrp": "33412301075",
     "ipk": "3.35",
     "prodi": "D3 Keperawatan",
-    "jurusan": "Jurusan Keperawatan",
+    "jurusan": "Jurusan Kesehatan",
     "predikat": "Sangat Memuaskan",
     "url_foto": "assets/images/foto-wisudawan/KEP/EKA ZUBAIDA WULANDARI_D3 KEPERAWATAN.webp"
   },
@@ -1624,7 +1624,7 @@ const dataWisudawan = [
     "nrp": "33412301076",
     "ipk": "3.15",
     "prodi": "D3 Keperawatan",
-    "jurusan": "Jurusan Keperawatan",
+    "jurusan": "Jurusan Kesehatan",
     "predikat": "Sangat Memuaskan",
     "url_foto": "assets/images/foto-wisudawan/KEP/RAHMAT NUR HIDAYAT_D3 KEPERAWATAN.webp"
   },
@@ -1634,7 +1634,7 @@ const dataWisudawan = [
     "nrp": "33412301077",
     "ipk": "3.38",
     "prodi": "D3 Keperawatan",
-    "jurusan": "Jurusan Keperawatan",
+    "jurusan": "Jurusan Kesehatan",
     "predikat": "Sangat Memuaskan",
     "url_foto": "assets/images/foto-wisudawan/KEP/FATIR NOER AWALIYAH PUTRI_D3 KEPERAWATAN.webp"
   },
@@ -1644,7 +1644,7 @@ const dataWisudawan = [
     "nrp": "33412301078",
     "ipk": "3.54",
     "prodi": "D3 Keperawatan",
-    "jurusan": "Jurusan Keperawatan",
+    "jurusan": "Jurusan Kesehatan",
     "predikat": "Dengan Pujian",
     "url_foto": "assets/images/foto-wisudawan/KEP/SITI FATIMA_D3 KEPERAWATAN.webp"
   },
@@ -1654,7 +1654,7 @@ const dataWisudawan = [
     "nrp": "33412301079",
     "ipk": "3.41",
     "prodi": "D3 Keperawatan",
-    "jurusan": "Jurusan Keperawatan",
+    "jurusan": "Jurusan Kesehatan",
     "predikat": "Sangat Memuaskan",
     "url_foto": "assets/images/foto-wisudawan/KEP/RISKIA SUFANDINI_D3 KEPERAWATAN.webp"
   },
@@ -1664,7 +1664,7 @@ const dataWisudawan = [
     "nrp": "33412301080",
     "ipk": "3.53",
     "prodi": "D3 Keperawatan",
-    "jurusan": "Jurusan Keperawatan",
+    "jurusan": "Jurusan Kesehatan",
     "predikat": "Dengan Pujian",
     "url_foto": "assets/images/foto-wisudawan/KEP/REFAN ANTONIO_D3 KEPERAWATAN.webp"
   },
@@ -1674,7 +1674,7 @@ const dataWisudawan = [
     "nrp": "33412301081",
     "ipk": "3.30",
     "prodi": "D3 Keperawatan",
-    "jurusan": "Jurusan Keperawatan",
+    "jurusan": "Jurusan Kesehatan",
     "predikat": "Sangat Memuaskan",
     "url_foto": "assets/images/foto-wisudawan/KEP/UMMI FAUZIYAH QARIB_D3 KEPERAWATAN.webp"
   },
@@ -1684,7 +1684,7 @@ const dataWisudawan = [
     "nrp": "33412301082",
     "ipk": "3.43",
     "prodi": "D3 Keperawatan",
-    "jurusan": "Jurusan Keperawatan",
+    "jurusan": "Jurusan Kesehatan",
     "predikat": "Sangat Memuaskan",
     "url_foto": "assets/images/foto-wisudawan/KEP/ARISTA PUSPITA SARI_D3 KEPERAWATAN.webp"
   },
@@ -1694,7 +1694,7 @@ const dataWisudawan = [
     "nrp": "33412301083",
     "ipk": "3.42",
     "prodi": "D3 Keperawatan",
-    "jurusan": "Jurusan Keperawatan",
+    "jurusan": "Jurusan Kesehatan",
     "predikat": "Sangat Memuaskan",
     "url_foto": "assets/images/foto-wisudawan/KEP/NOVY RIZKY WIDIANTY_D3 KEPERAWATAN.webp"
   },
@@ -1704,7 +1704,7 @@ const dataWisudawan = [
     "nrp": "33412301084",
     "ipk": "3.32",
     "prodi": "D3 Keperawatan",
-    "jurusan": "Jurusan Keperawatan",
+    "jurusan": "Jurusan Kesehatan",
     "predikat": "Sangat Memuaskan",
     "url_foto": "assets/images/foto-wisudawan/KEP/LARASATI PUTRI MAHARANI_D3 KEPERAWATAN.webp"
   },
@@ -1714,7 +1714,7 @@ const dataWisudawan = [
     "nrp": "33412301085",
     "ipk": "3.33",
     "prodi": "D3 Keperawatan",
-    "jurusan": "Jurusan Keperawatan",
+    "jurusan": "Jurusan Kesehatan",
     "predikat": "Sangat Memuaskan",
     "url_foto": "assets/images/foto-wisudawan/KEP/HULLATUL FAUDAH_D3 KEPERAWATAN.webp"
   },
@@ -1724,7 +1724,7 @@ const dataWisudawan = [
     "nrp": "33412301087",
     "ipk": "3.24",
     "prodi": "D3 Keperawatan",
-    "jurusan": "Jurusan Keperawatan",
+    "jurusan": "Jurusan Kesehatan",
     "predikat": "Sangat Memuaskan",
     "url_foto": "assets/images/foto-wisudawan/KEP/M. HAIKAL FASYA ABRORI_D3 KEPERAWATAN.webp"
   },
@@ -1734,7 +1734,7 @@ const dataWisudawan = [
     "nrp": "33412301088",
     "ipk": "3.35",
     "prodi": "D3 Keperawatan",
-    "jurusan": "Jurusan Keperawatan",
+    "jurusan": "Jurusan Kesehatan",
     "predikat": "Sangat Memuaskan",
     "url_foto": "assets/images/foto-wisudawan/KEP/IRWANSYAH_D3 KEPERAWATAN.webp"
   },
@@ -1744,7 +1744,7 @@ const dataWisudawan = [
     "nrp": "33412301089",
     "ipk": "3.51",
     "prodi": "D3 Keperawatan",
-    "jurusan": "Jurusan Keperawatan",
+    "jurusan": "Jurusan Kesehatan",
     "predikat": "Dengan Pujian",
     "url_foto": "assets/images/foto-wisudawan/KEP/NISWATIS SAKIYAH_D3 KEPERAWATAN.webp"
   },
@@ -1754,7 +1754,7 @@ const dataWisudawan = [
     "nrp": "33412301090",
     "ipk": "3.24",
     "prodi": "D3 Keperawatan",
-    "jurusan": "Jurusan Keperawatan",
+    "jurusan": "Jurusan Kesehatan",
     "predikat": "Sangat Memuaskan",
     "url_foto": "assets/images/foto-wisudawan/KEP/SOFIYA_D3 KEPERAWATAN.webp"
   },
@@ -1764,7 +1764,7 @@ const dataWisudawan = [
     "nrp": "33412301091",
     "ipk": "3.42",
     "prodi": "D3 Keperawatan",
-    "jurusan": "Jurusan Keperawatan",
+    "jurusan": "Jurusan Kesehatan",
     "predikat": "Sangat Memuaskan",
     "url_foto": "assets/images/foto-wisudawan/KEP/SUCI NUR ISLAMI_D3 KEPERAWATAN.webp"
   },
@@ -1774,7 +1774,7 @@ const dataWisudawan = [
     "nrp": "33412301092",
     "ipk": "3.36",
     "prodi": "D3 Keperawatan",
-    "jurusan": "Jurusan Keperawatan",
+    "jurusan": "Jurusan Kesehatan",
     "predikat": "Sangat Memuaskan",
     "url_foto": "assets/images/foto-wisudawan/KEP/SELVIA AGUSTIN_D3 KEPERAWATAN.webp"
   },
@@ -1784,7 +1784,7 @@ const dataWisudawan = [
     "nrp": "33412301093",
     "ipk": "3.31",
     "prodi": "D3 Keperawatan",
-    "jurusan": "Jurusan Keperawatan",
+    "jurusan": "Jurusan Kesehatan",
     "predikat": "Sangat Memuaskan",
     "url_foto": "assets/images/foto-wisudawan/KEP/AINI YATUR ROHMAH_D3 KEPERAWATAN.webp"
   }
